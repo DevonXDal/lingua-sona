@@ -1,0 +1,27 @@
+# ==========================
+# Obsidian vault artifacts
+# ==========================
+.obsidian/
+.obsidian-workspace
+*.excalidraw
+*.excalidraw.md
+
+# ===========
+# PlantUML
+# ===========
+# Ignore local PlantUML jar if stored
+plantuml.jar
+# Ignore render caches
+*.umlcache
+*.pu.cache
+
+# ===============
+# OS / Editor junk
+# ===============
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
