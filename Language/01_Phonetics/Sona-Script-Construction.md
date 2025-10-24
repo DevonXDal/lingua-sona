@@ -111,8 +111,8 @@
 ## Letter Assembly
 When a letter has both a consonant-type sound and a vowel-type sound combined, the consonant precedes the vowel and their glyphs tie into each other via what you can imagine as a imaginary central binding point that glues the two glyphs together.
 
-When a letter has a vowel-type sound only, it is preceded by a ¬ (logical negation) glyph. The right side of this negation glyph strikes against that same imaginary central binding point. 
+When a letter has a vowel-type sound only, it is preceded by a ¬ (logical negation) glyph. The bottom-right side of this negation glyph strikes against that same imaginary central binding point. 
 
-When a letter has a consonant-type sound, then the consonant is followed by that ¬ (logical negation) with the left side of this negation glyph striking against that very same imaginary central binding point. 
+When a letter has a consonant-type sound, then the consonant is followed by that ¬ (logical negation) with the top-left side of this negation glyph striking against that very same imaginary central binding point. 
 
 This imaginary central point's purpose allows the full letter to be written without lifting the writing utensil as a single stroke for the whole of each letter is all that is necessary.
