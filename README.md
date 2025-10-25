@@ -95,9 +95,10 @@ All original language materials, glyph designs, and documentation are © Devon X
 ## 🌎 World Language Readiness Index
 > A roadmap of everything Lingua Sona should achieve to be a serious global candidate — technical, linguistic, and cultural.
 
+### 1. Core Structure
+
 | Category | Goal | Current Status | Notes |
-|-----------|------|----------------|-------|
-| **1. Core Structure** | | | |
+|:--|:--|:--|:--|
 | 🧩 Logical Grammar | Predictable, rule-based syntax with zero irregular verbs | 🧠 In progress | Grammar modeled via PlantUML DFA diagrams |
 | 🔤 Phonetic Orthography | 1 sound = 1 symbol | ✅ Complete | All symbols have mouth-shape-based glyphs |
 | 🗣️ Universal Pronunciation | All major linguistic families can pronounce it | 🧠 In progress | Based on Japanese vowel system & limited consonant set |
@@ -105,42 +106,66 @@ All original language materials, glyph designs, and documentation are © Devon X
 | 🧮 Numeric Integration | Base 2, 10, and 16 support | ✅ Complete | With mathematical operators and constants |
 | ⚙️ Morphological Clarity | Derivations (suffix/prefix) always predictable | 🧠 In progress | `u` as an extender; `Z*` contextual system in place |
 
-| **2. Cognitive & Educational Goals** | | | |
-| 🧠 Learnability | 200 hours to fluency | Planned | Simplified syllable and grammar patterns |
-| 🗳️ Cognitive Load | < 3s average sentence parsing time | Planned | Algorithmic sentence structure |
-| 🧮 Mathematical Literacy | Speak equations naturally | ✅ Done | Calculus-ready symbol set |
-| 🧠 Linguistic Transparency | “Hear once, spell correctly” | ✅ Design goal | Achieved via phoneme-symbol mapping |
-| 🎓 Educational Utility | Improves logic, language, math comprehension | Planned | Ties into curriculum & puzzle design |
+### 2. Cognitive & Educational Goals
 
-| **3. Technical Integration** | | | |
-| 💻 Machine Parsing | Fully parsable without AI context | 🧠 In progress | Designed for compilers and AI interpreters |
-| 🤖 NLP Compatibility | Easy to tokenize and process | Planned | Deterministic syntax structure planned |
-| 🔣 Unicode Compliance | Custom font + PUA block | 🧠 In progress  | Unicode proposal pending |
-| 🧾 Markdown/PlantUML Bridge | Grammar auto-render via UML | 🧠 In progress | Obsidian + PlantUML integration tests |
-| 🧮 Programming Syntax | Can function within coding syntax | Planned | Example: `if (za ken li zo runu)` |
+| Symbol | Goal | Current Status | Notes |
+|:--|:--|:--|:--|
+| 🧠 | **Learnability** | Planned | 200 hours to fluency; simplified syllable and grammar patterns |
+| 🗳️ | **Cognitive Load** | Planned | < 3 s average sentence parsing time; algorithmic sentence structure |
+| 🧮 | **Mathematical Literacy** | ✅ Done | Speak equations naturally; calculus-ready symbol set |
+| 🧠 | **Linguistic Transparency** | ✅ Design goal | “Hear once, spell correctly”; achieved via phoneme-symbol mapping |
+| 🎓 | **Educational Utility** | Planned | Improves logic, language, and math comprehension; ties into curriculum & puzzle design |
 
-| **4. Aesthetic & Cultural Appeal** | | | |
-| 🪶 Visual Elegance | Beautiful, minimal script | 🧠 In progress  | Glyphs designed to mimic speech shape |
-| 🔊 Euphony | Flows well when spoken aloud | 🧠 In progress | Evaluating syllabic rhythm |
-| 📜 Philosophy | “To speak is to know” | 🧠 In progress  | Encourages clarity and evidence |
-| 🌍 Cultural Neutrality | Avoids colonial or gender bias | Planned | Testing lexical neutrality |
-| 🧘 Ritual & Identity | Feels meaningful to use | Planned | Tied to “Wisdom Language” ethos |
+---
 
-| **5. Practical Usefulness** | | | |
-| 💬 Everyday Conversations | Expressive for casual and formal topics | 🧩 Ongoing | Expanding verbs and connectors |
-| ⚖️ Legal Precision | Supports contracts, treaties, and law | Planned | Evidentiality system ensures clarity |
-| 🔬 Scientific Utility | Write papers without ambiguity | 🧠 In progress | Math-first design helps formal language use |
-| 💻 Programming | Works as a pseudo-English syntax | Planned | Readable both by humans and machines |
-| 📈 Business / Trade | Financial and market terms ready | Planned | Context sets like `esun` foundation |
-| 🧠 Emotional Expression | Natural in poetry or ritual | Planned | Optional metaphorical expansions |
+### 3. Technical Integration
 
-| **6. Global Infrastructure** | | | |
-| 🌐 Open Access | Free and open-source | 🧠 In progress  | CC BY-SA 4.0 license |
-| 🧩 Tools | Fonts, keyboard, grammar checker | Planned | Custom IME + font planned |
-| 📘 Dictionary | Searchable with context clues | 🧩 Ongoing | Obsidian index planned |
-| 🔊 Pronunciation Database | Audio for every phoneme | Planned | Recordings post-beta |
-| 🧑‍🤝‍🧑 Community | “Lingua Sona Society” or contributor network | Planned | Will host translations & tutorials |
-| 🏛️ Institutional Outreach | Proposals to Unicode & linguistics orgs | Planned | After core syntax lock-in |
+| Symbol | Goal | Current Status | Notes |
+|:--|:--|:--|:--|
+| 💻 | **Machine Parsing** | 🧠 In progress | Fully parsable without AI context; designed for compilers and interpreters |
+| 🤖 | **NLP Compatibility** | Planned | Easy to tokenize and process; deterministic syntax structure planned |
+| 🔣 | **Unicode Compliance** | 🧠 In progress | Custom font + PUA block; Unicode proposal pending |
+| 🧾 | **Markdown / PlantUML Bridge** | 🧠 In progress | Grammar auto-render via UML; Obsidian + PlantUML integration tests |
+| 🧮 | **Programming Syntax** | Planned | Can function within coding syntax; example: `if (za ken li zo runu)` |
+
+---
+
+### 4. Aesthetic & Cultural Appeal
+
+| Symbol | Goal | Current Status | Notes |
+|:--|:--|:--|:--|
+| 🪶 | **Visual Elegance** | 🧠 In progress | Beautiful, minimal script; glyphs mimic mouth shape |
+| 🔊 | **Euphony** | 🧠 In progress | Flows well when spoken aloud; evaluating syllabic rhythm |
+| 📜 | **Philosophy** | 🧠 In progress | “To speak is to know”; encourages clarity and evidence |
+| 🌍 | **Cultural Neutrality** | Planned | Avoids colonial or gender bias; testing lexical neutrality |
+| 🧘 | **Ritual & Identity** | Planned | Feels meaningful to use; tied to “Wisdom Language” ethos |
+
+---
+
+### 5. Practical Usefulness
+
+| Symbol | Goal | Current Status | Notes |
+|:--|:--|:--|:--|
+| 💬 | **Everyday Conversations** | 🧩 Ongoing | Expressive for casual and formal topics; expanding verbs and connectors |
+| ⚖️ | **Legal Precision** | Planned | Supports contracts, treaties, and law; evidentiality ensures clarity |
+| 🔬 | **Scientific Utility** | 🧠 In progress | Write papers without ambiguity; math-first design aids formal usage |
+| 💻 | **Programming** | Planned | Works as pseudo-English syntax; readable by humans and machines |
+| 📈 | **Business / Trade** | Planned | Financial and market terms ready; context sets like `esun` foundation |
+| 🧠 | **Emotional Expression** | Planned | Natural in poetry or ritual; optional metaphorical expansions |
+
+---
+
+### 6. Global Infrastructure
+
+| Symbol | Goal | Current Status | Notes |
+|:--|:--|:--|:--|
+| 🌐 | **Open Access** | 🧠 In progress | Free and open-source; CC BY-SA 4.0 license |
+| 🧩 | **Tools** | Planned | Fonts, keyboard, grammar checker; custom IME + font planned |
+| 📘 | **Dictionary** | 🧩 Ongoing | Searchable with context clues; Obsidian index in progress |
+| 🔊 | **Pronunciation Database** | Planned | Audio for every phoneme; recordings post-beta |
+| 🧑‍🤝‍🧑 | **Community** | Planned | “Lingua Sona Society” or contributor network; hosts translations & tutorials |
+| 🏛️ | **Institutional Outreach** | Planned | Proposals to Unicode & linguistics orgs after syntax lock-in |
+
 
 ---
 
