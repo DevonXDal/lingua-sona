@@ -92,9 +92,10 @@
 - **I**
 	- ==I==odine
 	- L==ie==
-- **IN**
+- **AN**
 	- ==In==side
 	- P==en==/P==IN==
+	- R==an==
 - **O**
 	- P==o==ke
 	- P==o==lice
