@@ -34,9 +34,9 @@ Atypical forms are included only for these primary colors, herein. While atypica
 - Blue: (li)(mo), or atypical form, (pi)(wa)(wi)
 
 ### Subtractive 
-* Cyan: (pi)(wa), or atypical form, (li)(mi)(mo)
-* Magenta: (pi)(wi), or atypical form, (li)(ma)(mo)
-* Yellow: (pi)(wo), or atypical form, (li)(ma)(mi)
+* Cyan: (pi)(wo), or atypical form, (li)(mi)(mo)
+* Magenta: (pi)(wa), or atypical form, (li)(ma)(mo)
+* Yellow: (pi)(wi), or atypical form, (li)(ma)(mi)
 
 ## Other Colors for Reference
 These are named below based on their additive term, with (li) optional as it is assumed. Their subtractive forms can be done by preceding the individual color designation with (pi):
