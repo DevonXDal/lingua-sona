@@ -2,22 +2,26 @@
 
 **Lingua Sona** (formerly *Toki Sona*) is a constructed language (conlang) built to explore what a truly universal, logically structured, and aesthetically pleasing language could look like.
 
-![IPA](https://img.shields.io/badge/IPA-Phonology-blueviolet?style=for-the-badge)
-![Letters](https://img.shields.io/badge/Letter_System-161_Total-orange?style=for-the-badge)
-![Glyphs](https://img.shields.io/badge/Glyph_Design-Custom_PUA-yellow?style=for-the-badge)
+<!-- Core Project Badges -->
+![IPA](https://img.shields.io/badge/IPA-Phonology-blueviolet?style=flat)
+![Letters](https://img.shields.io/badge/Letter_System-161_Total-orange?style=flat)
+![Glyphs](https://img.shields.io/badge/Glyph_Design-Custom_PUA-yellow?style=flat)
 
-![Obsidian](https://img.shields.io/badge/Obsidian-Notes_%26_Docs-483699?style=for-the-badge)
-![PlantUML](https://img.shields.io/badge/PlantUML-Grammar_Diagrams-FF2D20?style=for-the-badge)
-![Inkscape](https://img.shields.io/badge/Inkscape-Glyph_Vectoring-000000?style=for-the-badge)
-![Markdown](https://img.shields.io/badge/Markdown-Primary_Format-lightgrey?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-Version_Control-181717?style=for-the-badge)
+<!-- Tools Used -->
+![Obsidian](https://img.shields.io/badge/Obsidian-Notes_&_Docs-483699?style=flat)
+![PlantUML](https://img.shields.io/badge/PlantUML-Grammar_Diagrams-FF2D20?style=flat)
+![Inkscape](https://img.shields.io/badge/Inkscape-Glyph_Vectoring-000000?style=flat)
+![Markdown](https://img.shields.io/badge/Markdown-Primary_Format-lightgrey?style=flat)
+![GitHub](https://img.shields.io/badge/GitHub-Version_Control-181717?style=flat)
 
-![World Language Candidate](https://img.shields.io/badge/World_Language-Candidate-green?style=for-the-badge)
-![Conlang](https://img.shields.io/badge/Conlang-Active_Development-00A8E8?style=for-the-badge)
-![Phonetic](https://img.shields.io/badge/Design-Phonetic_%26_Logical-9cf?style=for-the-badge)
-![Evidentiality](https://img.shields.io/badge/Grammar-Evidentiality_Required-critical?style=for-the-badge)
+<!-- Language Identity -->
+![World Language Candidate](https://img.shields.io/badge/World_Language-Candidate-green?style=flat)
+![Conlang](https://img.shields.io/badge/Conlang-Active_Development-00A8E8?style=flat)
+![Phonetic](https://img.shields.io/badge/Design-Phonetic_&_Logical-9cf?style=flat)
+![Evidentiality](https://img.shields.io/badge/Grammar-Evidentiality_Required-critical?style=flat)
 
-![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge)
+
+![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=flat)
 
 ---
 
