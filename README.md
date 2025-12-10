@@ -97,6 +97,7 @@ All original language materials, glyph designs, and documentation are © Devon X
 - **Project Maintainers:** *Devon X. Dalrymple (Moth Queen Devon)*, *Kip (Creature) and *Ashley Carlow (Panda)*
 
 ## IPA → Latin Glyph Mapping (Vowels & Consonants)
+Note that pronounciations are not strict and some variation in the pronounciation is expected and acceptable. Different origins and cultures have different levels of capabilities trained for making certain phoenetics. The entries here use the International Phonetic Alphabet with intent to quickly describe how certain glyphs are pronounced.
 
 ### Lingua Sona Phoneme Inventory
 
@@ -162,6 +163,134 @@ akulupu → ¬a_ku_lu_pu
 
 ---
 
+## Lingua Sona Letter Inventory
+
+Lingua Sona letters are built from three legal structures:
+
+- **CV** → consonant + vowel  
+- **¬V** → vowel-initial letter (negated consonant)  
+- **C¬** → consonant-final letter (negated vowel)  
+
+All letters use the logical negation symbol **¬** as part of the glyph when a consonant or vowel is missing.
+
+---
+
+### **Core Consonants** (14)
+P, T, K, M, N, F, S, SH, L, W, Y, H, G, CH
+
+### **Classifier Consonant** (1)
+Z
+
+### **Foreign / Proper-Noun Consonants** (2)
+B, D
+
+### **Core Vowels** (8)
+A, E, I, O, U, AH, ON, OOO
+
+---
+
+## **A. Core CV Letters (14 × 8 = 112)**
+
+| Consonant ↓ / Vowel → | A | E | I | O | U | AH | ON | OOO |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| **P** | PA | PE | PI | PO | PU | PAH | PON | POOO |
+| **T** | TA | TE | TI | TO | TU | TAH | TON | TOOO |
+| **K** | KA | KE | KI | KO | KU | KAH | KON | KOOO |
+| **M** | MA | ME | MI | MO | MU | MAH | MON | MOOO |
+| **N** | NA | NE | NI | NO | NU | NAH | NON | NOOO |
+| **F** | FA | FE | FI | FO | FU | FAH | FON | FOOO |
+| **S** | SA | SE | SI | SO | SU | SAH | SON | SOOO |
+| **SH** | SHA | SHE | SHI | SHO | SHU | SHAH | SHON | SHOOO |
+| **L** | LA | LE | LI | LO | LU | LAH | LON | LOOO |
+| **W** | WA | WE | WI | WO | WU | WAH | WON | WOOO |
+| **Y** | YA | YE | YI | YO | YU | YAH | YON | YOOO |
+| **H** | HA | HE | HI | HO | HU | HAH | HON | HOOO |
+| **G** | GA | GE | GI | GO | GU | GAH | GON | GOOO |
+| **CH** | CHA | CHE | CHI | CHO | CHU | CHAH | CHON | CHOOO |
+
+**Core CV total:** **112 letters**
+
+---
+
+## **B. Vowel-Initial Letters (¬V form)**  
+*(8 forms)*
+
+| Vowel | Letter |
+|:--|:--|
+| **A** | ¬A |
+| **E** | ¬E |
+| **I** | ¬I |
+| **O** | ¬O |
+| **U** | ¬U |
+| **AH** | ¬AH |
+| **ON** | ¬ON |
+| **OOO** | ¬OOO |
+
+**Total:** 8 letters
+
+---
+
+## **C. Consonant-Final Letters (C¬ form)**  
+*(14 forms)*
+
+| Consonant | Letter |
+|:--|:--|
+| **P** | P¬ |
+| **T** | T¬ |
+| **K** | K¬ |
+| **M** | M¬ |
+| **N** | N¬ |
+| **F** | F¬ |
+| **S** | S¬ |
+| **SH** | SH¬ |
+| **L** | L¬ |
+| **W** | W¬ |
+| **Y** | Y¬ |
+| **H** | H¬ |
+| **G** | G¬ |
+| **CH** | CH¬ |
+
+**Total:** 14 letters
+
+---
+
+## **Core Letter Total**
+- **112 CV**  
+- **+ 8 vowel-initial (¬V)**  
+- **+ 14 consonant-final (C¬)**  
+
+### **= 134 core letters**
+
+---
+
+## **Full Letter Total (Including Non-Core Consonants Z, B, D)**
+
+Add CV sets for:
+| Non-Core Consonant + Vowel | A | E | I | O | U | AH | ON | OOO |
+|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| **Z** | ZA | ZE | ZI | ZO | ZU | ZAH | ZON | ZOOO |
+| **B** | BA | BE | BI | BO | BU | BAH | BON | BOOO |
+| **D** | DA | DE | DI | DO | DU | DAH | DON | DOOO |
+
+**Final Forms:**  
+- **Z¬**
+- **B¬**
+- **D¬**
+
+### Additional letters:
+- Z + vowels: 8  
+- B + vowels: 8  
+- D + vowels: 8  
+- Z¬, B¬, D¬: 3  
+
+**Total extension:**  
+8 + 8 + 8 + 3 = **27 letters**
+
+### **Grand Total Including Extensions:**  
+134 + 27 = **161 letters**
+
+---
+
 ## 🌎 World Language Readiness Index
 > A roadmap of everything Lingua Sona should achieve to be a serious global candidate — technical, linguistic, and cultural.
 
@@ -182,7 +311,7 @@ akulupu → ¬a_ku_lu_pu
 |:--|:--|:--|:--|
 | 🧠 | **Learnability** | Planned | 200 hours to fluency; simplified syllable and grammar patterns |
 | 🗳️ | **Cognitive Load** | Planned | < 3 s average sentence parsing time; algorithmic sentence structure |
-| 🧮 | **Mathematical Literacy** | ✅ Done | Speak equations naturally; calculus-ready symbol set |
+| 🧮 | **Mathematical Literacy** | Planned | Speak equations naturally; calculus-ready symbol set |
 | 🧠 | **Linguistic Transparency** | ✅ Design goal | “Hear once, spell correctly”; achieved via phoneme-symbol mapping |
 | 🎓 | **Educational Utility** | Planned | Improves logic, language, and math comprehension; ties into curriculum & puzzle design |
 
