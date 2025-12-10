@@ -4,6 +4,12 @@
 
 ---
 
+## Important Disclosure
+
+**This language is still early in the works and most things are subject to change as the team finds ways to improve its structure and issues within its current systems are rectified. The more this language is developed, the less it will change structurally until it exits this early stage. Once that happens, the language can be safely learned without worry of the systems being altered.
+
+---
+
 ## ✨ Overview
 Lingua Sona literally means **“Language of Wisdom”** or **“Language of Knowledge.”**  
 It is designed to be concise, phonetic, and globally approachable—capable of being used for **everyday conversation, programming, mathematics, and formal documentation** alike.
@@ -31,7 +37,7 @@ Lingua Sona aims to:
 - 🔊 Allow listeners to **spell what they hear** with near-perfect accuracy  
 - 💬 Require **evidentiality** (source of information) for factual statements  
 - ✍️ Optimize **writing density**—more meaning in fewer characters  
-- 🧠 Use symbols that **mirror pronunciation and mouth shape** for intuitive learning  
+- 🧠 Use symbols that **mirror pronunciation and mouth shape where possible** for intuitive learning and **require only one to few strokes to write out** for rapid transcription    
 
 ---
 
@@ -44,7 +50,7 @@ Lingua Sona is developed using:
 ---
 
 ## 🧩 Design Highlights
-- **Phonetic Alphabet** – letters shaped to resemble the physical articulation of their sounds.  
+- **Phonetic Alphabet** – letters shaped to resemble the physical articulation of their sounds as reasonably possible.  
 - **Context Clues System (Za/Ze/Zi/Zo/Zu)** – every word’s type (person, place, object, verb, adjective, concept, etc.) is contextually encoded.  
 - **Mathematical Integration** – supports arithmetic, calculus, logic, and advanced operators natively.  
 - **Programming-Ready Syntax** – readable both by humans and parsers.  
@@ -81,14 +87,78 @@ Lingua Sona seeks to demonstrate that a global, inclusive, logical, and beautifu
 ---
 
 ## 🪶 License
-All original language materials, glyph designs, and documentation are © Devon X. Dalrymple under the terms of the **CC BY-SA 4.0 License** unless otherwise noted.
+All original language materials, glyph designs, and documentation are © Devon X. Dalrymple (in addition to the other Project Maintainers) under the terms of the **CC BY-SA 4.0 License** unless otherwise noted.
 
 ---
 
 ### 🖇️ Repository Links
 - **GitHub:** [DevonXDal/lingua-sona](https://github.com/DevonXDal/lingua-sona)
-- **Documentation:** Obsidian Vault (Markdown + PlantUML)
-- **Project Maintainers:** *Devon X. Dalrymple (Moth Queen Devon)* and *Ashley Carlow (Panda)*
+- **Documentation:** Obsidian Vault (Markdown + PlantUML + SVGs)
+- **Project Maintainers:** *Devon X. Dalrymple (Moth Queen Devon)*, *Kip (Creature) and *Ashley Carlow (Panda)*
+
+## IPA → Latin Glyph Mapping (Vowels & Consonants)
+
+### Lingua Sona Phoneme Inventory
+
+| Latin Glyph | IPA | Audio | Notes |
+|:--|:--|:--|:--|
+| **P** | /p/ | [Audio][p] | Core stop |
+| **T** | /t/ | [Audio][t] | Core stop |
+| **K** | /k/ | [Audio][k] | Core stop |
+| **M** | /m/ | [Audio][m] | Core nasal |
+| **N** | /n/ | [Audio][n] | Core nasal |
+| **F** | /f/ | [Audio][f] | Fricative |
+| **S** | /s/ | [Audio][s] | Fricative |
+| **SH** | /ʃ/ | [Audio][sh] | Postalveolar fricative |
+| **L** | /l/ | [Audio][l] | Always light-L |
+| **W** | /w/ | [Audio][w] | Approximant |
+| **Y** | /j/ | [Audio][y] | Approximant |
+| **H** | /h/ | [Audio][h] | Breath consonant |
+| **G** | /g/ | [Audio][g] | Limited-use core consonant |
+| **CH** | /t͡ʃ/ | [Audio][ch] | “Check/Chair/Change” |
+
+### Classifier-Only Consonant
+
+| Latin Glyph | IPA | Audio | Notes |
+|:--|:--|:--|:--|
+| **Z** | /z/ | [Audio][z] | Used only for classifiers, classifier-derived words, foreign words, and proper nouns |
+
+### Foreign / Proper-Noun Consonants
+
+| Latin Glyph | IPA | Audio | Notes |
+|:--|:--|:--|:--|
+| **B** | /b/ | [Audio][b] | Foreign / proper nouns only |
+| **D** | /d/ | [Audio][d] | Foreign / proper nouns only |
+
+---
+
+### Vowels
+
+| Latin Glyph | IPA | Audio | Notes |
+|:--|:--|:--|:--|
+| **A** | /a/ | [Audio][a] | Pure open vowel |
+| **E** | /e/ | [Audio][e] | Mid-front vowel |
+| **I** | /i/ | [Audio][i] | High front vowel |
+| **O** | /ɔ/ \| /o/ | [Audio][o] | Flexible rounding |
+| **U** | /u/ | [Audio][u] | High back rounded |
+| **AH/AW** | /ɑ/ | [Audio][aw] | Low back vowel |
+| **ON** | /ɤ/ \| /ʌ/ \| /ɣ̞/ \| /ɯ̞/ | [Audio][on] | Mild variation acceptable |
+| **OOO** | /ʉ/ | [Audio][ooo] | High central rounded |
+
+---
+
+### Negation Mechanism
+
+| Symbol | Function | Notes |
+|:--|:--|:--|
+| **¬** | Negated / initial vowel-binding marker | Used when a vowel begins a word |
+
+---
+
+#### Example (Fake Word)
+```
+akulupu → ¬a_ku_lu_pu
+```
 
 ---
 
@@ -191,4 +261,34 @@ You may have already noticed but this project uses AI to assist its development.
 > It is not just a conlang — it is a blueprint for linguistic evolution.
 
 ---
+
+<!-- Reference Links -->
+
+[p]: https://en.wikipedia.org/wiki/Voiceless_bilabial_stop
+[t]: https://en.wikipedia.org/wiki/Voiceless_alveolar_stop
+[k]: https://en.wikipedia.org/wiki/Voiceless_velar_stop
+[m]: https://en.wikipedia.org/wiki/Bilabial_nasal
+[n]: https://en.wikipedia.org/wiki/Alveolar_nasal
+[f]: https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative
+[s]: https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative
+[sh]: https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative
+[l]: https://en.wikipedia.org/wiki/Alveolar_lateral_approximant
+[w]: https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant
+[y]: https://en.wikipedia.org/wiki/Voiced_palatal_approximant
+[h]: https://en.wikipedia.org/wiki/Voiceless_glottal_fricative
+[g]: https://en.wikipedia.org/wiki/Voiced_velar_stop
+[ch]: https://en.wikipedia.org/wiki/Voiceless_postalveolar_affricate
+
+[z]: https://en.wikipedia.org/wiki/Voiced_alveolar_fricative
+[b]: https://en.wikipedia.org/wiki/Voiced_bilabial_stop
+[d]: https://en.wikipedia.org/wiki/Voiced_alveolar_stop
+
+[a]: https://en.wikipedia.org/wiki/Open_front_unrounded_vowel
+[e]: https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel
+[i]: https://en.wikipedia.org/wiki/Close_front_unrounded_vowel
+[o]: https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel
+[u]: https://en.wikipedia.org/wiki/Close_back_rounded_vowel
+[aw]: https://en.wikipedia.org/wiki/Open_back_unrounded_vowel
+[on]: https://en.wikipedia.org/wiki/Close-mid_back_unrounded_vowel
+[ooo]: https://en.wikipedia.org/wiki/Close_central_rounded_vowel
 

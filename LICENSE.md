@@ -3,7 +3,7 @@
 ## 📘 Language & Documentation
 Unless otherwise stated:
 
-**© Devon X. Dalrymple and Ashley Carlow — Lingua Sona Project**  
+**© Devon X. Dalrymple, Ashley Carlow, Kip, and Any Other Project Maintainers — Lingua Sona Project**  
 Released under the **Creative Commons Attribution–ShareAlike 4.0 International License (CC BY-SA 4.0).**
 
 You are free to:
@@ -11,7 +11,7 @@ You are free to:
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
 
 Under the following terms:
-- **Attribution** — credit “Lingua Sona Project / Devon X. Dalrymple” and link to the repository.  
+- **Attribution** — credit “Lingua Sona Project / Devon X. Dalrymple and Other Project Maintainers” and link to the repository.  
 - **Share Alike** — distribute contributions under the same license.  
 - **No additional restrictions** — you may not apply legal terms or technological measures that restrict others.
 
