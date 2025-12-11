@@ -343,8 +343,8 @@ AI, EI, OI, AU, OU
 - **112 CV**  
 - **+ 8 vowel-initial (¬V)**  
 - **+ 14 consonant-final (C¬)**  
-- **+ 70 consonant-final (C¬)**  
-- **+ 5 consonant-final (C¬)**  
+- **+ 70 CVV**  
+- **+ 5 vowel-cluster-initial (¬VV)**  
 
 ### **= 209 core letters**
 
