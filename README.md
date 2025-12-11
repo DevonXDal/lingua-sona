@@ -180,12 +180,15 @@ IPA is provided for precision.
 
 ### VV Letters (Vowel Clusters) - *5*
 | VV Letter | IPA | Audio | Notes |
-|-----------|-----|--------|-------|
-| AI | /ai/ | [Audio][ai] | “I / my / high” equivalent |
-| EI | /ei/ | [Audio][ei] | Clear global glide |
-| OI | /oi/ | [Audio][oi] | Distinct & international |
-| AU | /au/ | [Audio][au] | Universal diphthong |
-| OU | /ou/ | [Audio][ou] | Smooth rounded glide |
+|-----------|-----|-------|-------|
+| AI | /aɪ/ | [Audio][ai] | “I / my / high” equivalent |
+| EI | /eɪ/ | [Audio][ei] | Clear global glide |
+| OI | /ɔɪ/ | [Audio][oi] | Distinct & international |
+| AU | /aʊ/ | [Audio][au] | Universal diphthong |
+| OU | /əʊ/ | [Audio][ou] | Smooth rounded glide |
+
+You can see a guide on how to pronounce these vowel clusters or 'diphthongs' here:
+[Pronounciation Studio](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/)
 
 ---
 
@@ -515,9 +518,9 @@ You may have already noticed but this project uses AI to assist its development.
 [on]: https://en.wikipedia.org/wiki/Close-mid_back_unrounded_vowel
 [ooo]: https://en.wikipedia.org/wiki/Close_central_rounded_vowel
 
-[ai]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/ai.mp3 "AI cluster"
-[ei]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/ei.mp3 "EI cluster"
-[oi]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/oi.mp3 "OI cluster"
-[au]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/au.mp3 "AU cluster"
-[ou]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/ou.mp3 "OU cluster"
+[ai]: https://pronunciationstudio.com/wp-content/uploads/2017/11/ai.mp3 "AI /ai/ diphthong"
+[ei]: https://pronunciationstudio.com/wp-content/uploads/2017/11/ei.mp3 "EI /ei/ diphthong"
+[oi]: https://pronunciationstudio.com/wp-content/uploads/2017/11/oi.mp3 "OI /oi/ diphthong"
+[au]: https://pronunciationstudio.com/wp-content/uploads/2017/11/ow.mp3 "AU /au/ diphthong"
+[ou]: https://pronunciationstudio.com/wp-content/uploads/2017/11/oh.mp3 "OU /ou/ diphthong"
 
