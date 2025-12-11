@@ -21,7 +21,7 @@
 ![Evidentiality](https://img.shields.io/badge/Grammar-Evidentiality_Required-critical?style=flat)
 
 
-![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=flat)
+![Status](https://img.shields.io/badge/Status-Active_Development-green?style=flat)
 
 ---
 
@@ -35,13 +35,21 @@
 Lingua Sona literally means **“Language of Wisdom”** or **“Language of Knowledge.”**  
 It is designed to be concise, phonetic, and globally approachable—capable of being used for **everyday conversation, programming, mathematics, and formal documentation** alike.
 
+Even though you may notice an alphabet of 251 letters. These letters are assembled as two glyphs interconnected to form each phoenetic used. 
+This means instead of learning how to write 251 letters. 
+The learner needs only learn how to depict 28 glyphs to write most words. 
+With declaring foreign pronounciations and including a few extensions, this count only raises to 31. 
+This provides for a large alphabet which can be written quickly and can be used to massively reduce the number of letters needed to write most words.
+
 ---
 
 ## 🧬 Core Inspirations
+
 Lingua Sona draws linguistic and structural inspiration from:
-- **French** – grammatical and sentence flow  
-- **Swahili** – prefix/suffix clarity and fluid morphology  
-- **Toki Pona / Toki Ma** – simplicity and conceptual grounding  
+- **French** → sentence flow & grammar  
+- **Swahili** → logical morphology, CV structure  
+- **Toki Pona / Toki Ma** → conceptual grounding & simplicity  
+- **Japanese** → phonetic vowel system & universal pronounceability  
 
 Originally named **Toki Sona**, the project grew beyond its roots into a language of its own design. 
 
@@ -67,6 +75,8 @@ Lingua Sona is developed using:
 - 🪶 **Obsidian** → for structured Markdown documentation  
 - 📊 **PlantUML** → to model grammar, sentence logic, and linguistic automata (e.g. DFA diagrams)  
 - 🧾 **LibreOffice** → for professional formatting, publication drafts, and academic presentation  
+- 🖊 **Inkscape** → vector glyph design  
+- 💻 **GitHub** → version control and publication  
 
 ---
 
@@ -92,7 +102,7 @@ Lingua Sona is developed using:
 |-------|------|--------|
 | I | Phonetic alphabet design | ✅ Done |
 | II | Core grammar & suffix rules | 🧠 In progress |
-| III | Number system & operators | ✅ Done |
+| III | Number system & operators | 🧠 In progress |
 | IV | Vocabulary (≤ 1750 terms) | 🧩 Ongoing |
 | V | Lingua Sona → English translator | 🔧 Planned |
 | VI | Unicode proposal submission | 🕰️ Future milestone |
@@ -117,10 +127,11 @@ All original language materials, glyph designs, and documentation are © Devon X
 - **Documentation:** Obsidian Vault (Markdown + PlantUML + SVGs)
 - **Project Maintainers:** *Devon X. Dalrymple (Moth Queen Devon)*, *Kip (Creature) and *Ashley Carlow (Panda)*
 
-## IPA → Latin Glyph Mapping (Vowels & Consonants)
-Note that pronounciations are not strict and some variation in the pronounciation is expected and acceptable. Different origins and cultures have different levels of capabilities trained for making certain phoenetics. The entries here use the International Phonetic Alphabet with intent to quickly describe how certain glyphs are pronounced.
+## 🔤 Phonology: IPA → Glyph Mapping
+Pronunciation varies slightly by speaker, but all forms are globally pronounceable.  
+IPA is provided for precision.
 
-### Lingua Sona Phoneme Inventory
+### Consonants (Core Set) - *14*
 
 | Latin Glyph | IPA | Audio | Notes |
 |:--|:--|:--|:--|
@@ -139,13 +150,13 @@ Note that pronounciations are not strict and some variation in the pronounciatio
 | **G** | /g/ | [Audio][g] | Limited-use core consonant |
 | **CH** | /t͡ʃ/ | [Audio][ch] | “Check/Chair/Change” |
 
-### Classifier-Only Consonant
+### Classifier-Only Consonant - *1*
 
 | Latin Glyph | IPA | Audio | Notes |
 |:--|:--|:--|:--|
 | **Z** | /z/ | [Audio][z] | Used only for classifiers, classifier-derived words, foreign words, and proper nouns |
 
-### Foreign / Proper-Noun Consonants
+### Foreign / Proper-Noun Consonants - *2*
 
 | Latin Glyph | IPA | Audio | Notes |
 |:--|:--|:--|:--|
@@ -154,7 +165,7 @@ Note that pronounciations are not strict and some variation in the pronounciatio
 
 ---
 
-### Vowels
+### Vowels - *8*
 
 | Latin Glyph | IPA | Audio | Notes |
 |:--|:--|:--|:--|
@@ -166,6 +177,15 @@ Note that pronounciations are not strict and some variation in the pronounciatio
 | **AH/AW** | /ɑ/ | [Audio][aw] | Low back vowel |
 | **ON** | /ɤ/ \| /ʌ/ \| /ɣ̞/ \| /ɯ̞/ | [Audio][on] | Mild variation acceptable |
 | **OOO** | /ʉ/ | [Audio][ooo] | High central rounded |
+
+### VV Letters (Vowel Clusters) - *5*
+| VV Letter | IPA | Audio | Notes |
+|-----------|-----|--------|-------|
+| AI | /ai/ | [Audio][ai] | “I / my / high” equivalent |
+| EI | /ei/ | [Audio][ei] | Clear global glide |
+| OI | /oi/ | [Audio][oi] | Distinct & international |
+| AU | /au/ | [Audio][au] | Universal diphthong |
+| OU | /ou/ | [Audio][ou] | Smooth rounded glide |
 
 ---
 
@@ -186,13 +206,15 @@ akulupu → ¬a_ku_lu_pu
 
 ## Lingua Sona Letter Inventory
 
-Lingua Sona letters are built from three legal structures:
+Lingua Sona letters are built from five legal structures:
 
 - **CV** → consonant + vowel  
 - **¬V** → vowel-initial letter (negated consonant)  
 - **C¬** → consonant-final letter (negated vowel)  
+- **CVV** → consonant + vowel cluster 
+- **¬VV** → vowel-cluster-initial letter (negated consonant)
 
-All letters use the logical negation symbol **¬** as part of the glyph when a consonant or vowel is missing.
+All letters use the logical negation symbol **¬** as part of the glyph when a consonant or vowel segment is missing.
 
 ---
 
@@ -208,9 +230,13 @@ B, D
 ### **Core Vowels** (8)
 A, E, I, O, U, AH, ON, OOO
 
+### **Core Vowel Clusters** (5)
+AI, EI, OI, AU, OU
+
 ---
 
-## **A. Core CV Letters (14 × 8 = 112)**
+## **A. Core Consonant + Vowel Letters (CV form)**
+*(112 forms)*
 
 | Consonant ↓ / Vowel → | A | E | I | O | U | AH | ON | OOO |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -228,8 +254,6 @@ A, E, I, O, U, AH, ON, OOO
 | **H** | HA | HE | HI | HO | HU | HAH | HON | HOOO |
 | **G** | GA | GE | GI | GO | GU | GAH | GON | GOOO |
 | **CH** | CHA | CHE | CHI | CHO | CHU | CHAH | CHON | CHOOO |
-
-**Core CV total:** **112 letters**
 
 ---
 
@@ -275,23 +299,69 @@ A, E, I, O, U, AH, ON, OOO
 
 ---
 
+## **D. Cosonant + Vowel Cluster (CVV form)**
+*(70 forms)*
+
+| Consonant ↓ / Vowel Cluster → | AI | EI | OI | AU | OU |
+|:--|:--:|:--:|:--:|:--:|:--:|
+| **P** | PAI | PEI | POI | PAU | POU |
+| **T** | TAI | TEI | TOI | TAU | TOU |
+| **K** | KAI | KEI | KOI | KAU | KOU | 
+| **M** | MAI | MEI | MOI | MAU | MOU |
+| **N** | NAI | NEI | NOI | NAU | NOU | 
+| **F** | FAI | FEI | FOI | FAU | FOU | 
+| **S** | SAI | SEI | SOI | SAU | SOU | 
+| **SH** | SHAI | SHEI | SHOI | SHAU | SHOU |
+| **L** | LAI | LEI | LOI | LAU | LOU | 
+| **W** | WAI | WEI | WOI | WAU | WOU | 
+| **Y** | YAI | YEI | YOI | YAU | YOU | 
+| **H** | HAI | HEI | HOI | HAU | HOU | 
+| **G** | GAI | GEI | GOI | GAU | GOU | 
+| **CH** | CHAI | CHEI | CHOI | CHAU | CHOU |
+
+---
+
+## **B. Vowel-Cluster-Initial Letters (¬VV form)**  
+*(5 forms)*
+
+| Vowel | Letter |
+|:--|:--|
+| **AI** | ¬AI |
+| **EI** | ¬EI |
+| **OI** | ¬OI |
+| **AU** | ¬AU |
+| **OU** | ¬OU |
+
+**Total:** 5 letters
+
+--- 
+
 ## **Core Letter Total**
 - **112 CV**  
 - **+ 8 vowel-initial (¬V)**  
 - **+ 14 consonant-final (C¬)**  
+- **+ 70 consonant-final (C¬)**  
+- **+ 5 consonant-final (C¬)**  
 
-### **= 134 core letters**
+### **= 209 core letters**
 
 ---
 
 ## **Full Letter Total (Including Non-Core Consonants Z, B, D)**
 
 Add CV sets for:
-| Non-Core Consonant + Vowel | A | E | I | O | U | AH | ON | OOO |
+| Non-Core C + V | A | E | I | O | U | AH | ON | OOO |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | **Z** | ZA | ZE | ZI | ZO | ZU | ZAH | ZON | ZOOO |
 | **B** | BA | BE | BI | BO | BU | BAH | BON | BOOO |
 | **D** | DA | DE | DI | DO | DU | DAH | DON | DOOO |
+
+Add CVV sets for:
+| Non-Core C + VV | AI | EI | OI | AU | OU |
+|:--|:--:|:--:|:--:|:--:|:--:|
+| **Z** | ZAI | ZEI | ZOI | ZAU | ZOU | 
+| **B** | BAI | BEI | BOI | BAU | BOU | 
+| **D** | DAI | DEI | DOI | DAU | DOU | 
 
 **Final Forms:**  
 - **Z¬**
@@ -302,13 +372,16 @@ Add CV sets for:
 - Z + vowels: 8  
 - B + vowels: 8  
 - D + vowels: 8  
+- D + vowel clusters: 5  
+- D + vowel clusters: 5  
+- D + vowel clusters: 5  
 - Z¬, B¬, D¬: 3  
 
 **Total extension:**  
-8 + 8 + 8 + 3 = **27 letters**
+8 + 8 + 8 + 5 + 5 + 5 + 3 = **42 letters**
 
 ### **Grand Total Including Extensions:**  
-134 + 27 = **161 letters**
+209 + 42 = **251 letters**
 
 ---
 
@@ -320,7 +393,7 @@ Add CV sets for:
 | Category | Goal | Current Status | Notes |
 |:--|:--|:--|:--|
 | 🧩 Logical Grammar | Predictable, rule-based syntax with zero irregular verbs | 🧠 In progress | Grammar modeled via PlantUML DFA diagrams |
-| 🔤 Phonetic Orthography | 1 sound = 1 symbol | ✅ Complete | All symbols have mouth-shape-based glyphs |
+| 🔤 Phonetic Orthography | 1 sound = 1 symbol | ✅ Complete | All symbols have mouth-shape-based glyphs where reasonable |
 | 🗣️ Universal Pronunciation | All major linguistic families can pronounce it | 🧠 In progress | Based on Japanese vowel system & limited consonant set |
 | 📚 Compact Vocabulary | ≤ 1,750 total “terms” | 🧩 Ongoing | ~15–20% drafted |
 | 🧮 Numeric Integration | Base 2, 10, and 16 support | ✅ Complete | With mathematical operators and constants |
@@ -441,4 +514,10 @@ You may have already noticed but this project uses AI to assist its development.
 [aw]: https://en.wikipedia.org/wiki/Open_back_unrounded_vowel
 [on]: https://en.wikipedia.org/wiki/Close-mid_back_unrounded_vowel
 [ooo]: https://en.wikipedia.org/wiki/Close_central_rounded_vowel
+
+[ai]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/ai.mp3 "AI cluster"
+[ei]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/ei.mp3 "EI cluster"
+[oi]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/oi.mp3 "OI cluster"
+[au]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/au.mp3 "AU cluster"
+[ou]: https://cdn.jsdelivr.net/gh/DevonXDal/lingua-sona@main/audio/vowels/ou.mp3 "OU cluster"
 
