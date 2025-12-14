@@ -4,7 +4,7 @@
 
 <!-- Core Project Badges -->
 ![IPA](https://img.shields.io/badge/IPA-Phonology-blueviolet?style=flat)
-![Letters](https://img.shields.io/badge/Letter_System-161_Total-orange?style=flat)
+![Letters](https://img.shields.io/badge/Letter_System-251_Total-orange?style=flat)
 ![Glyphs](https://img.shields.io/badge/Glyph_Design-Custom_PUA-yellow?style=flat)
 
 <!-- Tools Used -->
@@ -32,7 +32,7 @@
 ---
 
 ## ✨ Overview
-Lingua Sona literally means **“Language of Wisdom”** or **“Language of Knowledge.”**  
+Lingua Sona literally means **“Language of Wisdom”** 
 It is designed to be concise, phonetic, and globally approachable—capable of being used for **everyday conversation, programming, mathematics, and formal documentation** alike.
 
 Even though you may notice an alphabet of 251 letters. These letters are assembled as two glyphs interconnected to form each phoenetic used. 
@@ -297,12 +297,46 @@ AI, EI, OI, AU, OU
 | **H** | H¬ |
 | **G** | G¬ |
 | **CH** | CH¬ |
+<!-- Reference Links -->
 
+[p]: https://en.wikipedia.org/wiki/Voiceless_bilabial_stop
+[t]: https://en.wikipedia.org/wiki/Voiceless_alveolar_stop
+[k]: https://en.wikipedia.org/wiki/Voiceless_velar_stop
+[m]: https://en.wikipedia.org/wiki/Bilabial_nasal
+[n]: https://en.wikipedia.org/wiki/Alveolar_nasal
+[f]: https://en.wikipedia.org/wiki/Voiceless_labiodental_fricative
+[s]: https://en.wikipedia.org/wiki/Voiceless_alveolar_fricative
+[sh]: https://en.wikipedia.org/wiki/Voiceless_postalveolar_fricative
+[l]: https://en.wikipedia.org/wiki/Alveolar_lateral_approximant
+[w]: https://en.wikipedia.org/wiki/Voiced_labial%E2%80%93velar_approximant
+[y]: https://en.wikipedia.org/wiki/Voiced_palatal_approximant
+[h]: https://en.wikipedia.org/wiki/Voiceless_glottal_fricative
+[g]: https://en.wikipedia.org/wiki/Voiced_velar_stop
+[ch]: https://en.wikipedia.org/wiki/Voiceless_postalveolar_affricate
+
+[z]: https://en.wikipedia.org/wiki/Voiced_alveolar_fricative
+[b]: https://en.wikipedia.org/wiki/Voiced_bilabial_stop
+[d]: https://en.wikipedia.org/wiki/Voiced_alveolar_stop
+
+[a]: https://en.wikipedia.org/wiki/Open_front_unrounded_vowel
+[e]: https://en.wikipedia.org/wiki/Close-mid_front_unrounded_vowel
+[i]: https://en.wikipedia.org/wiki/Close_front_unrounded_vowel
+[o]: https://en.wikipedia.org/wiki/Open-mid_back_rounded_vowel
+[u]: https://en.wikipedia.org/wiki/Close_back_rounded_vowel
+[aw]: https://en.wikipedia.org/wiki/Open_back_unrounded_vowel
+[on]: https://en.wikipedia.org/wiki/Close-mid_back_unrounded_vowel
+[ooo]: https://en.wikipedia.org/wiki/Close_central_rounded_vowel
+
+[ai]: https://pronunciationstudio.com/wp-content/uploads/2017/11/ai.mp3 "AI /ai/ diphthong"
+[ei]: https://pronunciationstudio.com/wp-content/uploads/2017/11/ei.mp3 "EI /ei/ diphthong"
+[oi]: https://pronunciationstudio.com/wp-content/uploads/2017/11/oi.mp3 "OI /oi/ diphthong"
+[au]: https://pronunciationstudio.com/wp-content/uploads/2017/11/ow.mp3 "AU /au/ diphthong"
+[ou]: https://pronunciationstudio.com/wp-content/uploads/2017/11/oh.mp3 "OU /ou/ diphthong"
 **Total:** 14 letters
 
 ---
 
-## **D. Cosonant + Vowel Cluster (CVV form)**
+## **D. Consonant + Vowel Cluster (CVV form)**
 *(70 forms)*
 
 | Consonant ↓ / Vowel Cluster → | AI | EI | OI | AU | OU |
@@ -324,7 +358,7 @@ AI, EI, OI, AU, OU
 
 ---
 
-## **B. Vowel-Cluster-Initial Letters (¬VV form)**  
+## **E. Vowel-Cluster-Initial Letters (¬VV form)**  
 *(5 forms)*
 
 | Vowel | Letter |
@@ -400,7 +434,7 @@ Add CVV sets for:
 | 🗣️ Universal Pronunciation | All major linguistic families can pronounce it | 🧠 In progress | Based on Japanese vowel system & limited consonant set |
 | 📚 Compact Vocabulary | ≤ 1,750 total “terms” | 🧩 Ongoing | ~15–20% drafted |
 | 🧮 Numeric Integration | Base 2, 10, and 16 support | ✅ Complete | With mathematical operators and constants |
-| ⚙️ Morphological Clarity | Derivations (suffix/prefix) always predictable | 🧠 In progress | `u` as an extender; `Z*` contextual system in place |
+| ⚙️ Morphological Clarity | Derivations (suffix/prefix) always predictable | 🧠 In progress | `HI` and `WI` as extenders; `Z*` contextual system in place |
 
 ### 2. Cognitive & Educational Goals
 

@@ -148,13 +148,13 @@ SENTENCE =
 ;
 
 ############################################################
-# 8. QUESTIONS (USING KIO)
+# 8. QUESTIONS (USING KOI)
 ############################################################
 
-# KIO follows the entire statement.
+# KOI follows the entire statement.
 QUESTION =
       SENTENCE ,
-      "KIO"
+      "KOI"
 ;
 
 
