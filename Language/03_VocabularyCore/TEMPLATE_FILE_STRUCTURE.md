@@ -17,10 +17,8 @@ and provides cross-language approximations for reference and translation support
 
 ### <Lingua Sona Term (Latin)> — <Sona Script>
 
-**Term ID:** LS-<DOMAIN>-<###>  
-**Status:** Root | Derived  
-**Core Domain(s):** <list>  
-**Affective Primitive Used:** None | <Happy/Fear/etc.>
+**Term ID:** LS-<DOMAIN>__<OrganizationalUnit-Optional>-<###>  
+**Allowed Primitive Used:** None | <Happy/Fear/etc.> | Is Primitive
 
 #### Definition
 A precise, domain-neutral definition written in controlled English.
