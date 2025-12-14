@@ -125,7 +125,7 @@ All original language materials, glyph designs, and documentation are © Devon X
 ### 🖇️ Repository Links
 - **GitHub:** [DevonXDal/lingua-sona](https://github.com/DevonXDal/lingua-sona)
 - **Documentation:** Obsidian Vault (Markdown + PlantUML + SVGs)
-- **Project Maintainers:** *Devon X. Dalrymple (Moth Queen Devon)*, *Kip (Creature) and *Ashley Carlow (Panda)*
+- **Project Maintainers:** *Devon X. Dalrymple (Mothykinz)*, *Kip (Creature)* and *Ashley Carlow (Panda)*
 
 ## 🔤 Phonology: IPA → Glyph Mapping
 Pronunciation varies slightly by speaker, but all forms are globally pronounceable.  
