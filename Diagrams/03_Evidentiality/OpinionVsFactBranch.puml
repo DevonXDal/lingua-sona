@@ -1,0 +1,44 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Opinion vs Fact Classification
+
+start
+
+:Claim Formed;
+
+if (Personal belief?) then (yes)
+  :Use TOOO or TOU;
+  stop
+endif
+
+if (Direct observation?) then (yes)
+  :Use TA;
+  stop
+endif
+
+if (Inference or logic?) then (yes)
+  :Use TE or TAU;
+  stop
+endif
+
+if (Reported by others?) then (yes)
+  :Use TI;
+  stop
+endif
+
+if (Common knowledge?) then (yes)
+  :Use TO;
+  stop
+endif
+
+if (Narrative / fiction?) then (yes)
+  :Use TON;
+  stop
+endif
+
+:Use TAW\n(hypothesis);
+
+stop
+@enduml
+

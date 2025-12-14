@@ -1,0 +1,35 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Number Construction (Integers)
+
+start
+
+:Digit Detected\n(HO … NU);
+
+if (Magnitude > 9?) then (yes)
+  :Apply Tens\n(TE);
+endif
+
+if (Magnitude > 99?) then (yes)
+  :Apply Hundreds\n(HE);
+endif
+
+if (Magnitude ≥ 1,000?) then (yes)
+  :Determine Scale\n(HOOO);
+  :Bind Scale with HI;
+endif
+
+:Optional Chunking\n(WI for clarity);
+
+:Integer Formed;
+
+note right
+Large numbers grow
+by logical stacking,
+not new vocabulary.
+end note
+
+stop
+@enduml
+

@@ -1,0 +1,27 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Glyph Composition Model
+
+rectangle "Consonant Glyph\n(P, T, K, M, …)" as C
+rectangle "Vowel Glyph\n(A, E, I, O, U, …)" as V
+rectangle "Negation Glyph\n(¬)" as N
+
+rectangle "Imaginary Binding Point" as B
+
+C --> B
+V --> B
+N --> B
+
+rectangle "Letter\n(CV / CVV / ¬V / C¬)" as L
+
+B --> L
+
+note right of L
+A single letter is formed
+by combining glyphs
+around a logical center.
+end note
+
+@enduml
+

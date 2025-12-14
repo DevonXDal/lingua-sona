@@ -1,0 +1,36 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Learning Progression
+
+start
+
+:Learn Core Glyphs;
+
+:Form Letters\n(CV / CVV / ¬V / C¬ / ¬VV);
+
+:Learn Core Roots\n(≤ 3 letters);
+
+:Apply Classifiers\n(Za / Ze / Zi / Zo / Zu);
+
+:Build Simple Sentences;
+
+:Introduce Evidentiality;
+
+:Learn Compounds\n(HI / WI);
+
+:Numbers & Quantities;
+
+:Formal Writing\n(science, law, code);
+
+:Fluent Use;
+
+note right
+Each stage builds on
+previous logic.
+No memorization cliffs.
+end note
+
+stop
+@enduml
+

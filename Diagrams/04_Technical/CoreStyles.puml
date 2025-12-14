@@ -1,0 +1,38 @@
+' ===============================
+' Lingua Sona – Core Diagram Style
+' ===============================
+
+skinparam backgroundColor #FBF7F0
+skinparam defaultFontName "JetBrains Mono"
+skinparam defaultFontSize 14
+
+skinparam shadowing false
+skinparam roundcorner 18
+
+skinparam ArrowColor #3A3A3A
+skinparam ArrowThickness 1.2
+
+skinparam Activity {
+  BackgroundColor #FFFFFF
+  BorderColor #3A3A3A
+  FontColor #1F1F1F
+}
+
+skinparam State {
+  BackgroundColor #FFFFFF
+  BorderColor #3A3A3A
+  FontColor #1F1F1F
+}
+
+skinparam Note {
+  BackgroundColor #F3EFE6
+  BorderColor #A89F91
+  FontColor #3A3A3A
+  FontStyle italic
+}
+
+skinparam stereotype {
+  CBackgroundColor #EFE8DA
+  CBorderColor #3A3A3A
+}
+

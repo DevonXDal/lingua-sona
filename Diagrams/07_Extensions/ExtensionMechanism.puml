@@ -1,0 +1,32 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Extension Mechanism
+
+start
+
+:Existing Root or Concept;
+
+if (New Meaning Needed?) then (yes)
+  :Apply Classifier;
+endif
+
+if (Still Insufficient?) then (yes)
+  :Form Compound\n(HI / WI);
+endif
+
+if (Domain-Specific?) then (yes)
+  :Use Contextual Extension;
+endif
+
+:Meaning Extended;
+
+note right
+New ideas grow through
+composition, not vocabulary
+explosion.
+end note
+
+stop
+@enduml
+

@@ -1,0 +1,38 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Classifier Resolution Flow
+
+start
+
+:Classifier Detected?;
+
+if (Zon?) then (yes)
+  :Meta-linguistic mode;
+  :Refers to word or\nclassifier itself;
+  stop
+endif
+
+if (Zou?) then (yes)
+  :Proper / Significant Entity;
+  stop
+endif
+
+if (Z¬?) then (yes)
+  :Negated / Null Context;
+endif
+
+:Apply Classifier to Root;
+
+note right
+Classifier anchors the root
+to an ontological domain:
+person, place, object, action,
+quality, concept, or time.
+end note
+
+:Meaning Resolved;
+
+stop
+@enduml
+

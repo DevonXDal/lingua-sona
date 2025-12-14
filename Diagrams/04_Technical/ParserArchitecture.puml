@@ -1,0 +1,44 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Parser Architecture
+
+package "Input" {
+  [Text Stream]
+}
+
+package "Lexical Analysis" {
+  [Tokenizer]
+  [Glyph Resolver]
+}
+
+package "Syntactic Analysis" {
+  [Classifier Resolver]
+  [Grammar Validator]
+}
+
+package "Semantic Analysis" {
+  [Evidentiality Checker]
+  [Meaning Resolver]
+}
+
+package "Output" {
+  [Abstract Syntax Tree]
+}
+
+[Text Stream] --> [Tokenizer]
+[Tokenizer] --> [Glyph Resolver]
+[Glyph Resolver] --> [Classifier Resolver]
+[Classifier Resolver] --> [Grammar Validator]
+[Grammar Validator] --> [Evidentiality Checker]
+[Evidentiality Checker] --> [Meaning Resolver]
+[Meaning Resolver] --> [Abstract Syntax Tree]
+
+note right of [Evidentiality Checker]
+Factual claims that
+lack evidentiality
+fail validation.
+end note
+
+@enduml
+

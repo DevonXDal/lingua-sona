@@ -1,0 +1,38 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Evidentiality Decision Flow
+
+start
+
+:Statement Detected;
+
+if (Is the statement factual?) then (yes)
+  :Evidentiality REQUIRED;
+else (no)
+  :Evidentiality Optional;
+endif
+
+if (Evidence Source?) then (yes)
+  :Select Evidential Type;
+else (no)
+  :Use T¬\n(subjective / poetic);
+endif
+
+:Append Evidential Marker;
+
+if (Source Known?) then (yes)
+  :Append Source;
+endif
+
+:Statement Valid;
+
+note right
+A factual claim without
+evidentiality is incomplete,
+not forbidden.
+end note
+
+stop
+@enduml
+

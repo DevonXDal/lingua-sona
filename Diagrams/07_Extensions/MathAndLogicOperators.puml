@@ -1,0 +1,30 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Math & Logic Operators
+
+start
+
+:Numeric or Logical Expression;
+
+:Apply Number System\n(Base 2 / 10 / 16);
+
+if (Operation?) then (yes)
+  :Apply Operator\n(add, subtract, compare);
+endif
+
+if (Logical Relation?) then (yes)
+  :Apply Logical Connector\n(and, or, not);
+endif
+
+:Expression Evaluated;
+
+note right
+Mathematics uses the
+same structural rules
+as natural language.
+end note
+
+stop
+@enduml
+

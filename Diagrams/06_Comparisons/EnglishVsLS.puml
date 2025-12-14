@@ -1,0 +1,33 @@
+@startuml
+!include CoreStyles.puml
+
+title English vs Lingua Sona — Structural Comparison
+
+package "English" {
+  [Implicit Context]
+  [Irregular Grammar]
+  [Ambiguous Words]
+  [No Evidentiality]
+}
+
+package "Lingua Sona" {
+  [Explicit Classifiers]
+  [Zero Irregulars]
+  [Procedural Disambiguation]
+  [Mandatory Evidentiality]
+}
+
+[Implicit Context] --> [Ambiguous Words]
+[Irregular Grammar] --> [Ambiguous Words]
+
+[Explicit Classifiers] --> [Procedural Disambiguation]
+[Zero Irregulars] --> [Procedural Disambiguation]
+[Mandatory Evidentiality] --> [Verifiable Claims]
+
+note right of [Procedural Disambiguation]
+Meaning collapses early
+through structure.
+end note
+
+@enduml
+

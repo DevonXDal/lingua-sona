@@ -1,0 +1,33 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Word Construction Pipeline
+
+start
+
+:Letter Sequence Detected;
+
+:Check Length;
+
+if (≤ 3 letters?) then (yes)
+  :Atomic Root;
+else (no)
+  :Compound Candidate;
+endif
+
+if (Compound?) then (yes)
+  :Insert Binder\n(HI or WI);
+endif
+
+:Apply Classifier\n(Za / Ze / Zi / Zo / Zu / Zooo);
+
+:Word Formed;
+
+note right
+Compound words do NOT
+count toward the term limit.
+end note
+
+stop
+@enduml
+

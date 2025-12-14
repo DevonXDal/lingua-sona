@@ -1,0 +1,35 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Decimals, Fractions, and Negatives
+
+start
+
+:Base Number Formed;
+
+if (Negative?) then (yes)
+  :Prefix Z¬;
+endif
+
+if (Decimal?) then (yes)
+  :Insert ¬E\n(decimal marker);
+  :Append Decimal Digits;
+endif
+
+if (Fraction?) then (yes)
+  :Numerator;
+  :Insert PO\n(over);
+  :Denominator;
+endif
+
+:Numeric Expression Complete;
+
+note right
+All numeric forms reuse
+the same base digits.
+No special symbols required.
+end note
+
+stop
+@enduml
+

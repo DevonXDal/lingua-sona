@@ -1,0 +1,39 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — AST Construction
+
+start
+
+:Validated Token Stream;
+
+:Build Sentence Node;
+
+:Attach Subject Node;
+:Attach Verb Node;
+
+if (Object Present?) then (yes)
+  :Attach Object Node;
+endif
+
+while (Adverbials Present?) is (yes)
+  :Attach Adverbial Node;
+endwhile (no)
+
+:Attach Evidentiality Node;
+
+if (Source Present?) then (yes)
+  :Attach Source Node;
+endif
+
+:Emit AST;
+
+note right
+Every factual sentence
+produces a complete,
+self-describing tree.
+end note
+
+stop
+@enduml
+

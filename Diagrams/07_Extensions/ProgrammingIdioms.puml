@@ -1,0 +1,32 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Programming Idioms
+
+start
+
+:Statement Detected;
+
+if (Conditional?) then (yes)
+  :If–Then Structure;
+endif
+
+if (Iteration?) then (yes)
+  :Loop Construct;
+endif
+
+if (Assignment?) then (yes)
+  :Bind Value to Concept;
+endif
+
+:Executable-Like Sentence;
+
+note right
+Lingua Sona sentences
+map cleanly to
+program structures.
+end note
+
+stop
+@enduml
+

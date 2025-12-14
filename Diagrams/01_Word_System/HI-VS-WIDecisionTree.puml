@@ -1,0 +1,29 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — HI vs WI Binding Decision
+
+start
+
+:Two Roots Detected;
+
+if (Would either root alone\nmislead the listener?) then (yes)
+  :Use HI\n(Strong Binding);
+  stop
+endif
+
+if (Is the relation\n“of / is-a subtype”?) then (yes)
+  :Use HI\n(Constitutive);
+  stop
+endif
+
+if (Is one root merely\nframing or contextual?) then (yes)
+  :Use WI\n(Loose Binding);
+  stop
+endif
+
+:Default to HI\n(Least misleading);
+
+stop
+@enduml
+

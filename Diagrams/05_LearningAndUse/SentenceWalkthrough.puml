@@ -1,0 +1,30 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Sentence Walkthrough
+
+start
+
+:Choose Root Concepts;
+
+:Apply Classifiers;
+
+:Order as S–V–O;
+
+:Add Adverbials\n(if needed);
+
+:Attach Evidentiality;
+
+:Add Source\n(if relevant);
+
+:Sentence Spoken / Written;
+
+note right
+Every step is optional
+except evidentiality
+for factual claims.
+end note
+
+stop
+@enduml
+

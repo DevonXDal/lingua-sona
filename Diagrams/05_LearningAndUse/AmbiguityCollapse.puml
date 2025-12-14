@@ -1,0 +1,31 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Ambiguity Collapse Model
+
+start
+
+:Root Detected;
+
+if (Multiple Meanings?) then (yes)
+  :Apply Classifier;
+endif
+
+if (Still Ambiguous?) then (yes)
+  :Apply Compound\n(HI / WI);
+endif
+
+if (Still Ambiguous?) then (yes)
+  :Add Adverbial\nor Context;
+endif
+
+:Meaning Converges;
+
+note right
+Ambiguity is resolved
+procedurally, not culturally.
+end note
+
+stop
+@enduml
+

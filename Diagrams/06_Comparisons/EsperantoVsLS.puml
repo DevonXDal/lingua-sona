@@ -1,0 +1,33 @@
+@startuml
+!include CoreStyles.puml
+
+title Esperanto vs Lingua Sona — Design Scope
+
+package "Esperanto" {
+  [Regular Morphology]
+  [Eurocentric Roots]
+  [Optional Context]
+  [No Formal Evidence System]
+}
+
+package "Lingua Sona" {
+  [Minimal Roots]
+  [Classifier-Based Context]
+  [Global Phonetics]
+  [Evidential Enforcement]
+}
+
+[Regular Morphology] --> [Learnability]
+[Eurocentric Roots] --> [Cultural Bias]
+
+[Minimal Roots] --> [Compression]
+[Classifier-Based Context] --> [Disambiguation]
+[Evidential Enforcement] --> [Truth Transparency]
+
+note right of [Evidential Enforcement]
+Truth claims must
+declare their source.
+end note
+
+@enduml
+

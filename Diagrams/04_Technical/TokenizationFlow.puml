@@ -1,0 +1,30 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Tokenization Flow
+
+start
+
+:Raw Text Input;
+
+:Split into Glyphs;
+
+:Combine Glyphs\ninto Letters;
+
+:Group Letters\ninto Tokens;
+
+if (Classifier Detected?) then (yes)
+  :Tag Token with\nContext Domain;
+endif
+
+:Token Stream Ready;
+
+note right
+Token boundaries are
+unambiguous due to
+phonetic structure.
+end note
+
+stop
+@enduml
+

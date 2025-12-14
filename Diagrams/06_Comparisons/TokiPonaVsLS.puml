@@ -1,0 +1,30 @@
+@startuml
+!include CoreStyles.puml
+
+title Toki Pona vs Lingua Sona — Scalability
+
+package "Toki Pona" {
+  [~120 Root Words]
+  [Extreme Ambiguity]
+  [Context by Convention]
+}
+
+package "Lingua Sona" {
+  [Bounded Lexicon]
+  [Classifier System]
+  [Compound Logic]
+}
+
+[~120 Root Words] --> [High Context Load]
+[Extreme Ambiguity] --> [Cultural Dependence]
+
+[Classifier System] --> [Controlled Meaning]
+[Compound Logic] --> [Scalable Vocabulary]
+
+note right of [Compound Logic]
+Complex ideas grow
+without lexical explosion.
+end note
+
+@enduml
+

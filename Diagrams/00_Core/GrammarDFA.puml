@@ -1,0 +1,34 @@
+@startuml
+!include CoreStyles.puml
+
+title Lingua Sona — Grammar DFA (Core)
+
+[*] --> Subject : sentence start
+
+Subject --> Verb : valid
+
+Subject --> Evidentiality : evidential-only\nassertion
+
+Verb --> Object : optional
+Verb --> Adverbial : optional
+
+Object --> Adverbial : optional
+Adverbial --> Adverbial : repeatable
+
+Verb --> Evidentiality
+Object --> Evidentiality
+Adverbial --> Evidentiality
+
+Evidentiality --> Source : optional
+Evidentiality --> [*]
+
+Source --> [*]
+
+note right of Evidentiality
+No factual sentence
+may terminate
+without passing here.
+end note
+
+@enduml
+
