@@ -522,6 +522,49 @@ You may have already noticed but this project uses AI to assist its development.
 
 ---
 
+## 🤝 Support Lingua Sona
+
+Lingua Sona is an open, long-term project focused on building a logically sound, globally usable language system.  
+If you find this work valuable and would like to support its continued development, you may do so voluntarily.
+
+### 💠 How Support Is Used
+
+All donations are allocated transparently:
+
+- **80% — Project Reinvestment**
+  - Documentation, tooling, and infrastructure
+  - Fonts, diagrams, educational materials
+  - Hosting, repositories, and long-term archival
+  - Research, testing, and publication preparation
+
+- **20% — Contributor Support**
+  - Modest compensation for the core maintainers’ time
+  - Development tooling (e.g., professional software, AI assistance)
+  - Sustaining consistent progress over long timelines
+
+This split exists to keep the project healthy without compromising its open nature.
+
+### 🧭 What Support Does *Not* Buy
+- No ownership, voting rights, or control
+- No influence over linguistic decisions
+- No special access or priority treatment
+
+Lingua Sona remains open, collaborative, and governed by its design principles—not by funding sources.
+
+### 🌱 Why This Matters
+Building a serious world-language candidate is slow, careful work.  
+Your support helps convert unpaid passion into sustainable momentum—without turning the project into a product.
+
+> Support is optional, appreciated, and never required.
+
+---
+
+## Looking for Formal Grammar?
+
+The authoritative grammar of Lingua Sona is defined in EBNF under
+`~/Language/09_ForAdvancedLinguisticAndProgrammaticUse/`.
+Diagrams are there to help visualize and explain that grammar.
+
 <!-- Reference Links -->
 
 [p]: https://en.wikipedia.org/wiki/Voiceless_bilabial_stop
