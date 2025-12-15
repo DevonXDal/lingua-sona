@@ -5,6 +5,9 @@ Financial support is **optional** and exists solely to help sustain development 
 
 This document explains **how funds are used**, **what support does and does not imply**, and **how transparency is maintained**.
 
+Interested in sponsoring this project?:
+👉 **https://github.com/sponsors/DevonXDal**
+
 ---
 
 ## 🧭 Core Principles

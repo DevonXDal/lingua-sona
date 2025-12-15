@@ -43,6 +43,20 @@ This provides for a large alphabet which can be written quickly and can be used 
 
 ---
 
+## 🤝 Support the Project
+
+Lingua Sona is an open, long-term language design project built carefully and deliberately.
+
+If you find this work valuable and want to help sustain its development, optional sponsorship is available:
+
+👉 **https://github.com/sponsors/DevonXDal**
+
+Support is transparent, never required, and does not influence design decisions. We appreciate all who choose to do so.  
+For details, see **[FUNDING.md](./FUNDING.md)**.
+
+---
+
+
 ## 🧬 Core Inspirations
 
 Lingua Sona draws linguistic and structural inspiration from:
@@ -519,43 +533,6 @@ You may have already noticed but this project uses AI to assist its development.
 > **Lingua Sona** seeks not only to simplify communication,  
 > but to *unify human understanding* through clarity, logic, and beauty.  
 > It is not just a conlang — it is a blueprint for linguistic evolution.
-
----
-
-## 🤝 Support Lingua Sona
-
-Lingua Sona is an open, long-term project focused on building a logically sound, globally usable language system.  
-If you find this work valuable and would like to support its continued development, you may do so voluntarily.
-
-### 💠 How Support Is Used
-
-All donations are allocated transparently:
-
-- **80% — Project Reinvestment**
-  - Documentation, tooling, and infrastructure
-  - Fonts, diagrams, educational materials
-  - Hosting, repositories, and long-term archival
-  - Research, testing, and publication preparation
-
-- **20% — Contributor Support**
-  - Modest compensation for the core maintainers’ time
-  - Development tooling (e.g., professional software, AI assistance)
-  - Sustaining consistent progress over long timelines
-
-This split exists to keep the project healthy without compromising its open nature.
-
-### 🧭 What Support Does *Not* Buy
-- No ownership, voting rights, or control
-- No influence over linguistic decisions
-- No special access or priority treatment
-
-Lingua Sona remains open, collaborative, and governed by its design principles—not by funding sources.
-
-### 🌱 Why This Matters
-Building a serious world-language candidate is slow, careful work.  
-Your support helps convert unpaid passion into sustainable momentum—without turning the project into a product.
-
-> Support is optional, appreciated, and never required.
 
 ---
 

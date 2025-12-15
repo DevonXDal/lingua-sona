@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation and Design Philosophy
+    url: https://github.com/DevonXDal/lingua-sona
+    about: Please review the documentation before opening an issue.
+
