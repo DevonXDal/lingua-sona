@@ -9,3 +9,6 @@ Likely, you'll find that at points, a proper noun of some form of foreign nature
 - W -> R with the rolling r sound that drives it.
 - K -> Q with a "kw-" sound
 - Z -> X with a "zy-" sound
+
+## Important Rule
+*Foreign sound markers never change sorting or base identity, only pronunciation.*
