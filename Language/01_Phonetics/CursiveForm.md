@@ -1,0 +1,2 @@
+# Cursive Form Counterpart for Lingua Sona
+If you wish to string all letters for a word together in Lingua Sona, you can do its form of cursive, wherein you connect the endpoint of the vowel of the previous letter to the starting point of a new letter  using a line to connect the two points with a small half-circle arc "hop" along the middle. This This diagonal with a hop helps others read the points where each letter begins and ends easier.
