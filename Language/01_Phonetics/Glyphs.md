@@ -49,16 +49,16 @@ If unable to click on the audio links, please find the matching glyph in the ref
 
 ### Vowels - *8*
 
-| Latin Glyph | IPA | Audio | Notes |
-|:--|:--|:--|:--|
-| **A** | /a/ | [Audio][a] | Pure open vowel |
-| **E** | /e/ | [Audio][e] | Mid-front vowel |
-| **I** | /i/ | [Audio][i] | High front vowel |
-| **O** | /ɔ/ \| /o/ | [Audio][o] | Flexible rounding |
-| **U** | /u/ | [Audio][u] | High back rounded |
-| **AH/AW** | /ɑ/ | [Audio][aw] | Low back vowel |
-| **ON** | /ɤ/ \| /ʌ/ \| /ɣ̞/ \| /ɯ̞/ | [Audio][on] | Mild variation acceptable |
-| **OOO** | /ʉ/ | [Audio][ooo] | High central rounded |
+| Latin Glyph | IPA                        | Audio        | Notes                     |
+| :---------- | :------------------------- | :----------- | :------------------------ |
+| **A**       | /a/                        | [Audio][a]   | Pure open vowel           |
+| **E**       | /e/                        | [Audio][e]   | Mid-front vowel           |
+| **I**       | /i/                        | [Audio][i]   | High front vowel          |
+| **O**       | /ɔ/ \| /o/                 | [Audio][o]   | Flexible rounding         |
+| **U**       | /u/                        | [Audio][u]   | High back rounded         |
+| **AH/AW**   | /ɑ/                        | [Audio][aw]  | Low back vowel            |
+| **ON**      | /ɤ/ \| /ʌ/ \| /ɣ̞/ \| /ɯ̞/ | [Audio][on]  | Mild variation acceptable |
+| **OOO**     | /ʉ/                        | [Audio][ooo] | High central rounded      |
 
 ### VV Letters (Vowel Clusters) - *5*
 | VV Letter | IPA | Audio | Notes |
