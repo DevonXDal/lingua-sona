@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="1024" height="1024" viewBox="0 0 270.93333 270.93333" version="1.1" id="svg5" ns1:version="1.2.2 (b0a8486541, 2022-12-01)" ns2:docname="InkscapeProject.svg" ns1:export-filename="D.png" ns1:export-xdpi="96" ns1:export-ydpi="96">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="1024" height="1024" viewBox="0 0 270.93333 270.93333" version="1.1" id="svg5" ns1:version="1.2.2 (b0a8486541, 2022-12-01)" ns2:docname="InkscapeProject.svg" ns1:export-filename="D.png" ns1:export-xdpi="96" ns1:export-ydpi="96">
   <ns2:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#111111" borderopacity="1" ns1:showpageshadow="0" ns1:pageopacity="0" ns1:pagecheckerboard="1" ns1:deskcolor="#d1d1d1" ns1:document-units="mm" showgrid="true" ns1:zoom="0.74653478" ns1:cx="559.25057" ns1:cy="517.05562" ns1:window-width="1920" ns1:window-height="1008" ns1:window-x="0" ns1:window-y="0" ns1:window-maximized="1" ns1:current-layer="layer5" showguides="false">
     <ns1:grid type="xygrid" id="grid18" spacingx="4.2333333" spacingy="4.2333333" color="#3800e5" opacity="0.14901961" empcolor="#000ee5" empopacity="0.30196078" empspacing="4" />
   </ns2:namedview>
-  <ns0:defs id="defs2" />
-  <ns0:g ns1:groupmode="layer" id="layer4" ns1:label="Special">
-    <ns0:path style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M 33.866666,84.666666 H 135.46666 v 50.799994" id="C_NEGATION" ns1:label="C_NEGATION" ns2:insensitive="true" />
-  </ns0:g>
+  <defs id="defs2" />
+  <g ns1:groupmode="layer" id="layer4" ns1:label="Special">
+    <path style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M 33.866666,84.666666 H 135.46666 v 50.799994" id="C_NEGATION" ns1:label="C_NEGATION" ns2:insensitive="true" />
+  </g>
 <ns2:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#111111" borderopacity="1" ns1:showpageshadow="0" ns1:pageopacity="0" ns1:pagecheckerboard="1" ns1:deskcolor="#d1d1d1" ns1:document-units="mm" showgrid="true" ns1:zoom="0.74653478" ns1:cx="559.25057" ns1:cy="517.05562" ns1:window-width="1920" ns1:window-height="1008" ns1:window-x="0" ns1:window-y="0" ns1:window-maximized="1" ns1:current-layer="layer5" showguides="false">
     <ns1:grid type="xygrid" id="grid18" spacingx="4.2333333" spacingy="4.2333333" color="#3800e5" opacity="0.14901961" empcolor="#000ee5" empopacity="0.30196078" empspacing="4" />
   </ns2:namedview>
-  <ns0:defs id="defs2" />
-  <ns0:g ns1:groupmode="layer" id="layer3" ns1:label="Vowel Fragments" style="display:inline">
-    <ns0:path style="display:inline;fill:none;stroke:#000104;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="m 135.46666,135.46666 h 50.8 v 101.6 h 50.8" id="U" ns1:label="U" ns2:insensitive="true" />
-  </ns0:g>
-</ns0:svg>
+  <defs id="defs2" />
+  <g ns1:groupmode="layer" id="layer3" ns1:label="Vowel Fragments" style="display:inline">
+    <path style="display:inline;fill:none;stroke:#000104;stroke-width:5px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" d="m 135.46666,135.46666 h 50.8 v 101.6 h 50.8" id="U" ns1:label="U" ns2:insensitive="true" />
+  </g>
+</svg>

@@ -4,6 +4,7 @@
 # =======================================
 import subprocess
 from pathlib import Path
+from math import tan, radians
 import itertools
 import tempfile
 import shutil
@@ -38,6 +39,9 @@ NUMERAL_IDS = [
     "0","1","2","3","4","5","6","7","8","9",
     "HEX_A","HEX_B","HEX_C","HEX_D","HEX_E","HEX_F","000"
 ]
+
+SVG_NS = "http://www.w3.org/2000/svg"
+ET.register_namespace("", SVG_NS)
 
 # --------------------
 # UTILITIES
@@ -75,10 +79,38 @@ def set_stroke_width(svg_root, width):
             el.attrib["style"] = ";".join(parts)
 
 def apply_italic(svg_root):
-    for el in svg_root.iter():
-        if el.tag.endswith("g"):
-            t = el.attrib.get("transform", "")
-            el.attrib["transform"] = f"{t} skewX(12)"
+    skew_angle = 12
+    canvas_center_y = 1024 / 2
+    x_shift = -canvas_center_y * tan(radians(skew_angle)) * 0.5  # reduced to 50%
+
+    # Optional: clamp shift minimum
+    x_shift = max(x_shift, -100)
+
+    # Move & skew simultaneously to keep baseline centered-ish
+    transform = f"translate({x_shift},0) skewX({skew_angle})"
+
+    original_children = list(svg_root)
+    for child in original_children:
+        svg_root.remove(child)
+
+    group = ET.Element(f"{{{SVG_NS}}}g", attrib={
+        "transform": transform
+    })
+
+    for child in original_children:
+        group.append(child)
+
+    svg_root.append(group)
+
+    debug_border = ET.Element("rect", attrib={
+        "x": "0", "y": "0",
+        "width": str(CANVAS_SIZE),
+        "height": str(CANVAS_SIZE),
+        "fill": "none",
+        "stroke": "red",
+        "stroke-width": "2"
+    })
+    svg_root.append(debug_border)
 
 def merge_svgs(left: Path, right: Path, out: Path):
     t1 = ET.parse(left)
