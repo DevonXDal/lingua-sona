@@ -188,7 +188,7 @@ IPA is provided for precision.
 | **I** | /i/ | [Audio][i] | High front vowel |
 | **O** | /ɔ/ \| /o/ | [Audio][o] | Flexible rounding |
 | **U** | /u/ | [Audio][u] | High back rounded |
-| **AH/AW** | /ɑ/ | [Audio][aw] | Low back vowel |
+| **AHW** | /ɑ/ | [Audio][aw] | Low back vowel |
 | **ON** | /ɤ/ \| /ʌ/ \| /ɣ̞/ \| /ɯ̞/ | [Audio][on] | Mild variation acceptable |
 | **OOO** | /ʉ/ | [Audio][ooo] | High central rounded |
 
@@ -255,22 +255,22 @@ AI, EI, OI, AU, OU
 ## **A. Core Consonant + Vowel Letters (CV form)**
 *(112 forms)*
 
-| Consonant ↓ / Vowel → | A | E | I | O | U | AH | ON | OOO |
+| Consonant ↓ / Vowel → | A | E | I | O | U | AHW | ON | OOO |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **P** | PA | PE | PI | PO | PU | PAH | PON | POOO |
-| **T** | TA | TE | TI | TO | TU | TAH | TON | TOOO |
-| **K** | KA | KE | KI | KO | KU | KAH | KON | KOOO |
-| **M** | MA | ME | MI | MO | MU | MAH | MON | MOOO |
-| **N** | NA | NE | NI | NO | NU | NAH | NON | NOOO |
-| **F** | FA | FE | FI | FO | FU | FAH | FON | FOOO |
-| **S** | SA | SE | SI | SO | SU | SAH | SON | SOOO |
-| **SH** | SHA | SHE | SHI | SHO | SHU | SHAH | SHON | SHOOO |
-| **L** | LA | LE | LI | LO | LU | LAH | LON | LOOO |
-| **W** | WA | WE | WI | WO | WU | WAH | WON | WOOO |
-| **Y** | YA | YE | YI | YO | YU | YAH | YON | YOOO |
-| **H** | HA | HE | HI | HO | HU | HAH | HON | HOOO |
-| **G** | GA | GE | GI | GO | GU | GAH | GON | GOOO |
-| **CH** | CHA | CHE | CHI | CHO | CHU | CHAH | CHON | CHOOO |
+| **P** | PA | PE | PI | PO | PU | PAHW | PON | POOO |
+| **T** | TA | TE | TI | TO | TU | TAHW | TON | TOOO |
+| **K** | KA | KE | KI | KO | KU | KAHW | KON | KOOO |
+| **M** | MA | ME | MI | MO | MU | MAHW | MON | MOOO |
+| **N** | NA | NE | NI | NO | NU | NAHW | NON | NOOO |
+| **F** | FA | FE | FI | FO | FU | FAHW | FON | FOOO |
+| **S** | SA | SE | SI | SO | SU | SAHW | SON | SOOO |
+| **SH** | SHA | SHE | SHI | SHO | SHU | SHAHW | SHON | SHOOO |
+| **L** | LA | LE | LI | LO | LU | LAHW | LON | LOOO |
+| **W** | WA | WE | WI | WO | WU | WAHW | WON | WOOO |
+| **Y** | YA | YE | YI | YO | YU | YAHW | YON | YOOO |
+| **H** | HA | HE | HI | HO | HU | HAHW | HON | HOOO |
+| **G** | GA | GE | GI | GO | GU | GAHW | GON | GOOO |
+| **CH** | CHA | CHE | CHI | CHO | CHUW | CHAH | CHON | CHOOO |
 
 ---
 
@@ -284,7 +284,7 @@ AI, EI, OI, AU, OU
 | **I** | ¬I |
 | **O** | ¬O |
 | **U** | ¬U |
-| **AH** | ¬AH |
+| **AHW** | ¬AHW |
 | **ON** | ¬ON |
 | **OOO** | ¬OOO |
 
@@ -401,11 +401,11 @@ AI, EI, OI, AU, OU
 ## **Full Letter Total (Including Non-Core Consonants Z, B, D)**
 
 Add CV sets for:
-| Non-Core C + V | A | E | I | O | U | AH | ON | OOO |
+| Non-Core C + V | A | E | I | O | U | AHW | ON | OOO |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Z** | ZA | ZE | ZI | ZO | ZU | ZAH | ZON | ZOOO |
-| **B** | BA | BE | BI | BO | BU | BAH | BON | BOOO |
-| **D** | DA | DE | DI | DO | DU | DAH | DON | DOOO |
+| **Z** | ZA | ZE | ZI | ZO | ZU | ZAHW | ZON | ZOOO |
+| **B** | BA | BE | BI | BO | BU | BAHW | BON | BOOO |
+| **D** | DA | DE | DI | DO | DU | DAHW | DON | DOOO |
 
 Add CVV sets for:
 | Non-Core C + VV | AI | EI | OI | AU | OU |

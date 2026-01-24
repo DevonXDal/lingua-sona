@@ -15,38 +15,38 @@ Letters are depicted by using a glyph for the consonant or a [[Negated Letter Gl
 ## A. Core Consonant + Vowel Letters (CV form)
 *(112 forms)*
 
-| Consonant ↓ / Vowel → | A | E | I | O | U | AH | ON | OOO |
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **P** | PA | PE | PI | PO | PU | PAH | PON | POOO |
-| **T** | TA | TE | TI | TO | TU | TAH | TON | TOOO |
-| **K** | KA | KE | KI | KO | KU | KAH | KON | KOOO |
-| **M** | MA | ME | MI | MO | MU | MAH | MON | MOOO |
-| **N** | NA | NE | NI | NO | NU | NAH | NON | NOOO |
-| **F** | FA | FE | FI | FO | FU | FAH | FON | FOOO |
-| **S** | SA | SE | SI | SO | SU | SAH | SON | SOOO |
-| **SH** | SHA | SHE | SHI | SHO | SHU | SHAH | SHON | SHOOO |
-| **L** | LA | LE | LI | LO | LU | LAH | LON | LOOO |
-| **W** | WA | WE | WI | WO | WU | WAH | WON | WOOO |
-| **Y** | YA | YE | YI | YO | YU | YAH | YON | YOOO |
-| **H** | HA | HE | HI | HO | HU | HAH | HON | HOOO |
-| **G** | GA | GE | GI | GO | GU | GAH | GON | GOOO |
-| **CH** | CHA | CHE | CHI | CHO | CHU | CHAH | CHON | CHOOO |
+| Consonant ↓ / Vowel → |  A  |  E  |  I  |  O  |  U  |  AHW  |  ON  |  OOO  |
+| :-------------------- | :-: | :-: | :-: | :-: | :-: | :---: | :--: | :---: |
+| **P**                 | PA  | PE  | PI  | PO  | PU  | PAHW  | PON  | POOO  |
+| **T**                 | TA  | TE  | TI  | TO  | TU  | TAHW  | TON  | TOOO  |
+| **K**                 | KA  | KE  | KI  | KO  | KU  | KAHW  | KON  | KOOO  |
+| **M**                 | MA  | ME  | MI  | MO  | MU  | MAHW  | MON  | MOOO  |
+| **N**                 | NA  | NE  | NI  | NO  | NU  | NAHW  | NON  | NOOO  |
+| **F**                 | FA  | FE  | FI  | FO  | FU  | FAHW  | FON  | FOOO  |
+| **S**                 | SA  | SE  | SI  | SO  | SU  | SAHW  | SON  | SOOO  |
+| **SH**                | SHA | SHE | SHI | SHO | SHU | SHAHW | SHON | SHOOO |
+| **L**                 | LA  | LE  | LI  | LO  | LU  | LAHW  | LON  | LOOO  |
+| **W**                 | WA  | WE  | WI  | WO  | WU  | WAHW  | WON  | WOOO  |
+| **Y**                 | YA  | YE  | YI  | YO  | YU  | YAHW  | YON  | YOOO  |
+| **H**                 | HA  | HE  | HI  | HO  | HU  | HAHW  | HON  | HOOO  |
+| **G**                 | GA  | GE  | GI  | GO  | GU  | GAHW  | GON  | GOOO  |
+| **CH**                | CHA | CHE | CHI | CHO | CHU | CHAHW | CHON | CHOOO |
 
 ---
 
 ## B. Vowel-Initial Letters (¬V form)
 *(8 forms)*
 
-| Vowel | Letter |
-|:--|:--|
-| **A** | ¬A |
-| **E** | ¬E |
-| **I** | ¬I |
-| **O** | ¬O |
-| **U** | ¬U |
-| **AH** | ¬AH |
-| **ON** | ¬ON |
-| **OOO** | ¬OOO |
+| Vowel   | Letter |
+| :------ | :----- |
+| **A**   | ¬A     |
+| **E**   | ¬E     |
+| **I**   | ¬I     |
+| **O**   | ¬O     |
+| **U**   | ¬U     |
+| **AHW** | ¬AHW   |
+| **ON**  | ¬ON    |
+| **OOO** | ¬OOO   |
 
 **Total:** 8 letters
 
@@ -56,55 +56,55 @@ Letters are depicted by using a glyph for the consonant or a [[Negated Letter Gl
 *(14 forms)*
 
 | Consonant | Letter |
-|:--|:--|
-| **P** | P¬ |
-| **T** | T¬ |
-| **K** | K¬ |
-| **M** | M¬ |
-| **N** | N¬ |
-| **F** | F¬ |
-| **S** | S¬ |
-| **SH** | SH¬ |
-| **L** | L¬ |
-| **W** | W¬ |
-| **Y** | Y¬ |
-| **H** | H¬ |
-| **G** | G¬ |
+| :-------- | :----- |
+| **P**     | P¬     |
+| **T**     | T¬     |
+| **K**     | K¬     |
+| **M**     | M¬     |
+| **N**     | N¬     |
+| **F**     | F¬     |
+| **S**     | S¬     |
+| **SH**    | SH¬    |
+| **L**     | L¬     |
+| **W**     | W¬     |
+| **Y**     | Y¬     |
+| **H**     | H¬     |
+| **G**     | G¬     |
 | **CH** | CH¬ |
 ---
 
 ## D. Consonant + Vowel Cluster (CVV form)
 *(70 forms)*
 
-| Consonant ↓ / Vowel Cluster → | AI | EI | OI | AU | OU |
-|:--|:--:|:--:|:--:|:--:|:--:|
-| **P** | PAI | PEI | POI | PAU | POU |
-| **T** | TAI | TEI | TOI | TAU | TOU |
-| **K** | KAI | KEI | KOI | KAU | KOU | 
-| **M** | MAI | MEI | MOI | MAU | MOU |
-| **N** | NAI | NEI | NOI | NAU | NOU | 
-| **F** | FAI | FEI | FOI | FAU | FOU | 
-| **S** | SAI | SEI | SOI | SAU | SOU | 
-| **SH** | SHAI | SHEI | SHOI | SHAU | SHOU |
-| **L** | LAI | LEI | LOI | LAU | LOU | 
-| **W** | WAI | WEI | WOI | WAU | WOU | 
-| **Y** | YAI | YEI | YOI | YAU | YOU | 
-| **H** | HAI | HEI | HOI | HAU | HOU | 
-| **G** | GAI | GEI | GOI | GAU | GOU | 
-| **CH** | CHAI | CHEI | CHOI | CHAU | CHOU |
+| Consonant ↓ / Vowel Cluster → |  AI  |  EI  |  OI  |  AU  |  OU  |     |
+| :---------------------------- | :--: | :--: | :--: | :--: | :--: | --- |
+| **P**                         | PAI  | PEI  | POI  | PAU  | POU  |     |
+| **T**                         | TAI  | TEI  | TOI  | TAU  | TOU  |     |
+| **K**                         | KAI  | KEI  | KOI  | KAU  | KOU  |     |
+| **M**                         | MAI  | MEI  | MOI  | MAU  | MOU  |     |
+| **N**                         | NAI  | NEI  | NOI  | NAU  | NOU  |     |
+| **F**                         | FAI  | FEI  | FOI  | FAU  | FOU  |     |
+| **S**                         | SAI  | SEI  | SOI  | SAU  | SOU  |     |
+| **SH**                        | SHAI | SHEI | SHOI | SHAU | SHOU |     |
+| **L**                         | LAI  | LEI  | LOI  | LAU  | LOU  |     |
+| **W**                         | WAI  | WEI  | WOI  | WAU  | WOU  |     |
+| **Y**                         | YAI  | YEI  | YOI  | YAU  | YOU  |     |
+| **H**                         | HAI  | HEI  | HOI  | HAU  | HOU  |     |
+| **G**                         | GAI  | GEI  | GOI  | GAU  | GOU  |     |
+| **CH**                        | CHAI | CHEI | CHOI | CHAU | CHOU |     |
 
 ---
 
 ## E. Vowel-Cluster-Initial Letters (¬VV form)  
 *(5 forms)*
 
-| Vowel | Letter |
-|:--|:--|
-| **AI** | ¬AI |
-| **EI** | ¬EI |
-| **OI** | ¬OI |
-| **AU** | ¬AU |
-| **OU** | ¬OU |
+| Vowel  | Letter |
+| :----- | :----- |
+| **AI** | ¬AI    |
+| **EI** | ¬EI    |
+| **OI** | ¬OI    |
+| **AU** | ¬AU    |
+| **OU** | ¬OU    |
 
 **Total:** 5 letters
 
@@ -124,11 +124,11 @@ Letters are depicted by using a glyph for the consonant or a [[Negated Letter Gl
 ## Full Letter Total (Including Non-Core Consonants Z, B, D)
 
 Add CV sets for:
-| Non-Core C + V | A | E | I | O | U | AH | ON | OOO |
+| Non-Core C + V | A | E | I | O | U | AHW | ON | OOO |
 |:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Z** | ZA | ZE | ZI | ZO | ZU | ZAH | ZON | ZOOO |
-| **B** | BA | BE | BI | BO | BU | BAH | BON | BOOO |
-| **D** | DA | DE | DI | DO | DU | DAH | DON | DOOO |
+| **Z** | ZA | ZE | ZI | ZO | ZU | ZAHW | ZON | ZOOO |
+| **B** | BA | BE | BI | BO | BU | BAHW | BON | BOOO |
+| **D** | DA | DE | DI | DO | DU | DAHW | DON | DOOO |
 
 Add CVV sets for:
 | Non-Core C + VV | AI | EI | OI | AU | OU |

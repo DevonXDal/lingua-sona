@@ -1,0 +1,180 @@
+import tkinter as tk
+from tkinter import ttk
+from tkinter import font
+import pyperclip
+
+# Unicode starting points
+LETTER_UNICODE_START = 0xE000
+NUMBER_UNICODE_START = 0xE300
+
+# Mapping data from Lingua Sona core tables 
+CORE_CV = [
+    "PA","PE","PI","PO","PU","PAH","PON","POOO",
+    "TA","TE","TI","TO","TU","TAH","TON","TOOO",
+    "KA","KE","KI","KO","KU","KAH","KON","KOOO",
+    "MA","ME","MI","MO","MU","MAH","MON","MOOO",
+    "NA","NE","NI","NO","NU","NAH","NON","NOOO",
+    "FA","FE","FI","FO","FU","FAH","FON","FOOO",
+    "SA","SE","SI","SO","SU","SAH","SON","SOOO",
+    "SHA","SHE","SHI","SHO","SHU","SHAH","SHON","SHOOO",
+    "LA","LE","LI","LO","LU","LAH","LON","LOOO",
+    "WA","WE","WI","WO","WU","WAH","WON","WOOO",
+    "JA","JE","JI","JO","JU","JAH","JON","JOOO",
+    "HA","HE","HI","HO","HU","HAH","HON","HOOO",
+    "GA","GE","GI","GO","GU","GAH","GON","GOOO",
+    "CHA","CHE","CHI","CHO","CHU","CHAH","CHON","CHOOO",
+]
+
+V_INITIAL = ["-A","-E","-I","-O","-U","-AH","-ON","-OOO"]
+
+C_FINAL = [
+    "P-","T-","K-","M-","N-","F-","S-","SH-",
+    "L-","W-","J-","H-","G-","CH-"
+]
+
+CVV = [
+    "PAI","PEI","POI","PAU","POU",
+    "TAI","TEI","TOI","TAU","TOU",
+    "KAI","KEI","KOI","KAU","KOU",
+    "MAI","MEI","MOI","MAU","MOU",
+    "NAI","NEI","NOI","NAU","NOU",
+    "FAI","FEI","FOI","FAU","FOU",
+    "SAI","SEI","SOI","SAU","SOU",
+    "SHAI","SHEI","SHOI","SHAU","SHOU",
+    "LAI","LEI","LOI","LAU","LOU",
+    "WAI","WEI","WOI","WAU","WOU",
+    "JAI","JEI","JOI","JAU","JOU",
+    "HAI","HEI","HOI","HAU","HOU",
+    "GAI","GEI","GOI","GAU","GOU",
+    "CHAI","CHEI","CHOI","CHAU","CHOU"
+]
+
+VV_INITIAL = ["-AI","-EI","-OI","-AU","-OU"]
+
+NONCORE_CV = [
+    "ZA","ZE","ZI","ZO","ZU","ZAH","ZON","ZOOO",
+    "BA","BE","BI","BO","BU","BAH","BON","BOOO",
+    "DA","DE","DI","DO","DU","DAH","DON","DOOO",
+]
+
+NONCORE_CVV = [
+    "ZAI","ZEI","ZOI","ZAU","ZOU",
+    "BAI","BEI","BOI","BAU","BOU",
+    "DAI","DEI","DOI","DAU","DOU",
+]
+
+NONCORE_FINAL = ["Z-","B-","D-"]
+
+
+def build_latin_to_unicode():
+    mapping = {}
+    cp = LETTER_UNICODE_START
+
+    ordered_symbols = (
+        CORE_CV
+        + V_INITIAL
+        + C_FINAL
+        + CVV
+        + VV_INITIAL
+        + NONCORE_CV
+        + NONCORE_CVV
+        + NONCORE_FINAL
+    )
+
+    for sym in ordered_symbols:
+        mapping[sym] = chr(cp)
+        cp += 1
+
+    return mapping
+
+LATIN_TO_UNICODE = build_latin_to_unicode()
+
+# Numbers block is separate and explicit
+LATIN_TO_UNICODE["0"]   = chr(NUMBER_UNICODE_START)       # E300
+LATIN_TO_UNICODE["000"] = chr(NUMBER_UNICODE_START + 1)   # E301
+
+for i, d in enumerate("123456789", start=2):
+    LATIN_TO_UNICODE[d] = chr(NUMBER_UNICODE_START + i)
+
+HEX_DIGITS = ["HEX_A","HEX_B","HEX_C","HEX_D","HEX_E","HEX_F"]
+for i, h in enumerate(HEX_DIGITS, start=11):
+    LATIN_TO_UNICODE[h] = chr(NUMBER_UNICODE_START + i)
+
+# Invert mapping for reverse transliteration
+UNICODE_TO_LATIN = {v: k for k, v in LATIN_TO_UNICODE.items()}
+
+# --- GUI App ---
+class LinguaSonaApp:
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Lingua Sona Latin<->Glyph Converter")
+
+        self.preferred_fonts = ["LinguaSona Sans", "Noto Sans", "Liberation Sans", "Arial", "sans-serif"]
+        self.available_fonts = font.families()
+
+        for pf in self.preferred_fonts:
+            if pf in self.available_fonts:
+                self.active_font = pf
+                break
+        else:
+            self.active_font = "sans-serif"
+
+        self.input_label = ttk.Label(root, text="Input (Latin or Glyphs):")
+        self.input_label.pack(pady=2)
+
+        self.input_text = tk.Text(root, height=5, font=(self.active_font, 16))
+        self.input_text.pack(fill='x', padx=10)
+        self.input_text.bind("<KeyRelease>", self.update_output)
+
+        self.output_label = ttk.Label(root, text="Output:")
+        self.output_label.pack(pady=2)
+
+        self.output_text = tk.Text(root, height=5, font=(self.active_font, 16), state='disabled')
+        self.output_text.pack(fill='x', padx=10)
+
+        self.copy_button = ttk.Button(root, text="Copy Output", command=self.copy_output)
+        self.copy_button.pack(pady=5)
+
+
+    def update_output(self, event=None):
+        raw = self.input_text.get("1.0", tk.END).strip()
+        if not raw:
+            self.set_output("")
+            return
+
+        if any(c in LATIN_TO_UNICODE for c in raw.upper().split()):
+            # Assume Latin input (space-separated tokens)
+            out = self.transliterate_latin_to_unicode(raw)
+        else:
+            # Assume Glyph input
+            out = self.transliterate_unicode_to_latin(raw)
+        self.set_output(out)
+
+    def transliterate_latin_to_unicode(self, text):
+        tokens = text.upper().split()
+        result = []
+        for tok in tokens:
+            if tok in LATIN_TO_UNICODE:
+                result.append(LATIN_TO_UNICODE[tok])
+            else:
+                result.append(f"[{tok}]")  # Mark unknowns
+        return ''.join(result)
+
+    def transliterate_unicode_to_latin(self, text):
+        return ' '.join(UNICODE_TO_LATIN.get(ch, f"[{ch}]") for ch in text)
+
+    def set_output(self, text):
+        self.output_text.config(state='normal')
+        self.output_text.delete("1.0", tk.END)
+        self.output_text.insert(tk.END, text)
+        self.output_text.config(state='disabled')
+
+    def copy_output(self):
+        pyperclip.copy(self.output_text.get("1.0", tk.END).strip())
+
+
+if __name__ == '__main__':
+    root = tk.Tk()
+    app = LinguaSonaApp(root)
+    root.mainloop()
+
