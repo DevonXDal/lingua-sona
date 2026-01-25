@@ -65,7 +65,6 @@ NONCORE_CVV = [
 
 NONCORE_FINAL = ["Z-","B-","D-"]
 
-
 def build_latin_to_unicode():
     mapping = {}
     cp = LETTER_UNICODE_START
@@ -82,6 +81,8 @@ def build_latin_to_unicode():
     )
 
     for sym in ordered_symbols:
+        if sym in mapping:
+            raise ValueError(f"Duplicate symbol in glyph order: {sym}")
         mapping[sym] = chr(cp)
         cp += 1
 
@@ -103,13 +104,20 @@ for i, h in enumerate(HEX_DIGITS, start=11):
 # Invert mapping for reverse transliteration
 UNICODE_TO_LATIN = {v: k for k, v in LATIN_TO_UNICODE.items()}
 
+SORTED_SYMBOLS = sorted(
+    LATIN_TO_UNICODE.keys(),
+    key=len,
+    reverse=True
+)
+
+
 # --- GUI App ---
 class LinguaSonaApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Lingua Sona Latin<->Glyph Converter")
 
-        self.preferred_fonts = ["LinguaSona Sans", "Noto Sans", "Liberation Sans", "Arial", "sans-serif"]
+        self.preferred_fonts = ["LinguaSonaSans", "Noto Sans", "Liberation Sans", "Arial", "sans-serif"]
         self.available_fonts = font.families()
 
         for pf in self.preferred_fonts:
@@ -151,14 +159,22 @@ class LinguaSonaApp:
         self.set_output(out)
 
     def transliterate_latin_to_unicode(self, text):
-        tokens = text.upper().split()
+        text = text.upper().replace(" ", "")
         result = []
-        for tok in tokens:
-            if tok in LATIN_TO_UNICODE:
-                result.append(LATIN_TO_UNICODE[tok])
+        i = 0
+
+        while i < len(text):
+            for sym in SORTED_SYMBOLS:
+                if text.startswith(sym, i):
+                    result.append(LATIN_TO_UNICODE[sym])
+                    i += len(sym)
+                    break
             else:
-                result.append(f"[{tok}]")  # Mark unknowns
+                result.append(f"[{text[i]}]")
+                i += 1
+
         return ''.join(result)
+
 
     def transliterate_unicode_to_latin(self, text):
         return ' '.join(UNICODE_TO_LATIN.get(ch, f"[{ch}]") for ch in text)
