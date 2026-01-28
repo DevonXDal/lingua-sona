@@ -1,7 +1,6 @@
 # ==========================
 # Obsidian vault artifacts
 # ==========================
-.obsidian/
 .obsidian-workspace
 *.excalidraw
 *.excalidraw.md

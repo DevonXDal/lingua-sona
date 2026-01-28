@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "6f47024ea27e2113",
+    "type": "split",
+    "children": [
+      {
+        "id": "222689f27a6b78f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ab10cc2305f4a84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_Phonetics/LetterSystem.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LetterSystem"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1acd76e42178dc28",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ae6e34c886dfcd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37ddaae0beceaa9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4026c9213d4dabda",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3181450ec998fb3b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "303024372b14e22f",
+    "type": "split",
+    "children": [
+      {
+        "id": "18157edfd89576ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2ca8d09285a0895",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "0c60d1ffc3379489",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "637c19d9814d7eed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3d1f0985a5c9c467",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "ab8cc94454ecef20",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "0ab10cc2305f4a84",
+  "lastOpenFiles": [
+    "01_Phonetics/Letters.md",
+    "01_Phonetics/LetterSystem.md",
+    "Pasted image 20260128024627.png",
+    "03_VocabularyCore/MetaLanguageInfrastructure/LogicAndMeta.md",
+    "03_VocabularyCore/MetaLanguageInfrastructure/GrammarConcepts.md",
+    "03_VocabularyCore/TEMPLATE_FILE_STRUCTURE.md",
+    "09_ForAdvancedLinguisitcAndProgrammaticUse/ENBF.md",
+    "01_Phonetics/Glyphs.md",
+    "01_Phonetics/Negated Letter Glyph.md",
+    "09_ForAdvancedLinguisitcAndProgrammaticUse/AllowedPrimitivesSet.md",
+    "09_ForAdvancedLinguisitcAndProgrammaticUse/RootEligibilityTest.md",
+    "01_Phonetics/GlyphOrderCanon-IPA.md",
+    "01_Phonetics/ForeignSounds.md",
+    "04_Numbers/Numbers.md",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicBold.woff2",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicBold.woff",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicBold.otf",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicBold.ttf",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicRegular.woff2",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicRegular.woff",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicRegular.otf",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicRegular.ttf",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicThin.woff2",
+    "01_Phonetics/Fonts/LinguaSonaNumbers-ItalicThin.woff",
+    "01_Phonetics/Glyphs/Numbers/ItalicBold/4.svg",
+    "01_Phonetics/Glyphs/Numbers/Bold/4.svg",
+    "01_Phonetics/Glyphs/Numbers/ItalicRegular/4.svg",
+    "01_Phonetics/Glyphs/Numbers/Regular/4.svg",
+    "01_Phonetics/Glyphs/Numbers/ItalicThin/4.svg",
+    "01_Phonetics/Glyphs/Numbers/Thin/4.svg",
+    "01_Phonetics/Glyphs/Letters/ItalicBold/F-OU.svg",
+    "01_Phonetics/Glyphs/Letters/Bold/F-OU.svg",
+    "01_Phonetics/Glyphs/Letters/ItalicRegular/F-OU.svg",
+    "01_Phonetics/CursiveForm.md",
+    "02_Grammar/Classifiers.md",
+    "03_VocabularyCore/ConversationalsAndPragmatics/EmotionalModulation.md",
+    "03_VocabularyCore/ConversationalsAndPragmatics/DiscourseControl.md",
+    "03_VocabularyCore/ConversationalsAndPragmatics/GreetingsAndSocialGlue.md",
+    "03_VocabularyCore/ConversationalsAndPragmatics/_Index_of_ConversationalsAndPragmatics.md",
+    "03_VocabularyCore/MetaLanguageInfrastructure/ReferenceAndIndexing.md",
+    "03_VocabularyCore/MetaLanguageInfrastructure/_Index_of_MetaLanguageInfrastructure.md",
+    "03_VocabularyCore/AdultAndIntimateDomains/KinkAndPowerPlay.md",
+    "03_VocabularyCore/AdultAndIntimateDomains/Sexuality.md",
+    "03_VocabularyCore/AdultAndIntimateDomains/_Index_of_AdultAndIntimateDomains.md",
+    "03_VocabularyCore/ValuesBeliefAndMeaning/Morality.md",
+    "03_VocabularyCore/ValuesBeliefAndMeaning/ReligonAndSpirituality.md",
+    "Gameplay/Untitled.canvas"
+  ]
+}
