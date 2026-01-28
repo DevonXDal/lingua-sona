@@ -212,6 +212,7 @@ Z, R, J, TH
 | **OI** | /ɔɪ/ | [OI sample][oi] |
 | **AU** | /aʊ/ | [AU sample][au] |
 | **OU** | /oʊ/ | [OU sample][ou] |
+
 You can see a guide on how to pronounce these vowel clusters or 'diphthongs' here:
 [Pronounciation Studio](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/)
 
@@ -283,7 +284,8 @@ All original language materials, glyph designs, and documentation are © Devon X
 *Lingua Sona is designed to be learned once, parsed forever, and misunderstood as little as possible.*
 
 You may have already noticed but this project uses AI to assist its development. First, to make things easier to digest, allowing time to be focused on the actual language construction. Second to quickly catch rule breaks in the language's construction. Third, to fine-tune the depiction of characters used with this language (remove odd curves and to create vectors for font use easier) And lastly to aid in the brainstorming process.
-### 🧭 Long-Term Vision
+
+## 🧭 Long-Term Vision
 > **Lingua Sona** seeks not only to simplify communication, 
 > but to *unify human understanding* through clarity, logic, and beauty. 
 > It is not just a conlang — it is a blueprint for linguistic evolution.
