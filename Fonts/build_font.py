@@ -163,9 +163,7 @@ def import_glyphs(directory, start_codepoint, numbers_are_used):
         g.left_side_bearing  = 100
         g.right_side_bearing = 100
         g.width = 1024
-        g.altuni = [
-            (ord(c), -1, 0) for c in name
-        ]
+        g.glyphname = f"LS {name}"
         g.comment = f"Lingua Sona glyph: {name}"
         codepoint += 1
 

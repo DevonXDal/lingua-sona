@@ -15,26 +15,25 @@ Letters are depicted by using a glyph for the consonant or a [[Negated Letter Gl
 ## A. Core Consonant + Vowel Letters (CV form)
 *(136 forms)*
 
-| C \ V | A | AHW | E | I | ON | O | U | OOO |
-|:--|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| P | PA | PAHW | PE | PI | PON | PO | PU | POOO |
-| B | BA | BAHW | BE | BI | BON | BO | BU | BOOO |
-| T | TA | TAHW | TE | TI | TON | TO | TU | TOOO |
-| D | DA | DAHW | DE | DI | DON | DO | DU | DOOO |
-| K | KA | KAHW | KE | KI | KON | KO | KU | KOOO |
-| G | GA | GAHW | GE | GI | GON | GO | GU | GOOO |
-| M | MA | MAHW | ME | MI | MON | MO | MU | MOOO |
-| N | NA | NAHW | NE | NI | NON | NO | NU | NOOO |
-| F | FA | FAHW | FE | FI | FON | FO | FU | FOOO |
-| V | VA | VAHW | VE | VI | VON | VO | VU | VOOO |
-| S | SA | SAHW | SE | SI | SON | SO | SU | SOOO |
-| SH | SHA | SHAHW | SHE | SHI | SHON | SHO | SHU | SHOOO |
-| L | LA | LAHW | LE | LI | LON | LO | LU | LOOO |
-| W | WA | WAHW | WE | WI | WON | WO | WU | WOOO |
-| Y | YA | YAHW | YE | YI | YON | YO | YU | YOOO |
-| H | HA | HAHW | HE | HI | HON | HO | HU | HOOO |
-| CH | CHA | CHAHW | CHE | CHI | CHON | CHO | CHU | CHOOO |
-
+| C \ V |  A  |  AHW  |  E  |  I  |  ON  |  O  |  U  |  OOO  |
+| :---- | :-: | :---: | :-: | :-: | :--: | :-: | :-: | :---: |
+| P     | PA  | PAHW  | PE  | PI  | PON  | PO  | PU  | POOO  |
+| B     | BA  | BAHW  | BE  | BI  | BON  | BO  | BU  | BOOO  |
+| T     | TA  | TAHW  | TE  | TI  | TON  | TO  | TU  | TOOO  |
+| D     | DA  | DAHW  | DE  | DI  | DON  | DO  | DU  | DOOO  |
+| K     | KA  | KAHW  | KE  | KI  | KON  | KO  | KU  | KOOO  |
+| G     | GA  | GAHW  | GE  | GI  | GON  | GO  | GU  | GOOO  |
+| M     | MA  | MAHW  | ME  | MI  | MON  | MO  | MU  | MOOO  |
+| N     | NA  | NAHW  | NE  | NI  | NON  | NO  | NU  | NOOO  |
+| F     | FA  | FAHW  | FE  | FI  | FON  | FO  | FU  | FOOO  |
+| V     | VA  | VAHW  | VE  | VI  | VON  | VO  | VU  | VOOO  |
+| S     | SA  | SAHW  | SE  | SI  | SON  | SO  | SU  | SOOO  |
+| SH    | SHA | SHAHW | SHE | SHI | SHON | SHO | SHU | SHOOO |
+| L     | LA  | LAHW  | LE  | LI  | LON  | LO  | LU  | LOOO  |
+| W     | WA  | WAHW  | WE  | WI  | WON  | WO  | WU  | WOOO  |
+| Y     | YA  | YAHW  | YE  | YI  | YON  | YO  | YU  | YOOO  |
+| H     | HA  | HAHW  | HE  | HI  | HON  | HO  | HU  | HOOO  |
+| CH    | CHA | CHAHW | CHE | CHI | CHON | CHO | CHU | CHOOO |
 
 ---
 

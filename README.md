@@ -136,6 +136,12 @@ Letters are derived from five structural classes:
 
 These forms are mechanically generated from the glyph order.
 
+### Figure A - Letter System
+
+![Lingua Sona Letter System rendered in Obsidian with PUA glyphs](assets/images/lingua-sona-letter-system-preview.png)
+
+*Figure: Complete Lingua Sona letter system rendered using Base64-embedded PUA fonts in Obsidian.*
+
 ---
 
 ## Glyph Order (Canonical)

@@ -171,7 +171,7 @@ class LinguaSonaApp:
         self.root = root
         self.root.title("Lingua Sona Latin<->Glyph Converter")
 
-        self.preferred_fonts = ["LinguaSonaSans", "Noto Sans", "Liberation Sans", "Arial", "sans-serif"]
+        self.preferred_fonts = ["LinguaSona Sans", "Noto Sans", "Liberation Sans", "Arial", "sans-serif"]
         self.available_fonts = font.families()
 
         for pf in self.preferred_fonts:
@@ -197,6 +197,9 @@ class LinguaSonaApp:
         self.copy_button = ttk.Button(root, text="Copy Output", command=self.copy_output)
         self.copy_button.pack(pady=5)
 
+    def is_glyph_text(self, s):
+        return any(0xE000 <= ord(c) <= 0xF8FF for c in s)
+
 
     def update_output(self, event=None):
         raw = self.input_text.get("1.0", tk.END).strip()
@@ -204,30 +207,42 @@ class LinguaSonaApp:
             self.set_output("")
             return
 
-        if any(c in LATIN_TO_UNICODE for c in raw.upper().split()):
-            # Assume Latin input (space-separated tokens)
-            out = self.transliterate_latin_to_unicode(raw)
-        else:
-            # Assume Glyph input
+        if self.is_glyph_text(raw):
             out = self.transliterate_unicode_to_latin(raw)
+        else:
+            out = self.transliterate_latin_to_unicode(raw)
+
         self.set_output(out)
 
     def transliterate_latin_to_unicode(self, text):
-        text = text.upper().replace(" ", "")
-        result = []
-        i = 0
+        tokens = text.upper().split()
+        out = []
 
-        while i < len(text):
-            for sym in SORTED_SYMBOLS:
-                if text.startswith(sym, i):
-                    result.append(LATIN_TO_UNICODE[sym])
-                    i += len(sym)
-                    break
-            else:
-                result.append(f"[{text[i]}]")
-                i += 1
+        for token in tokens:
+            i = 0
+            glyphs = []
+            token_len = len(token)
 
-        return ''.join(result)
+            while i < token_len:
+                matched = False
+
+                for sym in SORTED_SYMBOLS:
+                    if token.startswith(sym, i):
+                        glyphs.append(LATIN_TO_UNICODE[sym])
+                        i += len(sym)
+                        matched = True
+                        break
+
+                if not matched:
+                    # --- graceful recovery ---
+                    # mark unknown char, advance ONE position only
+                    glyphs.append("[?]")   # replacement char
+                    i += 1
+
+            out.append(''.join(glyphs))
+
+        return ' '.join(out)
+
 
 
     def transliterate_unicode_to_latin(self, text):
