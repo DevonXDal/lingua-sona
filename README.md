@@ -211,7 +211,7 @@ Z, R, J, TH
 | **EI** | /eɪ/ | [EI sample][ei] |
 | **OI** | /ɔɪ/ | [OI sample][oi] |
 | **AU** | /aʊ/ | [AU sample][au] |
-| **OU** | /oʊ/ | [OU sample][ou] |
+| **OU** | /əʊ/ | [OU sample][ou] |
 
 You can see a guide on how to pronounce these vowel clusters or 'diphthongs' here:
 [Pronounciation Studio](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/)

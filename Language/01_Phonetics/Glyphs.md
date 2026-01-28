@@ -50,13 +50,13 @@ If unable to click on the audio links, please find the matching glyph in the ref
 | **OOO** | /ʉ/       | [Close central rounded vowel][ooo]   |
 ### Vowel Clusters (Diphthongs)
 
-| Glyph | IPA | Audio Reference |
-|:--|:--|:--|
+| Glyph  | IPA  | Audio Reference |
+| :----- | :--- | :-------------- |
 | **AI** | /aɪ/ | [AI sample][ai] |
 | **EI** | /eɪ/ | [EI sample][ei] |
 | **OI** | /ɔɪ/ | [OI sample][oi] |
 | **AU** | /aʊ/ | [AU sample][au] |
-| **OU** | /oʊ/ | [OU sample][ou] |
+| **OU** | /əʊ/ | [OU sample][ou] |
 You can see a guide on how to pronounce these vowel clusters or 'diphthongs' here:
 [Pronounciation Studio](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/)
 
