@@ -4,7 +4,7 @@
 
 <!-- Core Project Badges -->
 ![IPA](https://img.shields.io/badge/IPA-Phonology-blueviolet?style=flat)
-![Letters](https://img.shields.io/badge/Letter_System-251_Total-orange?style=flat)
+![Letters](https://img.shields.io/badge/Letter_System-307_Total-orange?style=flat)
 ![Glyphs](https://img.shields.io/badge/Glyph_Design-Custom_PUA-yellow?style=flat)
 
 <!-- Tools Used -->
