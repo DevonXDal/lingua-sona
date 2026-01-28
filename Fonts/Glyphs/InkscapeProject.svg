@@ -35,7 +35,7 @@
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showguides="false">
     <inkscape:grid
        type="xygrid"
@@ -77,7 +77,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Consonant Fragments">
+     inkscape:label="Consonant Fragments"
+     style="display:inline">
     <path
        style="display:inline;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 33.866666,33.866666 h 50.8 33.866664 V 135.46666 h 16.93333 v 0"
@@ -143,8 +144,8 @@
     <path
        style="display:inline;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 33.866666,135.46666 50.8,-33.86666 50.799994,33.86666"
-       id="J"
-       inkscape:label="J"
+       id="Y"
+       inkscape:label="Y"
        sodipodi:insensitive="true" />
     <path
        style="display:inline;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
@@ -183,12 +184,35 @@
        id="D"
        inkscape:label="D"
        sodipodi:insensitive="true" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+       d="m 33.866666,237.06666 33.866666,-101.6 h 67.733328"
+       id="V"
+       inkscape:label="V"
+       sodipodi:insensitive="true" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+       d="m 33.866666,237.06666 h 84.666664 l -67.733331,-50.8 h 67.733331 v -50.8 h 16.93333"
+       id="R"
+       inkscape:label="R"
+       sodipodi:insensitive="true" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+       d="M 33.866666,237.06666 67.733332,203.19999 84.666666,152.4 135.46666,135.46666"
+       id="TH"
+       sodipodi:insensitive="true" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round"
+       d="m 33.866666,135.46666 h 50.8 V 84.666666 H 101.6 l 33.86666,50.799994"
+       id="J"
+       inkscape:label="J"
+       sodipodi:insensitive="true" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Vowel Fragments"
-     style="display:inline">
+     style="display:none">
     <path
        style="display:inline;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 135.46666,135.46666 h 101.6"
@@ -275,7 +299,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Special">
+     inkscape:label="Special"
+     style="display:none">
     <path
        style="display:none;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 50.799999,135.46666 H 220.13333"
@@ -401,7 +426,7 @@
        sodipodi:insensitive="true" />
     <path
        sodipodi:type="spiral"
-       style="display:none;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32291995;stroke-dasharray:none"
+       style="display:none;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.32292;stroke-dasharray:none"
        id="path6343"
        sodipodi:cx="135.46666"
        sodipodi:cy="135.46666"
@@ -419,9 +444,9 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Numerals"
-     style="display:inline">
+     style="display:none">
     <ellipse
-       style="display:inline;fill:#000000;stroke:#000000;stroke-width:1.32291667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       style="display:inline;fill:#000000;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        id="0"
        cx="135.18063"
        cy="33.866665"
@@ -522,7 +547,7 @@
        sodipodi:insensitive="true" />
     <path
        id="000"
-       style="display:inline;stroke:#000000;stroke-width:1.32291667;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+       style="display:inline;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
        inkscape:label="000"
        d="m 139.69999,237.06667 a 3.9472938,3.9472973 0 0 1 -3.94729,3.94729 3.9472938,3.9472973 0 0 1 -3.94729,-3.94729 3.9472938,3.9472973 0 0 1 3.94729,-3.9473 3.9472938,3.9472973 0 0 1 3.94729,3.9473 z M 139.41395,135.7527 a 3.9472938,3.9472973 0 0 1 -3.94729,3.9473 3.9472938,3.9472973 0 0 1 -3.94729,-3.9473 3.9472938,3.9472973 0 0 1 3.94729,-3.9473 3.9472938,3.9472973 0 0 1 3.94729,3.9473 z M 139.12793,33.866665 a 3.9472938,3.9472973 0 0 1 -3.9473,3.947297 3.9472938,3.9472973 0 0 1 -3.94729,-3.947297 3.9472938,3.9472973 0 0 1 3.94729,-3.947297 3.9472938,3.9472973 0 0 1 3.9473,3.947297 z"
        sodipodi:insensitive="true" />
@@ -530,7 +555,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="Mathematics">
+     inkscape:label="Mathematics"
+     style="display:none">
     <g
        id="g1519"
        inkscape:label="Addition"
@@ -722,11 +748,11 @@
        style="display:none;fill:#000000;fill-opacity:1"
        sodipodi:insensitive="true">
       <path
-         style="fill:#000000;stroke:#000000;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;fill-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.64583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          d="M 67.733332,67.733332 135.46666,203.19999 v 0"
          id="path2605" />
       <path
-         style="fill:#000000;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;fill-opacity:1"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          d="M 67.733332,67.733332 H 203.19999 L 135.46667,203.2"
          id="path2607" />
     </g>

@@ -30,7 +30,7 @@ REG_STROKE = 10
 BOLD_STROKE = REG_STROKE * 2
 ITALIC_SHEAR = 0.212  # ~12°
 
-CONSONANTS = ["B","CH","D","F","G","H","J","K","L","M","N","P","S","SH","T","W","Z"]
+CONSONANTS = ["B","CH","D","F","G","H","Y","K","L","M","N","P","S","SH","T","W", "V", "Z", "R", "J", "TH"]
 VOWELS = ["A","AH","AI","AU","E","EI","I","O","OI","ON","OOO","OU","U"]
 C_NEG = "C_NEGATION"
 V_NEG = "V_NEGATION"

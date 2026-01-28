@@ -13,64 +13,76 @@ IPA is provided for precision.
 
 If unable to click on the audio links, please find the matching glyph in the reference links below.
 
-### Consonants (Core Set) - *14*
+## Glyph Order Canon (IPA Reference)
 
-| Latin Glyph | IPA | Audio | Notes |
-|:--|:--|:--|:--|
-| **P** | /p/ | [Audio][p] | Core stop |
-| **T** | /t/ | [Audio][t] | Core stop |
-| **K** | /k/ | [Audio][k] | Core stop |
-| **M** | /m/ | [Audio][m] | Core nasal |
-| **N** | /n/ | [Audio][n] | Core nasal |
-| **F** | /f/ | [Audio][f] | Fricative |
-| **S** | /s/ | [Audio][s] | Fricative |
-| **SH** | /ʃ/ | [Audio][sh] | Postalveolar fricative |
-| **L** | /l/ | [Audio][l] | Always light-L |
-| **W** | /w/ | [Audio][w] | Approximant |
-| **Y** | /j/ | [Audio][y] | Approximant |
-| **H** | /h/ | [Audio][h] | Breath consonant |
-| **G** | /g/ | [Audio][g] | Limited-use core consonant |
-| **CH** | /t͡ʃ/ | [Audio][ch] | “Check/Chair/Change” |
+### Core Consonants
 
-### Classifier-Only Consonant - *1*
+| Glyph  | IPA   | Description                            |
+| :----- | :---- | :------------------------------------- |
+| **P**  | /p/   | [Voiceless bilabial stop][p]           |
+| **B**  | /b/   | [Voiced bilabial stop][b]              |
+| **T**  | /t/   | [Voiceless alveolar stop][t]           |
+| **D**  | /d/   | [Voiced alveolar stop][d]              |
+| **K**  | /k/   | [Voiceless velar stop][k]              |
+| **G**  | /g/   | [Voiced velar stop][g]                 |
+| **M**  | /m/   | [Bilabial nasal][m]                    |
+| **N**  | /n/   | [Alveolar nasal][n]                    |
+| **F**  | /f/   | [Voiceless labiodental fricative][f]   |
+| **V**  | /v/   | [Voiced labiodental fricative][v]      |
+| **S**  | /s/   | [Voiceless alveolar fricative][s]      |
+| **SH** | /ʃ/   | [Voiceless postalveolar fricative][sh] |
+| **L**  | /l/   | [Alveolar lateral approximant][l]      |
+| **W**  | /w/   | [Voiced labial–velar approximant][w]   |
+| **Y**  | /j/   | [Voiced palatal approximant][y]        |
+| **H**  | /h/   | [Voiceless glottal fricative][h]       |
+| **CH** | /t͡ʃ/ | [Voiceless postalveolar affricate][ch] |
 
-| Latin Glyph | IPA | Audio | Notes |
-|:--|:--|:--|:--|
-| **Z** | /z/ | [Audio][z] | Used only for classifiers, classifier-derived words, foreign words, and proper nouns |
+### Core Vowels
+| Glyph   | IPA       | Description                          |
+| :------ | :-------- | :----------------------------------- |
+| **A**   | /a/       | [Open front unrounded vowel][a]      |
+| **AHW** | /ɑ/       | [Open back unrounded vowel][aw]      |
+| **E**   | /e/       | [Close-mid front unrounded vowel][e] |
+| **I**   | /i/       | [Close front unrounded vowel][i]     |
+| **ON**  | /ɤ/ ~ /ɯ/ | [Close-mid back unrounded vowel][on] |
+| **O**   | /ɔ/       | [Open-mid back rounded vowel][o]     |
+| **U**   | /u/       | [Close back rounded vowel][u]        |
+| **OOO** | /ʉ/       | [Close central rounded vowel][ooo]   |
+### Vowel Clusters (Diphthongs)
 
-### Foreign / Proper-Noun Consonants - *2*
+| Glyph | IPA | Audio Reference |
+|:--|:--|:--|
+| **AI** | /aɪ/ | [AI sample][ai] |
+| **EI** | /eɪ/ | [EI sample][ei] |
+| **OI** | /ɔɪ/ | [OI sample][oi] |
+| **AU** | /aʊ/ | [AU sample][au] |
+| **OU** | /oʊ/ | [OU sample][ou] |
+You can see a guide on how to pronounce these vowel clusters or 'diphthongs' here:
+[Pronounciation Studio](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/)
 
-| Latin Glyph | IPA | Audio | Notes |
-|:--|:--|:--|:--|
-| **B** | /b/ | [Audio][b] | Foreign / proper nouns only |
-| **D** | /d/ | [Audio][d] | Foreign / proper nouns only |
+### Non-Core / Foreign
+
+| Glyph  | IPA       | Description                        |
+| :----- | :-------- | :--------------------------------- |
+| **Z**  | /z/       | [Voiced alveolar fricative][z]     |
+| **R**  | /ɹ/ ~ /r/ | [Rhotic (dialect-dependent)][r]    |
+| **J**  | /d͡ʒ/     | [Voiced postalveolar affricate][j] |
+| **TH** | /θ/ ~ /ð/ | [Dental fricatives][th]            |
 
 ---
 
-### Vowels - *8*
+## Official Order of Glyphs
+This is the master order, for which letters derive from:
+P, B, T, D, K, G, M, N, F, V, S, SH, L, W, Y, H, CH, A, AHW, E, I, ON, O, U, OOO, AI, EI, OI, AU, OU, Z, R, J, TH
 
-| Latin Glyph | IPA                        | Audio        | Notes                     |
-| :---------- | :------------------------- | :----------- | :------------------------ |
-| **A**       | /a/                        | [Audio][a]   | Pure open vowel           |
-| **E**       | /e/                        | [Audio][e]   | Mid-front vowel           |
-| **I**       | /i/                        | [Audio][i]   | High front vowel          |
-| **O**       | /ɔ/ \| /o/                 | [Audio][o]   | Flexible rounding         |
-| **U**       | /u/                        | [Audio][u]   | High back rounded         |
-| **AH/AW**   | /ɑ/                        | [Audio][aw]  | Low back vowel            |
-| **ON**      | /ɤ/ \| /ʌ/ \| /ɣ̞/ \| /ɯ̞/ | [Audio][on]  | Mild variation acceptable |
-| **OOO**     | /ʉ/                        | [Audio][ooo] | High central rounded      |
+---
+## Design Notes
 
-### VV Letters (Vowel Clusters) - *5*
-| VV Letter | IPA | Audio | Notes |
-|-----------|-----|-------|-------|
-| AI | /aɪ/ | [Audio][ai] | “I / my / high” equivalent |
-| EI | /eɪ/ | [Audio][ei] | Clear global glide |
-| OI | /ɔɪ/ | [Audio][oi] | Distinct & international |
-| AU | /aʊ/ | [Audio][au] | Universal diphthong |
-| OU | /əʊ/ | [Audio][ou] | Smooth rounded glide |
-
-You can see a guide on how to pronounce these vowel clusters or 'diphthongs' here:
-[Pronounciation Studio](https://pronunciationstudio.com/pronunciation-guide-diphthong-vowel-sounds/)
+- Core consonants are chosen for **global stability and early acquisition**
+- Voicing contrasts are **permitted but not grammatically meaningful**
+- Non-core consonants preserve **identity fidelity** in names and technical terms
+- Glyph order is **phonological**, not historical (Latin A–Z is irrelevant)
+- Orthography prioritizes **hear-once → spell-correctly**
 
 ---
 
@@ -90,6 +102,10 @@ You can see a guide on how to pronounce these vowel clusters or 'diphthongs' her
 [h]: https://en.wikipedia.org/wiki/Voiceless_glottal_fricative
 [g]: https://en.wikipedia.org/wiki/Voiced_velar_stop
 [ch]: https://en.wikipedia.org/wiki/Voiceless_postalveolar_affricate
+[v]: https://en.wikipedia.org/wiki/Voiced_labiodental_fricative
+[r]: https://en.wikipedia.org/wiki/Alveolar_approximant
+[j]: https://en.wikipedia.org/wiki/Voiced_postalveolar_affricate
+[th]: https://en.wikipedia.org/wiki/Voiceless_dental_fricative
 
 [z]: https://en.wikipedia.org/wiki/Voiced_alveolar_fricative
 [b]: https://en.wikipedia.org/wiki/Voiced_bilabial_stop

@@ -13,10 +13,15 @@ LETTER = CV | CVV | "¬" V | C "¬" | "¬" VV ;
 CV      = C V ;
 CVV     = C VV ;
 
-C       = "P" | "T" | "K" | "M" | "N" | "F" | "S" | "SH" | "L" | 
-          "W" | "Y" | "H" | "G" | "CH" | "Z" | "B" | "D" ;
+C       = "P" | "B" | "T" | "D" | "K" | "G"
+        | "M" | "N"
+        | "F" | "V" | "S" | "SH"
+        | "L" | "W" | "Y"
+        | "H" | "CH"
+        | "Z" | "R" | "J" | "TH"
+        ;
 
-V       = "A" | "E" | "I" | "O" | "U" | "AH" | "ON" | "OOO" ;
+V       = "A" | "AHW" | "E" | "I" | "ON" | "O" | "U" | "OOO" ;
 
 VV      = "AI" | "EI" | "OI" | "AU" | "OU" ;
 
@@ -25,7 +30,7 @@ VV      = "AI" | "EI" | "OI" | "AU" | "OU" ;
 # 2. MORPHOLOGY – ROOTS, COMPOUNDS, TERMS
 ############################################################
 
-ROOT = LETTER , LETTER? , LETTER? ;
+ROOT = LETTER , [ LETTER ] , [ LETTER ] ;
 
 BINDER = "HI" | "WI" ;
 
@@ -42,13 +47,13 @@ CLASSIFIER =
       "Za"    |   # person / actor
       "Ze"    |   # place
       "Zi"    |   # object
-      "Zo"    |   # action/verb stem
-      "Zu"    |   # adjective/quality
-      "Zooo"  |   # concept/idea
-      "Zaw"   |   # time/temporal
-      "Zoi"   |   # collective/group
-      "Zon"   |   # meta/word-as-word
-      "Z¬"        # negation/null-classifier
+      "Zo"    |   # action / verb stem
+      "Zu"    |   # adjective / quality
+      "Zooo"  |   # abstract concept / idea
+      "Zawh"   |   # time / temporal
+      "Zoi"   |   # collective / group
+      "Zon"   |   # meta / word-as-word
+      "Z¬"        # negation / null-classifier
 ;
 
 TERM = [CLASSIFIER] , WORD ;

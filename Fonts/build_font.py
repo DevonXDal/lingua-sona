@@ -24,16 +24,24 @@ font.descent = 224
 CORE_CV = [
     # P
     "PA","PE","PI","PO","PU","PAH","PON","POOO",
+    # B
+    "BA","BE","BI","BO","BU","BAH","BON","BOOO",
     # T
     "TA","TE","TI","TO","TU","TAH","TON","TOOO",
+    # D
+    "DA","DE","DI","DO","DU","DAH","DON","DOOO",
     # K
     "KA","KE","KI","KO","KU","KAH","KON","KOOO",
+    # G
+    "GA","GE","GI","GO","GU","GAH","GON","GOOO",
     # M
     "MA","ME","MI","MO","MU","MAH","MON","MOOO",
     # N
     "NA","NE","NI","NO","NU","NAH","NON","NOOO",
     # F
     "FA","FE","FI","FO","FU","FAH","FON","FOOO",
+    # V
+    "VA","VE","VI","VO","VU","VAH","VON","VOOO",
     # S
     "SA","SE","SI","SO","SU","SAH","SON","SOOO",
     # SH
@@ -42,12 +50,10 @@ CORE_CV = [
     "LA","LE","LI","LO","LU","LAH","LON","LOOO",
     # W
     "WA","WE","WI","WO","WU","WAH","WON","WOOO",
-    # J
-    "JA","JE","JI","JO","JU","JAH","JON","JOOO",
+    # Y (formerly J in Latin sense)
+    "YA","YE","YI","YO","YU","YAH","YON","YOOO",
     # H
     "HA","HE","HI","HO","HU","HAH","HON","HOOO",
-    # G
-    "GA","GE","GI","GO","GU","GAH","GON","GOOO",
     # CH
     "CHA","CHE","CHI","CHO","CHU","CHAH","CHON","CHOOO",
 ]
@@ -57,23 +63,33 @@ V_INITIAL = [
 ]
 
 C_FINAL = [
-    "P-","T-","K-","M-","N-","F-","S-","SH-",
-    "L-","W-","J-","H-","G-","CH-"
+    "P-","B-","T-","D-","K-","G-",
+    "M-","N-",
+    "F-","V-","S-","SH-",
+    "L-","W-","Y-","H-","CH-"
 ]
 
 CVV = [
     # P
     "PAI","PEI","POI","PAU","POU",
+    # B
+    "BAI","BEI","BOI","BAU","BOU",
     # T
     "TAI","TEI","TOI","TAU","TOU",
+    # D
+    "DAI","DEI","DOI","DAU","DOU",
     # K
     "KAI","KEI","KOI","KAU","KOU",
+    # G
+    "GAI","GEI","GOI","GAU","GOU",
     # M
     "MAI","MEI","MOI","MAU","MOU",
     # N
     "NAI","NEI","NOI","NAU","NOU",
     # F
     "FAI","FEI","FOI","FAU","FOU",
+    # V
+    "VAI","VEI","VOI","VAU","VOU",
     # S
     "SAI","SEI","SOI","SAU","SOU",
     # SH
@@ -82,12 +98,10 @@ CVV = [
     "LAI","LEI","LOI","LAU","LOU",
     # W
     "WAI","WEI","WOI","WAU","WOU",
-    # J
-    "JAI","JEI","JOI","JAU","JOU",
+    # Y
+    "YAI","YEI","YOI","YAU","YOU",
     # H
     "HAI","HEI","HOI","HAU","HOU",
-    # G
-    "GAI","GEI","GOI","GAU","GOU",
     # CH
     "CHAI","CHEI","CHOI","CHAU","CHOU"
 ]
@@ -95,18 +109,28 @@ CVV = [
 VV_INITIAL = ["-AI","-EI","-OI","-AU","-OU"]
 
 NONCORE_CV = [
+    # Z (meta / classifier)
     "ZA","ZE","ZI","ZO","ZU","ZAH","ZON","ZOOO",
-    "BA","BE","BI","BO","BU","BAH","BON","BOOO",
-    "DA","DE","DI","DO","DU","DAH","DON","DOOO",
+    # R
+    "RA","RE","RI","RO","RU","RAH","RON","ROOO",
+    # J (affricate)
+    "JA","JE","JI","JO","JU","JAH","JON","JOOO",
+    # TH
+    "THA","THE","THI","THO","THU","THAH","THON","THOOO",
 ]
 
 NONCORE_CVV = [
+    # Z
     "ZAI","ZEI","ZOI","ZAU","ZOU",
-    "BAI","BEI","BOI","BAU","BOU",
-    "DAI","DEI","DOI","DAU","DOU",
+    # R
+    "RAI","REI","ROI","RAU","ROU",
+    # J
+    "JAI","JEI","JOI","JAU","JOU",
+    # TH
+    "THAI","THEI","THOI","THAU","THOU",
 ]
 
-NONCORE_FINAL = ["Z-","B-","D-"]
+NONCORE_FINAL = ["Z-","R-","J-","TH-"]
 
 NUMBERS=["0", "000", "1", "2", "3", "4", "5", "6", "7", "8", "9", "HEX_A", "HEX_B", "HEX_C", "HEX_D", "HEX_E", "HEX_F"]
 
@@ -139,6 +163,10 @@ def import_glyphs(directory, start_codepoint, numbers_are_used):
         g.left_side_bearing  = 100
         g.right_side_bearing = 100
         g.width = 1024
+        g.altuni = [
+            (ord(c), -1, 0) for c in name
+        ]
+        g.comment = f"Lingua Sona glyph: {name}"
         codepoint += 1
 
 # Import both sets
