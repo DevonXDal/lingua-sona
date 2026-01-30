@@ -1,0 +1,143 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000011
+
+
+sona:
+  latin: NI
+  term: 
+  ipa: /ni/
+
+
+classification:
+  root_type: CV        # demonstrative / referential root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: deixis
+
+semantics:
+  primary: demonstrative reference
+  secondary:
+    - contextual pointer
+    - referent selector
+  extended:
+    - anaphoric reference (previously mentioned)
+    - deictic grounding (situational focus)
+  domain_tags:
+    - reference
+    - deixis
+    - discourse
+    - context
+
+multilingual:
+  english:
+    - this
+    - that
+  toki_pona:
+    - ni
+  french:
+    - ce
+    - ça
+  spanish:
+    - este
+    - ese
+  chinese:
+    - 这
+    - 那
+  swahili:
+    - hii
+    - ile
+  german:
+    - dies
+    - das
+  hindi:
+    - यह
+    - वह
+  bengali:
+    - এটা
+    - ওটা
+  portuguese:
+    - isto
+    - isso
+  ukrainian:
+    - це
+    - той
+  russian:
+    - это
+    - то
+  indonesian:
+    - ini
+    - itu
+  hausa:
+    - wannan
+    - wancan
+  arabic:
+    - هذا
+    - ذلك
+  japanese:
+    - これ
+    - それ
+
+grammar:
+  part_of_speech:
+    - demonstrative
+    - determiner
+    - pronoun
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zi
+    - Zo
+    - Zu
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: toki pona
+  source_word: ni
+  derivation_notes: |
+    Inherited demonstrative minimalism.
+    Distance, emphasis, and scope are handled via context,
+    classifiers, and optional modifiers rather than inflection.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Personal pronoun substitution ("I", "you", "they")
+    - Temporal reference ("now", "then")
+    - Logical variable binding (use formal symbols or definitions)
+    - Standalone abstract reference without context
+    - Emphatic pointing without a scoped referent
+
+usage:
+  examples: []
+  context_clues:
+    - Must refer to something present in context, discourse, or perception.
+    - Classifiers strongly disambiguate referent type (Zi NI = this thing).
+    - Distance (this vs that) is inferred, not encoded.
+  notes: |
+    NI is intentionally underspecified.
+    Precision emerges from context, gesture, discourse position,
+    or classifier use—not from grammatical distance marking.
+    This keeps the term count low and usage flexible.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

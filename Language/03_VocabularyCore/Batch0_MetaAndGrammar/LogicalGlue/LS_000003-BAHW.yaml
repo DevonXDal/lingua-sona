@@ -1,0 +1,121 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000003
+
+
+sona:
+  latin: BAHW
+  term: 
+  ipa: /bɑ/
+
+
+classification:
+  root_type: CV
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: discourse-connectors
+
+semantics:
+  primary: contrastive conjunction
+  secondary:
+    - exception marker
+    - corrective pivot
+  extended:
+    - pragmatic softening before disagreement
+    - rhetorical turn
+  domain_tags:
+    - discourse
+    - logic
+    - contrast
+    - pragmatics
+
+multilingual:
+  english:
+    - but
+    - however
+    - except
+  toki_pona:
+    - taso
+  french:
+    - mais
+    - cependant
+  spanish:
+    - pero
+  chinese:
+    - 但是
+  swahili:
+    - lakini
+  german:
+    - aber
+  hindi:
+    - लेकिन
+  bengali:
+    - কিন্তু
+  portuguese:
+    - mas
+  ukrainian:
+    - але
+  russian:
+    - но
+  indonesian:
+    - tetapi
+  hausa:
+    - amma
+  arabic:
+    - لكن
+  japanese:
+    - でも
+
+grammar:
+  part_of_speech:
+    - conjunction
+    - discourse_particle
+  transitivity: null
+  valency: 2        # links two clauses or propositions
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: null
+  source_word: null
+  derivation_notes: |
+    Designed as a universal contrastive pivot rather than a logical negation.
+    Does not reverse truth value; it reframes expectation.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Logical negation (do NOT use in place of Z¬ or explicit negators)
+    - Sentence-final emphasis particle (not an intensifier)
+    - Temporal sequencing ("then", "after") contexts
+    - Causal substitution ("because", "therefore")
+
+usage:
+  examples: []
+  context_clues:
+    - Typically placed between two clauses.
+    - Signals expectation violation or exception, not contradiction.
+    - Often follows a clause that remains true but incomplete alone.
+  notes: |
+    BAHW is intentionally broad and pragmatic.
+    Precision is achieved through surrounding context or evidentiality,
+    not by overloading the word itself.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

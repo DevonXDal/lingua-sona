@@ -1,0 +1,119 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000009
+
+
+sona:
+  latin: YA
+  term: 
+  ipa: /ja/
+
+
+classification:
+  root_type: CV        # response particle
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: response-particles
+
+semantics:
+  primary: affirmative response
+  secondary:
+    - confirmation marker
+    - assent signal
+  extended:
+    - acknowledgment without elaboration
+    - compliance indicator
+  domain_tags:
+    - discourse
+    - response
+    - affirmation
+
+multilingual:
+  english:
+    - yes
+    - yeah
+  toki_pona:
+    - lon   # assent / affirmation
+  french:
+    - oui
+  spanish:
+    - sí
+  chinese:
+    - 是
+  swahili:
+    - ndiyo
+  german:
+    - ja
+  hindi:
+    - हाँ
+  bengali:
+    - হ্যাঁ
+  portuguese:
+    - sim
+  ukrainian:
+    - так
+  russian:
+    - да
+  indonesian:
+    - ya
+  hausa:
+    - eh
+  arabic:
+    - نعم
+  japanese:
+    - はい
+
+grammar:
+  part_of_speech:
+    - response_particle
+    - discourse_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: false
+    allows_inflection: false
+
+predecessor:
+  source_language: proto
+  source_word: null
+  derivation_notes: |
+    Extremely stable affirmative particle across languages.
+    Chosen for minimal phonetic effort and global recognizability.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Truth assertion in declarative sentences
+    - Replacement for evidentiality markers
+    - Logical operator ("true", "1")
+    - Causal or result confirmation ("so", "therefore")
+    - Sarcastic or ironic inversion without explicit context
+
+usage:
+  examples: []
+  context_clues:
+    - Typically used as a standalone response or clause-initial acknowledgment.
+    - Confirms agreement or acceptance, not factual certainty.
+    - Scope is pragmatic, not logical.
+  notes: |
+    YA answers a question or accepts a proposition pragmatically.
+    It does not assert that a statement is objectively true.
+    Objective truth still requires evidentiality.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

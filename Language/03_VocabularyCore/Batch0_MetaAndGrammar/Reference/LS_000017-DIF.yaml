@@ -1,0 +1,124 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000017
+
+
+sona:
+  latin: DIF¬
+  term: 
+  ipa: /dif/
+
+
+classification:
+  root_type: CV         # contrastive / comparison root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: comparison
+
+semantics:
+  primary: difference
+  secondary:
+    - non-equivalence
+    - distinction
+  extended:
+    - contrast framing
+    - differentiation cue
+  domain_tags:
+    - comparison
+    - distinction
+    - identity
+    - relation
+
+multilingual:
+  english:
+    - different
+    - distinct
+  toki_pona:
+    - ante
+  french:
+    - différent
+  spanish:
+    - diferente
+  chinese:
+    - 不同
+  swahili:
+    - tofauti
+  german:
+    - anders
+  hindi:
+    - अलग
+  bengali:
+    - ভিন্ন
+  portuguese:
+    - diferente
+  ukrainian:
+    - інший
+  russian:
+    - другой
+  indonesian:
+    - berbeda
+  hausa:
+    - daban
+  arabic:
+    - مختلف
+  japanese:
+    - 違う
+
+grammar:
+  part_of_speech:
+    - adjective
+    - relational_modifier
+  transitivity: null
+  valency: 2              # compares two referents
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zi
+    - Zu
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: latin
+  source_word: differre (conceptual)
+  derivation_notes: |
+    Encodes contrast without implying opposition or negation.
+    Designed as the semantic counterpart to SAWA.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Logical negation (“not” → use Z¬ or ZONZ)
+    - Mathematical inequality operators
+    - Moral or evaluative judgment (“better/worse”)
+    - Discourse contrast (“but” → use BAHW)
+    - Identity denial (“is not X” as a statement of falsity)
+
+usage:
+  examples: []
+  context_clues:
+    - Requires an explicit or implicit comparison target.
+    - Indicates at least one relevant distinguishing property.
+    - Scope of difference is defined by context, not by the word itself.
+  notes: |
+    DIF marks non-equivalence within a comparison frame.
+    It does not assert negation, opposition, or value judgment.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

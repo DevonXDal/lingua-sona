@@ -1,0 +1,133 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000018
+
+
+sona:
+  latin: LON
+  term: 
+  ipa: /lɤ/
+
+
+classification:
+  root_type: CV         # existential / stative root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: existence
+  secondary:
+    - state of being
+    - presence
+  extended:
+    - validity within a context
+    - instantiation marker
+  domain_tags:
+    - ontology
+    - existence
+    - state
+    - core-grammar
+
+multilingual:
+  english:
+    - exist
+    - be
+  toki_pona:
+    - lon
+  french:
+    - être
+    - exister
+  spanish:
+    - ser
+    - estar
+    - existir
+  chinese:
+    - 在
+    - 是
+  swahili:
+    - kuwa
+  german:
+    - sein
+    - existieren
+  hindi:
+    - होना
+  bengali:
+    - হওয়া
+  portuguese:
+    - ser
+    - estar
+  ukrainian:
+    - бути
+  russian:
+    - быть
+  indonesian:
+    - ada
+  hausa:
+    - kasance
+  arabic:
+    - يكون
+  japanese:
+    - ある
+    - いる
+
+grammar:
+  part_of_speech:
+    - verb
+    - stative_verb
+  transitivity: intransitive
+  valency: 1
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zi
+    - Zooo
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: toki pona
+  source_word: lon
+  derivation_notes: |
+    Inherited existential minimalism.
+    Covers existence and state without encoding identity,
+    location, truth, or permanence by itself.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Identity assertion (“X is Y” as equivalence → use SAWA or structure)
+    - Location without context (“is at” → pair with ISI / IBI / Ze)
+    - Truth-value assertion (“it is true” → use evidentiality)
+    - Ownership / possession (“have”)
+    - Temporal permanence (“always is” without modifiers)
+
+usage:
+  examples: []
+  context_clues:
+    - Asserts that something exists or holds in a given context.
+    - Meaning sharpens via classifiers and surrounding structure.
+    - Commonly used with Zaw (time) or Ze (place) for anchoring.
+  notes: |
+    LON asserts existence or state, not identity.
+    It answers “does it exist / is it so” rather than “what is it”.
+    Overloading is avoided by design; structure does the rest.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

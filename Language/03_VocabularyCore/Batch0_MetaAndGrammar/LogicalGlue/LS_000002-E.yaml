@@ -1,0 +1,122 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000002
+
+
+sona:
+  latin: ¬E
+  term: 
+  ipa: /e/
+
+
+classification:
+  root_type: V
+  core_status: core
+
+  # Zipf-style rank based on real Lingua Sona corpus usage.
+  # Intentionally null until sufficient corpus data exists.
+  frequency_rank: null
+
+  # Provisional priority tier for IME guessing, teaching order,
+  # and early-stage tooling. Subject to revision.
+  relevance_batch: 1
+  cluster_group: logic-connective
+
+
+semantics:
+  primary: logical conjunction; cumulative requirement
+  secondary: 
+      - simultaneous truth of multiple conditions
+      - joint inclusion of all operands
+  extended: 
+      - intersection in set logic
+      - requirement in conditional contexts
+  domain_tags: 
+      - logic 
+      - mathematics
+      - grammar 
+      - programming
+
+
+multilingual:
+  english: 
+    - and 
+    - both
+    - also
+  toki_pona: 
+    - en 
+  french: 
+    - et
+  spanish: 
+    - y 
+    - e 
+  chinese: 
+    - 和
+    - 且
+  swahili: 
+    - na
+  german: 
+    - und
+  hindi: 
+    - और
+  bengali: 
+    - এবং
+  portuguese: 
+    - e
+  ukrainian: 
+    - i
+    - та
+  russian: 
+    - и
+  indonesian: 
+    - dan
+  hausa: 
+    - da
+  arabic: 
+    - و
+  japanese: 
+    - と
+    - そして
+
+
+grammar:
+  part_of_speech: 
+    - conjunction
+    - logical-operator
+  transitivity: null
+  valency: binary
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: false
+    allows_inflection: false
+
+
+predecessor:
+  source_language: spanish
+  source_word: e
+  derivation_notes: null
+
+
+constraints:
+  taboo: false
+  register: 
+    - neutral
+    - formal 
+    - technical 
+  ambiguity_allowed: false
+
+
+usage:
+  examples: []
+  context_clues: []
+  notes: null
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

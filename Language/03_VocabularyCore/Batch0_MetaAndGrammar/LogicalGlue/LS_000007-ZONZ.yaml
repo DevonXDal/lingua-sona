@@ -1,0 +1,106 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000007
+
+
+sona:
+  latin: ZONZ¬
+  term: 
+  ipa: /zɤz
+
+
+classification:
+  root_type: meta      # meta-linguistic operator
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: meta-language
+
+semantics:
+  primary: negated meta-reference
+  secondary:
+    - logical NOT of a referenced term
+    - exclusion operator at the word level
+  extended:
+    - set complement marker
+    - semantic inversion handle
+  domain_tags:
+    - meta
+    - logic
+    - negation
+    - language
+
+multilingual:
+  english:
+    - not (as a word-reference)
+    - non-
+    - logical NOT
+  toki_pona: []
+  french: []
+  spanish: []
+  chinese: []
+  swahili: []
+  german: []
+  hindi: []
+  bengali: []
+  portuguese: []
+  ukrainian: []
+  russian: []
+  indonesian: []
+  hausa: []
+  arabic: []
+  japanese: []
+
+grammar:
+  part_of_speech:
+    - meta_operator
+  transitivity: null
+  valency: 1            # operates on a referenced word or classifier
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: null
+  source_word: null
+  derivation_notes: |
+    Constructed internally from Zon (meta-reference) + Z¬ (negation).
+    Represents negation of the word itself, not negation of a clause.
+
+constraints:
+  taboo: false
+  register:
+    - technical
+    - formal
+    - logical
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Clause-level negation (use Z¬ + classifier or explicit negators)
+    - Emotional or pragmatic negation ("no!", "nah")
+    - Contrastive discourse (use BAHW)
+    - Causal or conditional logic (use POKEI / SI)
+    - Use without an explicit referent in scope
+
+usage:
+  examples: []
+  context_clues:
+    - Must refer to a specific word, classifier, or defined term.
+    - Signals exclusion or logical complement, not disbelief.
+    - Common in formal logic, definitions, and programming contexts.
+  notes: |
+    ZONZ operates strictly at the meta level.
+    It negates the concept of a word, not its truth value in a sentence.
+    Think: set subtraction, type exclusion, or semantic NOT.
+
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

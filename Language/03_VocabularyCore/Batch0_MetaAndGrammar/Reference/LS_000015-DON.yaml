@@ -1,0 +1,120 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000015
+
+
+sona:
+  latin: DON
+  term: 
+  ipa: /dɤ/
+
+
+classification:
+  root_type: CV        # temporal sequencing root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: time-deixis
+
+semantics:
+  primary: subsequent time reference
+  secondary:
+    - temporal succession
+    - next moment in sequence
+  extended:
+    - narrative progression
+    - ordered step indication
+  domain_tags:
+    - time
+    - sequence
+    - narrative
+    - temporality
+
+multilingual:
+  english:
+    - then
+  toki_pona:
+    - tenpo ni la   # contextual sequencing
+  french:
+    - alors
+  spanish:
+    - entonces
+  chinese:
+    - 然后
+  swahili:
+    - kisha
+  german:
+    - dann
+  hindi:
+    - तब
+  bengali:
+    - তারপর
+  portuguese:
+    - então
+  ukrainian:
+    - тоді
+  russian:
+    - потом
+  indonesian:
+    - lalu
+  hausa:
+    - sannan
+  arabic:
+    - ثم
+  japanese:
+    - それから
+
+grammar:
+  part_of_speech:
+    - adverb
+    - temporal_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: german
+  source_word: dann
+  derivation_notes: |
+    Encodes temporal succession only.
+    Deliberately separated from logical consequence (BASI).
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - narrative
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Logical result or inference (“so / therefore” → use BASI)
+    - Causal linkage (“because” → use POKEI)
+    - Conditional chaining (“if… then” logic → SI + BASI)
+    - Contrastive discourse (“but” → use BAHW)
+    - Present-time anchoring (“now” → use SASA)
+
+usage:
+  examples: []
+  context_clues:
+    - Refers to an event occurring after a prior time point.
+    - Requires an established temporal reference.
+    - Common in narration, instructions, and procedural steps.
+  notes: |
+    DON is strictly temporal.
+    It sequences events without asserting causality,
+    implication, or logical necessity.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

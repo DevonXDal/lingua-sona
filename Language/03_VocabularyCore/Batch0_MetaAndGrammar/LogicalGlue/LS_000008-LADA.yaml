@@ -1,0 +1,123 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000008
+
+
+sona:
+  latin: LADA
+  term: 
+  ipa: /lada/
+
+
+classification:
+  root_type: CV
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: epistemic-modals
+
+semantics:
+  primary: epistemic possibility
+  secondary:
+    - uncertainty marker
+    - hedging particle
+  extended:
+    - politeness softener (noncommittal)
+    - speculative framing
+  domain_tags:
+    - modality
+    - epistemics
+    - uncertainty
+    - discourse
+
+multilingual:
+  english:
+    - maybe
+    - perhaps
+    - possibly
+  toki_pona:
+    - ken la   # "maybe" via possibility framing
+  french:
+    - peut-être
+  spanish:
+    - quizá
+    - tal vez
+  chinese:
+    - 也许
+    - 可能
+  swahili:
+    - labda
+  german:
+    - vielleicht
+  hindi:
+    - शायद
+  bengali:
+    - সম্ভবত
+  portuguese:
+    - talvez
+  ukrainian:
+    - можливо
+  russian:
+    - может быть
+  indonesian:
+    - mungkin
+  hausa:
+    - watakila
+  arabic:
+    - ربما
+  japanese:
+    - たぶん
+
+grammar:
+  part_of_speech:
+    - modal_particle
+    - adverb
+  transitivity: null
+  valency: null
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: swahili
+  source_word: labda
+  derivation_notes: >
+    Adapted from Swahili "labda".
+    Spelling adjusted to avoid mid-word negated-vowel hazards in Lingua Sona.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Additive conjunction ("and") — use ¬E for and/linking
+    - Conditional introduction ("if") — use SI
+    - Causal justification ("because") — use POKEI
+    - Result/inference ("so/therefore") — use BASI
+    - Evidentiality replacement (does NOT substitute TA/TE/TI/TO/etc.)
+    - Certainty marker ("definitely", "surely")
+
+usage:
+  examples: []
+  context_clues:
+    - Usually placed near the clause it scopes over (often clause-initial).
+    - Signals speaker uncertainty; does not claim fact-status.
+    - Can coexist with evidentiality; typically pairs with weaker markers (e.g., TAW/TOOO).
+  notes: |
+    LADA introduces uncertainty about truth, outcome, or commitment.
+    It is epistemic (knowledge/likelihood), not deontic (permission/obligation).
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

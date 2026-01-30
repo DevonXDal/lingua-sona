@@ -1,0 +1,121 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000012
+
+
+sona:
+  latin: ¬ISI
+  term: 
+  ipa: /isi/
+
+
+classification:
+  root_type: V      # locative deictic root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: deixis
+
+semantics:
+  primary: proximal location
+  secondary:
+    - current place
+    - immediate spatial reference
+  extended:
+    - discourse grounding (“at this point” metaphorically)
+    - situational focus
+  domain_tags:
+    - location
+    - deixis
+    - space
+    - context
+
+multilingual:
+  english:
+    - here
+  toki_pona:
+    - ni   # contextual place reference
+  french:
+    - ici
+  spanish:
+    - aquí
+  chinese:
+    - 这里
+  swahili:
+    - hapa
+  german:
+    - hier
+  hindi:
+    - यहाँ
+  bengali:
+    - এখানে
+  portuguese:
+    - aqui
+  ukrainian:
+    - тут
+  russian:
+    - здесь
+  indonesian:
+    - di sini
+  hausa:
+    - nan
+  arabic:
+    - هنا
+  japanese:
+    - ここ
+
+grammar:
+  part_of_speech:
+    - adverb
+    - locative_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Ze
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: null
+  source_word: null
+  derivation_notes: |
+    Designed as a pure spatial deictic.
+    Encodes proximity to speaker or discourse center,
+    without implying motion or time.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Temporal reference (“now”, “currently”)
+    - Demonstrative object reference (use NI)
+    - Directional motion (“to here”, “from here” without modifiers)
+    - Abstract logical anchoring without spatial or contextual grounding
+
+usage:
+  examples: []
+  context_clues:
+    - Refers to the speaker’s location or focal point in context.
+    - Can be physical or situational, but not temporal by itself.
+    - Often pairs naturally with Ze for explicit place-typing.
+  notes: |
+    ISI anchors space, not time.
+    Any temporal reading must be supplied explicitly elsewhere.
+    This preserves clean separation between space and time systems.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

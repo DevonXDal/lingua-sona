@@ -1,0 +1,125 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000021
+
+
+sona:
+  latin: YO
+  term: 
+  ipa: /jɔ/
+
+
+classification:
+  root_type: CV          # possession / holding root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: possess
+  secondary:
+    - have
+    - hold
+  extended:
+    - ownership framing
+    - availability marker
+  domain_tags:
+    - possession
+    - relation
+    - ontology
+    - core-grammar
+
+multilingual:
+  english:
+    - have
+    - possess
+  toki_pona:
+    - jo
+  french:
+    - avoir
+  spanish:
+    - tener
+  chinese:
+    - 有
+  swahili:
+    - kuwa na
+  german:
+    - haben
+  hindi:
+    - होना (पास होना)
+  bengali:
+    - থাকা (অধিকার অর্থে)
+  portuguese:
+    - ter
+  ukrainian:
+    - мати
+  russian:
+    - иметь
+  indonesian:
+    - punya
+  hausa:
+    - da
+  arabic:
+    - يملك
+  japanese:
+    - 持つ
+    - ある (possession context)
+
+grammar:
+  part_of_speech:
+    - verb
+    - relational_verb
+  transitivity: transitive
+  valency: 2              # possessor → possessed
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: toki pona
+  source_word: jo
+  derivation_notes: |
+    Encodes possession or holding relationship.
+    Does not assert existence of the object globally,
+    only the possessor’s relation to it.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Existence without possessor (“there is” → use LON)
+    - Creation or causation (“make” → DU / POKEI)
+    - Identity (“is” → LON / SAWA)
+    - Temporary location (“have it here” → combine with ISI)
+    - Abstract truth possession (“have truth” metaphorically)
+
+usage:
+  examples: []
+  context_clues:
+    - Requires an explicit or implied possessor.
+    - Possession may be physical, legal, or abstract.
+    - Duration or permanence must be specified separately if relevant.
+  notes: |
+    YO asserts a possession relation, not ownership permanence.
+    It answers “who has what”, not “does it exist” or “what is it”.
+    Legal, temporary, or abstract possession is resolved by context.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

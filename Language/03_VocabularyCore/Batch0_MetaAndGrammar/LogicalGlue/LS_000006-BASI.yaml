@@ -1,0 +1,123 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000006
+
+
+sona:
+  latin: BASI
+  term: 
+  ipa: /basi/
+
+
+classification:
+  root_type: CV       # result / consequence connector
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: discourse-connectors
+
+semantics:
+  primary: result marker
+  secondary:
+    - consequence introducer
+    - logical conclusion cue
+  extended:
+    - inferential step marker
+    - outcome framing
+  domain_tags:
+    - discourse
+    - logic
+    - consequence
+    - inference
+
+multilingual:
+  english:
+    - so
+    - therefore
+    - thus
+  toki_pona:
+    - la   # result-context usage
+  french:
+    - donc
+    - alors
+  spanish:
+    - entonces
+  chinese:
+    - 所以
+  swahili:
+    - basi
+  german:
+    - also
+  hindi:
+    - इसलिए
+  bengali:
+    - তাই
+  portuguese:
+    - então
+  ukrainian:
+    - отже
+  russian:
+    - поэтому
+  indonesian:
+    - jadi
+  hausa:
+    - don haka
+  arabic:
+    - لذلك
+  japanese:
+    - だから
+
+grammar:
+  part_of_speech:
+    - conjunction
+    - discourse_particle
+  transitivity: null
+  valency: 2          # premise → result
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: swahili
+  source_word: basi
+  derivation_notes: |
+    Chosen for its strong association with conclusion and outcome framing.
+    Avoids temporal ambiguity present in many "then" particles.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - explanatory
+    - logical
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Temporal sequencing ("then" meaning later in time)
+    - Conditional introduction (use SI)
+    - Causal justification (use POKEI)
+    - Contrastive pivot (use BAHW)
+    - Sentence-initial filler without a prior premise
+
+usage:
+  examples: []
+  context_clues:
+    - Typically follows a stated premise or known condition.
+    - Signals that what follows is a consequence, not a cause.
+    - Often pairs naturally with evidentiality in formal reasoning.
+  notes: |
+    BASI marks logical or practical outcome.
+    It asserts progression of reasoning, not certainty of truth.
+    Truth strength is still governed by evidentiality markers.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

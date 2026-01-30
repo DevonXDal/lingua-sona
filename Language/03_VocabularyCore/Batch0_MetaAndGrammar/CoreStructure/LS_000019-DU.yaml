@@ -1,0 +1,131 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000019
+
+
+sona:
+  latin: DU
+  term: 
+  ipa: /du/
+
+
+classification:
+  root_type: CV          # action / execution root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: perform action
+  secondary:
+    - act
+    - carry out
+  extended:
+    - execution marker
+    - operational state
+  domain_tags:
+    - action
+    - process
+    - execution
+    - core-grammar
+
+multilingual:
+  english:
+    - do
+    - act
+  toki_pona:
+    - pali
+  french:
+    - faire
+    - agir
+  spanish:
+    - hacer
+    - actuar
+  chinese:
+    - 做
+    - 行动
+  swahili:
+    - fanya
+    - tenda
+  german:
+    - tun
+    - handeln
+  hindi:
+    - करना
+  bengali:
+    - করা
+  portuguese:
+    - fazer
+    - agir
+  ukrainian:
+    - робити
+  russian:
+    - делать
+  indonesian:
+    - melakukan
+  hausa:
+    - yi
+  arabic:
+    - يفعل
+  japanese:
+    - する
+
+grammar:
+  part_of_speech:
+    - verb
+    - action_verb
+  transitivity: transitive
+  valency: 2              # actor → action / object
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zo
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: proto
+  source_word: null
+  derivation_notes: |
+    Universal light verb concept.
+    Serves as a general-purpose action carrier,
+    with specificity supplied by objects or compounds.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Existence or state (“be” → use LON)
+    - Causation (“make happen” → use POKEI + DU if needed)
+    - Result or conclusion (“so” → use BASI)
+    - Intent or desire (“want” to be handled separately)
+    - Passive implication without structure
+
+usage:
+  examples: []
+  context_clues:
+    - Requires an action target, object, or implied task.
+    - Often combines with Zi/Zooo terms to specify what is done.
+    - Can function as a light verb for complex actions.
+  notes: |
+    DU asserts action, not success, cause, or outcome.
+    It answers “what is being done”, not “why” or “what results”.
+    Results, intent, and evaluation are expressed elsewhere.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

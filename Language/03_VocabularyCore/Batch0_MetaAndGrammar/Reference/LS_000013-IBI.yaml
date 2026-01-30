@@ -1,0 +1,120 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-$000013
+
+
+sona:
+  latin: ¬IBI
+  term: 
+  ipa: /ibi/
+
+
+classification:
+  root_type: V       # locative deictic root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: deixis
+
+semantics:
+  primary: distal location
+  secondary:
+    - non-proximal place
+    - referenced location away from speaker
+  extended:
+    - discourse-outside focus
+    - previously established spatial anchor
+  domain_tags:
+    - location
+    - deixis
+    - space
+    - reference
+
+multilingual:
+  english:
+    - there
+  toki_pona:
+    - ni   # contextual place reference
+  french:
+    - là
+  spanish:
+    - allí
+  chinese:
+    - 那里
+  swahili:
+    - pale
+  german:
+    - dort
+  hindi:
+    - वहाँ
+  bengali:
+    - সেখানে
+  portuguese:
+    - ali
+  ukrainian:
+    - там
+  russian:
+    - там
+  indonesian:
+    - di sana
+  hausa:
+    - can
+  arabic:
+    - هناك
+  japanese:
+    - そこ
+
+grammar:
+  part_of_speech:
+    - adverb
+    - locative_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Ze
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: latin
+  source_word: ibi
+  derivation_notes: |
+    Borrowed conceptually from classical deixis (hic / ibi).
+    Encodes spatial distance without implying direction or motion.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Temporal reference (“then”, “at that time”)
+    - Demonstrative object reference (use NI)
+    - Directional motion (“to there”, “from there” without modifiers)
+    - Contrastive discourse anchoring (use BAHW)
+
+usage:
+  examples: []
+  context_clues:
+    - Refers to a place distinct from the speaker’s location.
+    - May point to physical, visualized, or discourse-established space.
+    - Often paired with Ze to specify place-type explicitly.
+  notes: |
+    IBI is the distal counterpart to ISI.
+    Together, they encode spatial contrast without adding
+    unnecessary distance gradations or temporal bleed.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

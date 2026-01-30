@@ -1,0 +1,119 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000005
+
+
+sona:
+  latin: SI
+  term: 
+  ipa: /si/
+
+
+classification:
+  root_type: CV        # conditional connector root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: conditionals
+
+semantics:
+  primary: conditional introducer
+  secondary:
+    - hypothetical marker
+    - prerequisite linker
+  extended:
+    - logical gating
+    - contingency framing
+  domain_tags:
+    - discourse
+    - logic
+    - condition
+    - hypothesis
+
+multilingual:
+  english:
+    - if
+  toki_pona:
+    - la   # conditional/contextual usage
+  french:
+    - si
+  spanish:
+    - si
+  chinese:
+    - 如果
+  swahili:
+    - kama
+  german:
+    - wenn
+  hindi:
+    - अगर
+  bengali:
+    - যদি
+  portuguese:
+    - se
+  ukrainian:
+    - якщо
+  russian:
+    - если
+  indonesian:
+    - jika
+  hausa:
+    - idan
+  arabic:
+    - إذا
+  japanese:
+    - もし
+
+grammar:
+  part_of_speech:
+    - conjunction
+    - conditional_particle
+  transitivity: null
+  valency: 2            # condition → result
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: latin
+  source_word: si
+  derivation_notes: |
+    Cross-linguistically stable conditional particle.
+    Selected for phonetic simplicity and global recognizability.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - technical
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Temporal sequencing ("when" in the sense of time, not condition)
+    - Causal assertion (use POKEI for cause)
+    - Contrastive framing (use BAHW)
+    - Truth assertion without contingency
+    - Standalone yes/no response particle
+
+usage:
+  examples: []
+  context_clues:
+    - Introduces a hypothetical or prerequisite clause.
+    - Does not assert truth of either clause by itself.
+    - Often paired with evidentiality in the result clause, not the condition.
+  notes: |
+    SI establishes conditional space.
+    Truth evaluation is deferred until the condition is satisfied or rejected.
+    For counterfactuals or unreal conditions, additional markers may evolve later.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created:  2026-01-29
+  modified: null
+  status: core
+  review_log: []

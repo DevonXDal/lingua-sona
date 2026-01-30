@@ -1,0 +1,129 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000023
+
+
+sona:
+  latin: PALI
+  term: 
+  ipa: /pali/
+
+
+classification:
+  root_type: CVV          # creation / production root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: make
+  secondary:
+    - create
+    - build
+  extended:
+    - bring into existence through action
+    - constructive process framing
+  domain_tags:
+    - creation
+    - production
+    - action
+    - ontology
+
+multilingual:
+  english:
+    - make
+    - create
+  toki_pona:
+    - pali
+  french:
+    - faire
+    - créer
+  spanish:
+    - hacer
+    - crear
+  chinese:
+    - 制作
+    - 创造
+  swahili:
+    - tengeneza
+  german:
+    - machen
+    - erschaffen
+  hindi:
+    - बनाना
+  bengali:
+    - তৈরি করা
+  portuguese:
+    - fazer
+    - criar
+  ukrainian:
+    - створювати
+  russian:
+    - создавать
+  indonesian:
+    - membuat
+  hausa:
+    - ƙirƙira
+  arabic:
+    - يصنع
+    - يخلق
+  japanese:
+    - 作る
+
+grammar:
+  part_of_speech:
+    - verb
+    - productive_verb
+  transitivity: transitive
+  valency: 2              # creator → created entity
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: toki pona
+  source_word: pali
+  derivation_notes: |
+    Encodes creation via effort or process.
+    Distinguished from generic action (DU),
+    instrumental use (OOOS), and transformation (KUWA).
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Generic action without creation (“do” → DU)
+    - Mere use of an existing object (“use” → OOOS)
+    - Change of state without creation (“become” → KUWA)
+    - Causal implication without production (“make happen” → DU + POKEI)
+    - Ownership assertion (“have” → YO)
+
+usage:
+  examples: []
+  context_clues:
+    - Implies a new entity, structure, or arrangement exists after the action.
+    - The created result may be physical, abstract, or conceptual.
+    - Means, tools, and materials are expressed separately if relevant.
+  notes: |
+    PALI asserts production, not intent, ownership, or success.
+    It answers “what was made”, not “why”, “how”, or “who now has it”.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

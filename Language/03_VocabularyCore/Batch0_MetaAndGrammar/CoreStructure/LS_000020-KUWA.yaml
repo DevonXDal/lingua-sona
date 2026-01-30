@@ -1,0 +1,125 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000020
+
+
+sona:
+  latin: KUWA
+  term: 
+  ipa: /kuwa/
+
+
+classification:
+  root_type: CV         # transformational / change-of-state root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: become
+  secondary:
+    - change into
+    - enter a new state
+  extended:
+    - transformation marker
+    - state transition framing
+  domain_tags:
+    - change
+    - transformation
+    - process
+    - ontology
+
+multilingual:
+  english:
+    - become
+    - turn into
+  toki_pona:
+    - kama
+  french:
+    - devenir
+  spanish:
+    - convertirse
+  chinese:
+    - 变成
+  swahili:
+    - kuwa
+  german:
+    - werden
+  hindi:
+    - बनना
+  bengali:
+    - হওয়া (পরিবর্তন অর্থে)
+  portuguese:
+    - tornar-se
+  ukrainian:
+    - стати
+  russian:
+    - стать
+  indonesian:
+    - menjadi
+  hausa:
+    - zama
+  arabic:
+    - يصبح
+  japanese:
+    - なる
+
+grammar:
+  part_of_speech:
+    - verb
+    - transformational_verb
+  transitivity: intransitive
+  valency: 2              # entity → resulting state
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zu
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: swahili
+  source_word: kuwa
+  derivation_notes: |
+    Encodes transition between states without asserting cause,
+    intent, or success.
+    Focuses on change itself, not the mechanism behind it.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Existence without change (“be” → use LON)
+    - Action without transformation (“do” → use DU)
+    - Logical result (“therefore” → use BASI)
+    - Causal explanation (“because” → use POKEI)
+    - Instant identity equivalence (“is the same as” → use SAWA or structure)
+
+usage:
+  examples: []
+  context_clues:
+    - Implies a before-state and an after-state.
+    - Does not specify how or why the change occurred.
+    - Resulting state is defined by complements or classifiers.
+  notes: |
+    KUWA marks transformation, not permanence.
+    It answers “what did it become”, not “why” or “who caused it”.
+    Cause, intent, and evaluation must be expressed separately.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

@@ -1,0 +1,123 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000022
+
+
+sona:
+  latin: ¬OOOS¬
+  term: 
+  ipa: /ʉs/
+
+
+classification:
+  root_type: V          # instrumental / utilization root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: use
+  secondary:
+    - employ
+    - apply as a tool
+  extended:
+    - instrumental action framing
+    - functional engagement
+  domain_tags:
+    - action
+    - instrumentality
+    - process
+    - relation
+
+multilingual:
+  english:
+    - use
+    - employ
+  toki_pona:
+    - kepeken
+  french:
+    - utiliser
+  spanish:
+    - usar
+  chinese:
+    - 使用
+  swahili:
+    - kutumia
+  german:
+    - benutzen
+  hindi:
+    - उपयोग करना
+  bengali:
+    - ব্যবহার করা
+  portuguese:
+    - usar
+  ukrainian:
+    - використовувати
+  russian:
+    - использовать
+  indonesian:
+    - menggunakan
+  hausa:
+    - amfani da
+  arabic:
+    - يستخدم
+  japanese:
+    - 使う
+
+grammar:
+  part_of_speech:
+    - verb
+    - instrumental_verb
+  transitivity: transitive
+  valency: 2              # user → tool / resource
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: toki pona
+  source_word: kepeken
+  derivation_notes: |
+    Encodes purposeful application of an object or concept.
+    Bridges possession (YO) and action (DU) without collapsing into either.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Generic action without an instrument (“do” → DU)
+    - Possession without action (“have” → YO)
+    - Causal enforcement (“make” → DU / POKEI)
+    - Identity or state change (“become” → KUWA)
+    - Abstract preference (“like / want”)
+
+usage:
+  examples: []
+  context_clues:
+    - Requires a resource, tool, or means.
+    - Implies purposeful engagement, not mere contact.
+    - Often pairs naturally with Zi or Zooo classifiers.
+  notes: |
+    OOOS specifies *how* an action is carried out.
+    It does not assert success, ownership, or outcome.
+    Outcomes and causation are expressed separately.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

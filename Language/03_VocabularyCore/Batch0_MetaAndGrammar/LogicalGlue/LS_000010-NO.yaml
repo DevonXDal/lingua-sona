@@ -1,0 +1,119 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000010
+
+
+sona:
+  latin: NO
+  term: 
+  ipa: /nɔ/
+
+
+classification:
+  root_type: CV        # response particle
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: response-particles
+
+semantics:
+  primary: negative response
+  secondary:
+    - refusal marker
+    - disagreement signal
+  extended:
+    - rejection without elaboration
+    - non-acceptance indicator
+  domain_tags:
+    - discourse
+    - response
+    - negation
+
+multilingual:
+  english:
+    - no
+    - nope
+  toki_pona:
+    - ala   # negative response / denial
+  french:
+    - non
+  spanish:
+    - no
+  chinese:
+    - 不
+  swahili:
+    - hapana
+  german:
+    - nein
+  hindi:
+    - नहीं
+  bengali:
+    - না
+  portuguese:
+    - não
+  ukrainian:
+    - ні
+  russian:
+    - нет
+  indonesian:
+    - tidak
+  hausa:
+    - a'a
+  arabic:
+    - لا
+  japanese:
+    - いいえ
+
+grammar:
+  part_of_speech:
+    - response_particle
+    - discourse_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: false
+    allows_inflection: false
+
+predecessor:
+  source_language: proto
+  source_word: null
+  derivation_notes: |
+    Universal negative response particle.
+    Distinct by design from grammatical or logical negation mechanisms.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Clause-level negation (use Z¬ or explicit negators)
+    - Logical NOT operator (use ZONZ or Z¬ as appropriate)
+    - Contrastive discourse (use BAHW)
+    - Causal denial ("not because")
+    - Emotional intensifier without context
+
+usage:
+  examples: []
+  context_clues:
+    - Typically used as a standalone response.
+    - Rejects or denies a proposal, request, or question.
+    - Does not assert falsity of a statement.
+  notes: |
+    NO is a conversational rejection, not a truth-value operator.
+    Factual negation still requires grammatical or logical structure.
+
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

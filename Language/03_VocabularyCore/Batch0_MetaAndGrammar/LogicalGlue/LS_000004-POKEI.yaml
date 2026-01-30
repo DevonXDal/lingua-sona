@@ -1,0 +1,126 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000004
+
+
+sona:
+  latin: POKEI
+  term: 
+  ipa: /pɔkeɪ/
+
+
+classification:
+  root_type: CV
+  core_status: core
+
+  # Zipf-style rank based on real Lingua Sona corpus usage.
+  # Intentionally null until sufficient corpus data exists.
+  frequency_rank: null
+
+  # Provisional priority tier for IME guessing, teaching order,
+  # and early-stage tooling. Subject to revision.
+  relevance_batch: 1
+  cluster_group: discourse-connectors
+
+
+semantics:
+  primary: causal conjunction
+  secondary:
+    - reason introducer
+    - justification marker
+  extended:
+    - explanatory frame
+    - logical grounding cue
+  domain_tags:
+    - discourse
+    - logic
+    - causality
+    - explanation
+
+multilingual:
+  english:
+    - because
+    - since
+    - due to the fact that
+  toki_pona:
+    - tan
+  french:
+    - parce que
+  spanish:
+    - porque
+  chinese:
+    - 因为
+  swahili:
+    - kwa sababu
+  german:
+    - weil
+  hindi:
+    - क्योंकि
+  bengali:
+    - কারণ
+  portuguese:
+    - porque
+  ukrainian:
+    - тому що
+  russian:
+    - потому что
+  indonesian:
+    - karena
+  hausa:
+    - saboda
+  arabic:
+    - لأن
+  japanese:
+    - から
+
+grammar:
+  part_of_speech:
+    - conjunction
+    - discourse_particle
+  transitivity: null
+  valency: 2          # links cause → effect clauses
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: spanish
+  source_word: porque
+  derivation_notes: |
+    Adapted phonologically to Lingua Sona constraints.
+    Retains causal force without importing Romance grammatical baggage.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - explanatory
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Temporal sequencing ("then", "after")
+    - Contrastive pivot (use BAHW instead)
+    - Evidential substitution (does NOT replace TA/TE/TI/etc.)
+    - Standalone answer particle ("because." as a full response)
+
+usage:
+  examples: []
+  context_clues:
+    - Introduces the cause or justification for a preceding or following clause.
+    - Does not negate, contrast, or soften—purely explanatory.
+    - Often pairs naturally with evidentiality markers in formal speech.
+  notes: |
+    POKEI asserts causation, not opinion.
+    When causality is uncertain, combine with weaker evidentiality (e.g., TAW).
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

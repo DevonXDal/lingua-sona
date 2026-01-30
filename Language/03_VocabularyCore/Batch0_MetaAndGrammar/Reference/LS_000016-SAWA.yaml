@@ -1,0 +1,124 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000016
+
+
+sona:
+  latin: SAWA
+  term: 
+  ipa: /sawa/
+
+
+classification:
+  root_type: CV          # equivalence / comparison root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: comparison
+
+semantics:
+  primary: equivalence
+  secondary:
+    - sameness
+    - non-difference
+  extended:
+    - matching state
+    - shared property framing
+  domain_tags:
+    - comparison
+    - identity
+    - logic
+    - relation
+
+multilingual:
+  english:
+    - same
+  toki_pona:
+    - sama
+  french:
+    - même
+  spanish:
+    - mismo
+  chinese:
+    - 同样
+  swahili:
+    - sawa
+  german:
+    - gleich
+  hindi:
+    - समान
+  bengali:
+    - একই
+  portuguese:
+    - mesmo
+  ukrainian:
+    - той самий
+  russian:
+    - тот же
+  indonesian:
+    - sama
+  hausa:
+    - iri ɗaya
+  arabic:
+    - نفس
+  japanese:
+    - 同じ
+
+grammar:
+  part_of_speech:
+    - adjective
+    - relational_modifier
+  transitivity: null
+  valency: 2              # compares two referents
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zi
+    - Zu
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: swahili
+  source_word: sawa
+  derivation_notes: |
+    Chosen for cross-linguistic familiarity and semantic breadth.
+    Encodes equivalence without asserting identity or equality.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Numerical equality (“=”, “equal to” in math)
+    - Identity assertion (“is exactly the same entity”)
+    - Logical equivalence operator in formal proofs
+    - Agreement response (“okay / yes” → use YA)
+    - Causal or result framing
+
+usage:
+  examples: []
+  context_clues:
+    - Requires two referents or an implicit comparison target.
+    - Indicates no meaningful difference in the relevant context.
+    - Scope of sameness is determined by surrounding descriptors.
+  notes: |
+    SAWA asserts equivalence within a defined frame.
+    It does not collapse distinct entities into one,
+    nor does it imply mathematical equality unless specified elsewhere.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

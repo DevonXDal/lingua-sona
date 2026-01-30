@@ -1,0 +1,119 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000014
+
+
+sona:
+  latin: SASA
+  term: 
+  ipa: /sasa/
+
+
+classification:
+  root_type: CVV          # temporal deictic root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: time-deixis
+
+semantics:
+  primary: present moment
+  secondary:
+    - current time
+    - immediate temporal frame
+  extended:
+    - discourse immediacy
+    - situational urgency
+  domain_tags:
+    - time
+    - deixis
+    - context
+    - temporality
+
+multilingual:
+  english:
+    - now
+  toki_pona:
+    - tenpo ni
+  french:
+    - maintenant
+  spanish:
+    - ahora
+  chinese:
+    - 现在
+  swahili:
+    - sasa
+  german:
+    - jetzt
+  hindi:
+    - अब
+  bengali:
+    - এখন
+  portuguese:
+    - agora
+  ukrainian:
+    - зараз
+  russian:
+    - сейчас
+  indonesian:
+    - sekarang
+  hausa:
+    - yanzu
+  arabic:
+    - الآن
+  japanese:
+    - 今
+
+grammar:
+  part_of_speech:
+    - adverb
+    - temporal_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: false
+
+predecessor:
+  source_language: swahili
+  source_word: sasa
+  derivation_notes: |
+    Chosen for clarity and strong association with present-time reference.
+    Encodes temporal immediacy without implying duration or permanence.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Spatial reference (“here” → use ISI)
+    - Causal immediacy (“so now” → use BASI + SASA if needed)
+    - Evidential certainty (“it is now true”)
+    - Duration marking (“for now”, “nowadays” without modifiers)
+    - Narrative sequencing alone (“then”)
+
+usage:
+  examples: []
+  context_clues:
+    - Anchors a statement to the present moment of speaking or reference.
+    - May be physical-time or discourse-time, but never spatial.
+    - Often pairs naturally with Zaw for explicit temporal framing.
+  notes: |
+    SASA marks temporal proximity, not truth, urgency, or consequence.
+    Any persistence, duration, or sequencing must be expressed separately.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

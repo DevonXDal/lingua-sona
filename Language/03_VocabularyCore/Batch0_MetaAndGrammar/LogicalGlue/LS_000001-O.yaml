@@ -1,0 +1,113 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000001
+
+
+sona:
+  latin: ¬O 
+  term: 
+  ipa:  /ɔ/
+
+
+classification:
+  root_type: V
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: logic-connective
+
+
+semantics:
+  primary: logical alternation; inclusive disjunction
+  secondary: 
+      - choice between alternatives
+      - option-set branching
+  extended: 
+    - rhetorical or poetic alternation
+    - permissive allowance
+  domain_tags: 
+    - logic 
+    - mathematics
+    - grammar 
+    - programming
+
+
+multilingual:
+  english: 
+    - or 
+    - either
+  toki_pona: 
+    - anu
+  french: 
+    - ou 
+  spanish: 
+    - o
+  chinese: 
+    - 或者
+    - 或
+  swahili: 
+    - au
+  german: 
+    - oder
+  hindi: 
+    - या
+  bengali: 
+    - অথবা
+  portuguese: 
+    - ou
+  ukrainian: 
+    - або
+  russian: 
+    - или
+  indonesian: 
+    - atau
+  hausa: 
+    - ko
+  arabic: 
+    - أو
+  japanese: 
+    - または
+    - か
+
+
+grammar:
+  part_of_speech: 
+    - conjunction
+    - logical-operator
+  transitivity: null
+  valency: binary
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: false
+    allows_inflection: false
+
+
+predecessor:
+  source_language: spanish
+  source_word: o
+  derivation_notes: null
+
+constraints:
+  taboo: false
+  register: 
+    - neutral 
+    - formal 
+    - technical
+  ambiguity_allowed: false
+
+
+usage:
+  examples: []
+  context_clues: []
+  notes: > 
+    ¬O represents inclusive logical OR not XOR.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-29
+  modified: null
+  status: core
+  review_log: []

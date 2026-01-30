@@ -28,11 +28,11 @@
      inkscape:document-units="mm"
      showgrid="true"
      inkscape:zoom="0.74653478"
-     inkscape:cx="561.92961"
+     inkscape:cx="562.59937"
      inkscape:cy="517.05562"
-     inkscape:window-width="1600"
-     inkscape:window-height="868"
-     inkscape:window-x="1920"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer2"
@@ -80,7 +80,7 @@
      inkscape:label="Consonant Fragments"
      style="display:inline">
     <path
-       style="display:inline;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="display:none;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 33.866666,33.866666 h 50.8 33.866664 V 135.46666 h 16.93333 v 0"
        id="P"
        inkscape:label="P"
@@ -232,7 +232,7 @@
        inkscape:label="I"
        sodipodi:insensitive="true" />
     <path
-       style="display:inline;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="display:none;fill:none;stroke:#000104;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 135.46666,135.46666 101.6,101.6"
        id="O"
        inkscape:label="O"
