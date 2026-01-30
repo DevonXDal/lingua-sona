@@ -1,6 +1,6 @@
 # The Alphabet of Lingua Sona
 ## Letter Counts
-There are ***251*** letters in Lingua Sona's alphabet. These letters are composed of two (usually) or more [[Glyphs]] which help to massively reduce the learning complexity. 
+There are ***307*** letters in Lingua Sona's alphabet. These letters are composed of two (usually) or more [[Glyphs]] which help to massively reduce the learning complexity. 
 
 ---
 ## Structure
