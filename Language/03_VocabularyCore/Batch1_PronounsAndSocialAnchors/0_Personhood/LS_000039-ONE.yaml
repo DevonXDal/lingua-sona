@@ -1,0 +1,87 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000039
+
+
+sona:
+  latin: ¬ONE
+  term: 
+  ipa: /ɔne/
+
+
+classification:
+  root_type: null
+  core_status: core
+
+  # Zipf-style rank based on real Lingua Sona corpus usage.
+  # Intentionally null until sufficient corpus data exists.
+  frequency_rank: null
+
+  # Provisional priority tier for IME guessing, teaching order,
+  # and early-stage tooling. Subject to revision.
+  relevance_batch: NUM
+  cluster_group: null
+
+
+semantics:
+  primary: null
+  secondary: []
+  extended: []
+  domain_tags: []
+
+
+multilingual:
+  english: []
+  toki_pona: []
+  french: []
+  spanish: []
+  chinese: []
+  swahili: []
+  german: []
+  hindi: []
+  bengali: []
+  portuguese: []
+  ukrainian: []
+  russian: []
+  indonesian: []
+  hausa: []
+  arabic: []
+  japanese: []
+
+
+grammar:
+  part_of_speech: []
+  transitivity: null
+  valency: null
+  classifiers_allowed: []
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+
+predecessor:
+  source_language: null
+  source_word: null
+  derivation_notes: null
+
+
+constraints:
+  taboo: false
+  register: [neutral]
+  ambiguity_allowed: true
+
+
+usage:
+  examples: []
+  context_clues: []
+  notes: null
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 
+  modified: null
+  status: core
+  review_log: []

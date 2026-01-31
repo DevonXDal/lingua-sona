@@ -1,0 +1,126 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000030
+
+
+sona:
+  latin: ¬ACHA
+  term: 
+  ipa: /at͡ʃa/
+
+
+classification:
+  root_type: V          # interruption / cessation root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: control
+
+semantics:
+  primary: stop
+  secondary:
+    - cease
+    - halt
+  extended:
+    - interruption command
+    - immediate termination cue
+  domain_tags:
+    - control
+    - action
+    - interruption
+    - core-grammar
+
+multilingual:
+  english:
+    - stop
+    - halt
+  toki_pona:
+    - o pini
+  french:
+    - arrêter
+  spanish:
+    - parar
+    - detener
+  chinese:
+    - 停
+  swahili:
+    - simama
+  german:
+    - stoppen
+  hindi:
+    - रुकना
+  bengali:
+    - থামা
+  portuguese:
+    - parar
+  ukrainian:
+    - зупинити
+  russian:
+    - остановить
+  indonesian:
+    - berhenti
+  hausa:
+    - tsaya
+  arabic:
+    - توقف
+  japanese:
+    - 止める
+
+grammar:
+  part_of_speech:
+    - verb
+    - command_particle
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Za
+    - Zo
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: swahili
+  source_word: acha
+  derivation_notes: |
+    Phonesthetically motivated construction.
+    Designed to feel sharp, forceful, and immediate.
+    Semantic parallels include imperative stop-forms across languages,
+    but it is related to the Swahili word.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - forceful
+    - urgent
+  ambiguity_allowed: false
+
+  forbidden_uses:
+    - Mere completion (“finish” → separate term)
+    - Logical negation (“not” → Z¬ / ZONZ)
+    - Passive non-action (“stay” → KUKEI)
+    - Polite refusal (“no” → NO)
+    - Causal prevention (“make stop” → DU + ACHA)
+
+usage:
+  examples: []
+  context_clues:
+    - Often used as an imperative or sharp interruption.
+    - Implies immediacy and authority, not gradual cessation.
+    - Can apply to actions, processes, or behaviors.
+  notes: |
+    ACHA is about interruption, not conclusion.
+    It answers “stop that” or “cease now”, not “is it finished”.
+    Tone can be urgent, corrective, or protective depending on context.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []

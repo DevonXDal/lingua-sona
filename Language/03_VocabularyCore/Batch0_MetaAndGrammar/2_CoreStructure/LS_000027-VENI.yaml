@@ -1,0 +1,123 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000028
+
+
+sona:
+  latin: VENI
+  term: 
+  ipa: /veni/
+
+
+classification:
+  root_type: CV          # motion / approach root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: motion
+
+semantics:
+  primary: come
+  secondary:
+    - move toward speaker or reference point
+    - approach
+  extended:
+    - arrival-oriented framing (without asserting arrival)
+    - convergence cue
+  domain_tags:
+    - motion
+    - space
+    - deixis
+    - core-grammar
+
+multilingual:
+  english:
+    - come
+  toki_pona:
+    - kama
+  french:
+    - venir
+  spanish:
+    - venir
+  chinese:
+    - 来
+  swahili:
+    - kuja
+  german:
+    - kommen
+  hindi:
+    - आना
+  bengali:
+    - আসা
+  portuguese:
+    - vir
+  ukrainian:
+    - приходити
+  russian:
+    - приходить
+  indonesian:
+    - datang
+  hausa:
+    - zo
+  arabic:
+    - يأتي
+  japanese:
+    - 来る
+
+grammar:
+  part_of_speech:
+    - verb
+    - motion_verb
+  transitivity: intransitive
+  valency: 1              # mover (reference point implicit or explicit)
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: latin
+  source_word: venire
+  derivation_notes: |
+    Encodes motion toward a deictic center (speaker, listener,
+    or established reference point).
+    Distinguished from generic motion (GO).
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Generic motion without reference (“go” → GO)
+    - Arrival or completion (“arrive” to be separate)
+    - Change of state (“become” → KUWA)
+    - Static location (“be here” → LON + ISI)
+    - Metaphorical logical progression (“then” → DON)
+
+usage:
+  examples: []
+  context_clues:
+    - Implies a target location or reference point in context.
+    - Does not guarantee arrival, only direction of motion.
+    - Often pairs naturally with ISI (here) or a Ze-marked place.
+  notes: |
+    VENI asserts directionality toward a reference point.
+    It answers “is it moving toward here/there”, not “did it arrive”
+    or “what changed as a result”.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []

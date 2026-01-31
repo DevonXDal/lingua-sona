@@ -1,0 +1,137 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000024
+
+
+sona:
+  latin: DAWH
+  term: 
+  ipa: /dɑ/
+
+
+classification:
+  root_type: CV       # reception / acquisition root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: receive
+  secondary:
+    - take
+    - accept transfer
+  extended:
+    - acquisition framing
+    - intake of possession or control
+  domain_tags:
+    - transfer
+    - possession
+    - relation
+    - action
+
+multilingual:
+  english:
+    - take
+    - receive
+  toki_pona:
+    - kama jo
+  french:
+    - prendre
+    - recevoir
+  spanish:
+    - tomar
+    - recibir
+  chinese:
+    - 拿
+    - 接收
+  swahili:
+    - pokea
+    - chukua
+  german:
+    - nehmen
+    - erhalten
+  hindi:
+    - लेना
+    - प्राप्त करना
+  bengali:
+    - নেওয়া
+    - পাওয়া
+  portuguese:
+    - pegar
+    - receber
+  ukrainian:
+    - брати
+    - отримувати
+  russian:
+    - брать
+    - получать
+  indonesian:
+    - menerima
+    - mengambil
+  hausa:
+    - karɓa
+  arabic:
+    - يأخذ
+    - يستلم
+  japanese:
+    - 取る
+    - 受け取る
+
+grammar:
+  part_of_speech:
+    - verb
+    - transfer_verb
+  transitivity: transitive
+  valency: 2              # receiver → item (source optional)
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zooo
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: constructed
+  source_word: null
+  derivation_notes: |
+    Designed as the inverse of DAWH.
+    Encodes reception or acquisition without implying consent,
+    force, legality, or reciprocity.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Forced acquisition (“seize”, “steal” without context)
+    - Creation (“make” → PALI)
+    - Mere possession without transfer (“have” → YO)
+    - Causal imposition (“make someone take” → DU / POKEI)
+    - Obligation or expectation framing
+
+usage:
+  examples: []
+  context_clues:
+    - May imply a giver, environment, or source, but not required.
+    - Does not assert willingness, fairness, or legality.
+    - Often pairs naturally with DAWH in transactional contexts.
+  notes: |
+    TAWH asserts reception, not entitlement or effort.
+    It answers “who got what”, not “why” or “whether it was right”.
+    It did also come somewhat from 'ta' in Swedish and Norweigan
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []

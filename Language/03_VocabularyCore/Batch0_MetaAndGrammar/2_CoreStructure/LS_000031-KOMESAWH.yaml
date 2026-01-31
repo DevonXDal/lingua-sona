@@ -1,0 +1,139 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000031
+
+
+sona:
+  latin: KOMESAWH
+  term: 
+  ipa: /kɔmesɑ/
+
+
+classification:
+  root_type: CV
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: begin
+  secondary:
+    - start
+    - originate
+  extended:
+    - initial state before change
+    - point of origin
+    - prior condition before transformation
+  domain_tags:
+    - time
+    - origin
+    - transformation
+    - process
+
+multilingual:
+  english:
+    - begin
+    - start
+    - origin
+    - before
+  toki_pona:
+    - open
+  french:
+    - commencer
+    - début
+  spanish:
+    - comenzar
+    - inicio
+  chinese:
+    - 开始
+    - 起点
+  swahili:
+    - kuanza
+  german:
+    - beginnen
+    - Anfang
+  hindi:
+    - शुरू करना
+  bengali:
+    - শুরু
+  portuguese:
+    - começar
+    - início
+  ukrainian:
+    - починати
+  russian:
+    - начинать
+  indonesian:
+    - mulai
+    - awal
+  hausa:
+    - fara
+  arabic:
+    - يبدأ
+  japanese:
+    - 始める
+
+grammar:
+  part_of_speech:
+    - verb
+    - origin_marker
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Zaw     # temporal start / before
+    - Ze      # spatial origin / starting location
+    - Zooo    # conceptual origin / initial state
+    - Zu      # qualitative starting condition
+    - Za      # agent at start (who began)
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: spanish
+  source_word: comenzar
+  derivation_notes: |
+    Core meaning is “boundary of origin”.
+    Specific readings are selected by classifiers:
+      Zaw  KOMESAWH → temporal beginning / before
+      Ze   KOMESAWH → starting place / origin
+      Zooo KOMESAWH → initial concept or state
+      Zu   KOMESAWH → what something started as
+    Complements KUWA by defining the pre-change state.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - narrative
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Completion or termination (“finish” → separate term)
+    - Mere existence (“be” → LON)
+    - Action without origin (“do” → DU)
+    - Result or consequence (“therefore” → BASI)
+    - Temporal sequencing without reference (“then” → DON)
+
+usage:
+  examples: []
+  context_clues:
+    - Often paired with KUWA to express transformation arcs.
+    - Classifier choice determines whether the focus is time, place, or state.
+    - Can anchor narratives, processes, or identity changes.
+  notes: |
+    KOMESAWH defines where something starts, not what it becomes.
+    It answers “from where / from when / from what state”.
+    Endpoints, outcomes, and causes must be expressed separately.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []

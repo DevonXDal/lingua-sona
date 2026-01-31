@@ -1,0 +1,141 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000032
+
+
+sona:
+  latin: FEN¬
+  term: 
+  ipa: /fen/
+
+
+classification:
+  root_type: CV
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: core-structure
+
+semantics:
+  primary: end
+  secondary:
+    - finish
+    - conclude
+  extended:
+    - terminal state
+    - finish line
+    - resulting condition after transformation
+  domain_tags:
+    - time
+    - completion
+    - transformation
+    - process
+
+multilingual:
+  english:
+    - end
+    - finish
+    - final
+  toki_pona:
+    - pini
+  french:
+    - finir
+    - fin
+  spanish:
+    - terminar
+    - fin
+  chinese:
+    - 结束
+    - 终点
+  swahili:
+    - mwisho
+    - kumaliza
+  german:
+    - Ende
+    - beenden
+  hindi:
+    - समाप्त
+  bengali:
+    - শেষ
+  portuguese:
+    - fim
+    - terminar
+  ukrainian:
+    - кінець
+  russian:
+    - конец
+  indonesian:
+    - akhir
+    - selesai
+  hausa:
+    - ƙarshe
+  arabic:
+    - نهاية
+  japanese:
+    - 終わる
+    - 終点
+
+grammar:
+  part_of_speech:
+    - verb
+    - terminal_marker
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Zaw     # temporal end / after
+    - Ze      # endpoint / finish line / destination
+    - Zooo    # final concept / outcome
+    - Zu      # resulting state or quality
+    - Za      # agent at completion
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: null
+  source_word: null
+  derivation_notes: |
+    Core meaning is “terminal boundary”.
+    Axis is selected via classifiers:
+      Zaw  FEN → temporal end / after
+      Ze   FEN → endpoint / finish line
+      Zooo FEN → final concept or result
+      Zu   FEN → what something ended up as
+    Designed as the symmetric counterpart to KOMESAWH.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - narrative
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Mere interruption (“stop” → ACHA)
+    - Continuation halt without completion
+    - Existence assertion (“be” → LON)
+    - Cause or justification (“because” → POKEI)
+    - Temporal sequencing alone (“then” → DON)
+
+usage:
+  examples: []
+  context_clues:
+    - Often paired with KUWA to describe full transformation arcs.
+    - Classifier determines whether focus is time, place, or result.
+    - Strong narrative and procedural utility.
+  notes: |
+    FEN defines where something ends, not why or how.
+    It answers “to where / to what state / until when”.
+    Causes, success, or evaluation must be expressed separately.
+
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []

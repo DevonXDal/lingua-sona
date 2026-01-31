@@ -49,8 +49,7 @@
               "title": "AllowedPrimitivesSet"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,21 +207,21 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0e5dd17d3d75bac3",
+  "active": "1e117ffe1d678c3a",
   "lastOpenFiles": [
-    "01_Phonetics/Glyphs.md",
     "01_Phonetics/Letters.md",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000039-ONE.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000000-WORD.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000038-ONOOO.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000036-ONI.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000037-ONAI.yaml",
+    "01_Phonetics/Glyphs.md",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000035-ONO.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000034-ONA.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000037-ONO.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000036_ONI.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000036-ONI",
     "09_ForAdvancedLinguisitcAndProgrammaticUse/AllowedPrimitivesSet.md",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000023-PALI.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000000-WORD.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000022-OOOS.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000021-YO.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000020-KUWA.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/LS_000000-WORD.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000019-DU.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure/LS_000018-LON.yaml",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/CoreStructure",
-    "03_VocabularyCore/Batch0_MetaAndGrammar/Reference/LS_000017-DIF.yaml",
     "02_Grammar/Evidentiality.md",
     "03_VocabularyCore/LS.md",
     "03_VocabularyCore/TEMPLATE_FILE_STRUCTURE.md",

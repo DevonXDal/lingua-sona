@@ -12,7 +12,7 @@ sona:
 
 
 classification:
-  root_type: CVV          # creation / production root
+  root_type: CV         # creation / production root
   core_status: core
   frequency_rank: null
   relevance_batch: 1

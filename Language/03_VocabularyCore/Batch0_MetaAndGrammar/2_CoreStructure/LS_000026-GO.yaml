@@ -1,0 +1,122 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000026
+
+
+sona:
+  latin: GO
+  term: 
+  ipa: /gɔ/
+
+
+classification:
+  root_type: CV          # motion / traversal root
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 1
+  cluster_group: motion
+
+semantics:
+  primary: move
+  secondary:
+    - go
+    - travel
+  extended:
+    - departure framing
+    - directional motion cue
+  domain_tags:
+    - motion
+    - space
+    - process
+    - core-grammar
+
+multilingual:
+  english:
+    - go
+    - move
+  toki_pona:
+    - tawa
+  french:
+    - aller
+  spanish:
+    - ir
+  chinese:
+    - 去
+  swahili:
+    - kwenda
+  german:
+    - gehen
+  hindi:
+    - जाना
+  bengali:
+    - যাওয়া
+  portuguese:
+    - ir
+  ukrainian:
+    - йти
+  russian:
+    - идти
+  indonesian:
+    - pergi
+  hausa:
+    - tafi
+  arabic:
+    - يذهب
+  japanese:
+    - 行く
+
+grammar:
+  part_of_speech:
+    - verb
+    - motion_verb
+  transitivity: intransitive
+  valency: 1              # mover (destination optional via structure)
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zaw
+  derivation_rules:
+    allows_compounding: true
+    allows_inflection: true
+
+predecessor:
+  source_language: proto
+  source_word: null
+  derivation_notes: |
+    Encodes motion through space without implying destination,
+    purpose, arrival, or transformation.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+    - formal
+    - casual
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Change of state (“become” → KUWA)
+    - Action without movement (“do” → DU)
+    - Arrival or completion (“reach / arrive” to be separate)
+    - Direction without motion (“here / there” → ISI / IBI)
+    - Metaphorical logical progression (“then” → DON)
+
+usage:
+  examples: []
+  context_clues:
+    - Implies spatial displacement of an entity.
+    - Destination, origin, or purpose must be supplied separately.
+    - Often pairs with ISI / IBI / Ze for spatial anchoring.
+  notes: |
+    GO asserts motion, not arrival or success.
+    It answers “is it moving”, not “where to”, “why”, or “what changed”.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []

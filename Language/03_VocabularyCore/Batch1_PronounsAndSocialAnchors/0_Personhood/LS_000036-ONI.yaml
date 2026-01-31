@@ -1,0 +1,97 @@
+# Lingua Sona Lexicon Entry
+# =========================
+
+
+id: LS-000036
+
+
+sona:
+  latin: ¬ONI
+  term: 
+  ipa: /ɔni/
+
+
+classification:
+  root_type: V
+  core_status: core
+  frequency_rank: null
+  relevance_batch: 2
+  cluster_group: pronouns
+
+semantics:
+  primary: third-person singular pronoun (gender unknown or non-binary)
+  secondary:
+    - they
+    - them
+  extended:
+    - agender referent
+    - intentionally unspecified gender
+  domain_tags:
+    - pronoun
+    - person
+    - gender-neutral
+    - reference
+
+multilingual:
+  english:
+    - they
+    - them
+  toki_pona:
+    - ona
+  french:
+    - iel
+  spanish:
+    - elle
+  chinese:
+    - 他 (neutral context)
+  german:
+    - sie
+  japanese:
+    - 彼ら (neutral singular usage)
+
+grammar:
+  part_of_speech:
+    - pronoun
+  transitivity: null
+  valency: null
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zooo
+  derivation_rules:
+    allows_compounding: false
+    allows_inflection: false
+
+predecessor:
+  source_language: constructed
+  source_word: null
+  derivation_notes: |
+    Singular by default.
+    Refers only to people.
+    Gender-neutral without implying plurality.
+
+constraints:
+  taboo: false
+  register:
+    - neutral
+  ambiguity_allowed: true
+
+  forbidden_uses:
+    - Referring to objects or abstractions
+    - Forced plural interpretation
+    - Gender assignment by assumption
+
+usage:
+  examples: []
+  context_clues:
+    - Use when gender is unknown, irrelevant, or non-binary.
+  notes: |
+    ONI is the safe default for a single person.
+
+
+metadata:
+  author: Devon X. Dalrymple
+  created: 2026-01-30
+  modified: null
+  status: core
+  review_log: []
