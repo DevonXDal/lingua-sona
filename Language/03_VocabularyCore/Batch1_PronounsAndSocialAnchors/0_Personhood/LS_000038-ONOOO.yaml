@@ -8,80 +8,87 @@ id: LS-000038
 sona:
   latin: ¬ONOOO
   term: 
-  ipa: /ɔnʉ
+  ipa: /ɔnʉ/
 
 
 classification:
-  root_type: null
+  root_type: CVVV
   core_status: core
-
-  # Zipf-style rank based on real Lingua Sona corpus usage.
-  # Intentionally null until sufficient corpus data exists.
   frequency_rank: null
-
-  # Provisional priority tier for IME guessing, teaching order,
-  # and early-stage tooling. Subject to revision.
-  relevance_batch: NUM
-  cluster_group: null
-
+  relevance_batch: 2
+  cluster_group: pronouns
 
 semantics:
-  primary: null
-  secondary: []
-  extended: []
-  domain_tags: []
-
+  primary: plural-self pronoun
+  secondary:
+    - we (internally plural)
+    - they (as one plural mind)
+  extended:
+    - multiple internal identities
+    - collective consciousness within one person
+  domain_tags:
+    - pronoun
+    - plurality
+    - identity
+    - person
 
 multilingual:
-  english: []
-  toki_pona: []
-  french: []
-  spanish: []
-  chinese: []
-  swahili: []
-  german: []
-  hindi: []
-  bengali: []
-  portuguese: []
-  ukrainian: []
-  russian: []
-  indonesian: []
-  hausa: []
-  arabic: []
-  japanese: []
-
+  english:
+    - they
+    - we
+  toki_pona:
+    - ona mute (conceptual)
+  french:
+    - nous
+  spanish:
+    - nosotros
+  german:
+    - wir
+  japanese:
+    - 私たち
 
 grammar:
-  part_of_speech: []
+  part_of_speech:
+    - pronoun
   transitivity: null
   valency: null
-  classifiers_allowed: []
+  classifiers_allowed:
+    - Za
+    - Zi
+    - Zooo
   derivation_rules:
-    allows_compounding: true
-    allows_inflection: true
-
+    allows_compounding: false
+    allows_inflection: false
 
 predecessor:
-  source_language: null
+  source_language: constructed
   source_word: null
-  derivation_notes: null
-
+  derivation_notes: |
+    Represents a single entity with plural internal identity.
+    Not equivalent to a group of separate people.
 
 constraints:
   taboo: false
-  register: [neutral]
-  ambiguity_allowed: true
+  register:
+    - neutral
+  ambiguity_allowed: false
 
+  forbidden_uses:
+    - Referring to external groups
+    - Ordinary grammatical plural
+    - Object reference
 
 usage:
   examples: []
-  context_clues: []
-  notes: null
+  context_clues:
+    - Use when a speaker identifies as internally plural.
+  notes: |
+    ONOOO encodes plurality of mind, not plurality of bodies.
 
 
 metadata:
   author: Devon X. Dalrymple
-  created: 
+  created:  2026-04-15
   modified: null
   status: core
   review_log: []

@@ -111,6 +111,6 @@ usage:
 metadata:
   author: Devon X. Dalrymple
   created: 2026-01-30
-  modified: null
-  status: core
-  review_log: []
+  modified: 2026-04-15
+  status: defunct
+  review_log: ["On further review, this was found to be unnecessary and has since been dropped as ONI is the correct usage."]

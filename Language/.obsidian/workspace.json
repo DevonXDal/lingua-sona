@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_Phonetics/Glyphs.md",
+                "file": "03_VocabularyCore/BigBatchOfTerms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Glyphs"
+              "title": "BigBatchOfTerms"
             }
           },
           {
@@ -33,20 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Letters"
-            }
-          },
-          {
-            "id": "aaa765a2b2ee206a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "09_ForAdvancedLinguisitcAndProgrammaticUse/AllowedPrimitivesSet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "AllowedPrimitivesSet"
             }
           }
         ]
@@ -207,21 +193,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e117ffe1d678c3a",
+  "active": "37ddaae0beceaa9a",
   "lastOpenFiles": [
+    "04_Numbers/Numbers.md",
+    "03_VocabularyCore/BigBatchOfTerms.md",
     "01_Phonetics/Letters.md",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000039-ONE.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000000-WORD.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000038-ONOOO.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000036-ONI.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000037-ONAI.yaml",
-    "01_Phonetics/Glyphs.md",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000035-ONO.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000034-ONA.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000037-ONO.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000036_ONI.yaml",
-    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000036-ONI",
     "09_ForAdvancedLinguisitcAndProgrammaticUse/AllowedPrimitivesSet.md",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000044-KUVA.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000044-MUVA.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000043-UVA.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000043-UN",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000042-DOOO.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000041-DU.yaml",
+    "01_Phonetics/Glyphs.md",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000040-MI.yaml",
+    "03_VocabularyCore/Batch1_PronounsAndSocialAnchors/0_Personhood/LS_000040-",
+    "03_VocabularyCore/Batch15_FamilyAndRelationships/2_Status",
+    "03_VocabularyCore/Batch15_FamilyAndRelationships/1_RelationshipStates",
     "02_Grammar/Evidentiality.md",
     "03_VocabularyCore/LS.md",
     "03_VocabularyCore/TEMPLATE_FILE_STRUCTURE.md",
@@ -236,7 +224,6 @@
     "09_ForAdvancedLinguisitcAndProgrammaticUse/ENBF.md",
     "09_ForAdvancedLinguisitcAndProgrammaticUse/RootEligibilityTest.md",
     "01_Phonetics/ForeignSounds.md",
-    "04_Numbers/Numbers.md",
     "01_Phonetics/Glyphs/Numbers/ItalicBold/4.svg",
     "01_Phonetics/Glyphs/Numbers/Bold/4.svg",
     "01_Phonetics/Glyphs/Numbers/ItalicRegular/4.svg",

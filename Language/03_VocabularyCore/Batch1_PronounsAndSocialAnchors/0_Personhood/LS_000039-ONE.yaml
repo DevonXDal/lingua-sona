@@ -12,76 +12,83 @@ sona:
 
 
 classification:
-  root_type: null
+  root_type: CV
   core_status: core
-
-  # Zipf-style rank based on real Lingua Sona corpus usage.
-  # Intentionally null until sufficient corpus data exists.
   frequency_rank: null
-
-  # Provisional priority tier for IME guessing, teaching order,
-  # and early-stage tooling. Subject to revision.
-  relevance_batch: NUM
-  cluster_group: null
-
+  relevance_batch: 2
+  cluster_group: pronouns
 
 semantics:
-  primary: null
-  secondary: []
-  extended: []
-  domain_tags: []
-
+  primary: plural collective pronoun
+  secondary:
+    - those
+    - them
+  extended:
+    - group reference
+    - multiple people or items
+  domain_tags:
+    - pronoun
+    - plurality
+    - collection
 
 multilingual:
-  english: []
-  toki_pona: []
-  french: []
-  spanish: []
-  chinese: []
-  swahili: []
-  german: []
-  hindi: []
-  bengali: []
-  portuguese: []
-  ukrainian: []
-  russian: []
-  indonesian: []
-  hausa: []
-  arabic: []
-  japanese: []
-
+  english:
+    - they
+    - them
+    - those
+  toki_pona:
+    - ona mute
+  french:
+    - eux
+    - celles
+  spanish:
+    - ellos
+  german:
+    - sie
+  japanese:
+    - 彼ら
 
 grammar:
-  part_of_speech: []
+  part_of_speech:
+    - pronoun
   transitivity: null
   valency: null
-  classifiers_allowed: []
+  classifiers_allowed:
+    - Za
+    - Ze
+    - Zooo
   derivation_rules:
-    allows_compounding: true
-    allows_inflection: true
-
+    allows_compounding: false
+    allows_inflection: false
 
 predecessor:
-  source_language: null
+  source_language: constructed
   source_word: null
-  derivation_notes: null
-
+  derivation_notes: |
+    Refers to multiple distinct entities.
+    May apply to people or objects depending on classifiers.
 
 constraints:
   taboo: false
-  register: [neutral]
+  register:
+    - neutral
   ambiguity_allowed: true
 
+  forbidden_uses:
+    - Singular reference
+    - Internal plurality (use ONOOO)
 
 usage:
   examples: []
-  context_clues: []
-  notes: null
+  context_clues:
+    - Use for groups, crowds, collections, or sets.
+  notes: |
+    ONE handles external plurality cleanly without gender load.
 
 
 metadata:
   author: Devon X. Dalrymple
-  created: 
+  created:  2026-04-15
   modified: null
   status: core
   review_log: []
