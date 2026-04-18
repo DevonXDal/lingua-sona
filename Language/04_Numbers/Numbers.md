@@ -8,7 +8,7 @@
 - 5 → FI
 - 6 → SE
 - 7 → SAI
-- 8 → WO
+- 8 → WEI
 - 9 → NU
 - 10 → TE
   
@@ -24,7 +24,7 @@ For multiplicatives like 10s, 100s, etc., precede/prepend the number to which to
 - 50 → FI_TE
 - 60 → SE_TE
 - 70 → SAI_TE
-- 80 → WO_TE
+- 80 → WEI_TE
 - 90 → NU_TE
 
 For more complex numbers. 
@@ -41,7 +41,7 @@ In English, this is *One-Hundred Septillion, Four-Hundred-Eighty-Four Sextillion
 **Syllables:** ~45
 
 Now let's show it in Lingua Sona (Latin Version):
-*(HE SAI_TE TU) WO_HI_HOOO (KO_HE WO_TE KO) SAI_HI_HOOO (KO_HE WO_TE TI) SE_HI_HOOO, (TI_HE KO_TE) KO_HI_HOOO (TU_HE TE) TI_HI_HOOO TE TI.*
+*(HE SAI_TE TU) WEI_HI_HOOO (KO_HE WEI_TE KO) SAI_HI_HOOO (KO_HE WEI_TE TI) SE_HI_HOOO, (TI_HE KO_TE) KO_HI_HOOO (TU_HE TE) TI_HI_HOOO TE TI.*
 **Letters:** ~38
 **Syllables:** ~38
 

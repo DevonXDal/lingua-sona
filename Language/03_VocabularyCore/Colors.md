@@ -14,7 +14,7 @@ Colors embed information about their additive or subtractive knowledge and how t
 ## Partial Color Amounts
 When referencing color names that are harder to reference with whole amounts of another color, precede each non-full color with one of the [[Common Fraction Terms]].
 
-When the same amount approximately is used on two of the three colors, use the term for 'others': (¬o). This always appears *before* any of the three colors in an additive sense. This is because others uses just a single vowel with no consonant, which outside of proper nouns, is only allowed to appear at the start of a word. When doing partials, use (¬o)(un)([[Common Fraction Terms]]), before continuing with the rest of the color.
+When the same amount approximately is used on two of the three colors, use the term for 'others': (¬ot¬). This always appears *before* any of the three colors in an additive sense. This is because others uses just a single vowel with no consonant, which outside of proper nouns, is only allowed to appear at the start of a word. When doing partials, use (¬ot¬)(un)([[Common Fraction Terms]]), before continuing with the rest of the color.
 
 ## White and Black?
 White is the presence of all light or the lack of pigmentation. Black is the absence of all light or the intended mix color of mixing all primary color pigments. To simplify their usage, their words are one-letter based on what each type of primary color is *moving towards.* Keeping things simple, these are done by starting with k in the Latin alphabet structure and progressing to m, and then n.  The intent for doing so is to simplify the learning process for around two-thirds of humanity in 2025.
@@ -25,7 +25,7 @@ White is the presence of all light or the lack of pigmentation. Black is the abs
 
 ### But What About Darker or Lighter Shades?
 Go with the mindset of the color being made from an additive sense. To do darker shades, specify each color as reduced using one or more of the [[Common Fraction Terms]]. For shades of grey, use one of these preceding grey's word: (mon). So a dark grey would effectively be: (kan)(mon).
-o)(no)(ma)
+¬ot¬)(no)(ma)
 ## Primary Colors
 Atypical forms are included only for these primary colors, herein. While atypical, they are still technically correct.
 ### Additive
@@ -43,7 +43,7 @@ These are named below based on their additive term, with (li) optional as it is 
 - Purple: (tan)(ma)(mo)
 - Indigo: (kan)(ma)(tan)(mo)
 - Orange: (ma)(tane)(mi)
-- Lavender: (o)(mo)
+- Lavender: (¬ot¬)(mo)
 - Maroon: (har)(ma)
-- Brown: (o)(un)(kan)(tane)(ma)
+- Brown: (¬ot¬)(un)(kan)(tane)(ma)
 - Teal: (har)(mi)(har)(mo)
